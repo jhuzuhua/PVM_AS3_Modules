@@ -1,8 +1,8 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426570877" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426587252" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="mymenu">
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00">
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -66,7 +66,7 @@ this.mypresscolor = this.myrolloutcolor;
 var menustatus;
 var menuVisible; 
 
-
+	
 //display
 
 function initz(){
@@ -76,49 +76,95 @@ function initz(){
 		this.visible = true;
 		x = 0;
 		trace("true:Initz"+"  "+x);
-
-}
-		else
-	{
-		//false
+}else
+	{//false
 		lockCheck.visible = false;
 		this.visible = false;
 		x = -140;
 		trace("false:Initz"+" "+x);
 	}// end else if
-	
-}
-initz();
 
+}
+
+initz();
+//slide menu 
+
+function slideMenu(val,bol){
+this.addEventListener(Event.ENTER_FRAME,Enter);
+function Enter(e:Event):void{
+	//NaN
+	x = x+(val-x)/3;	
+	trace("diri");
+			trace(x);
+	trace(val);
+		if (x>=val+1 && x<=val-1) {
+			trace("slideMenu"+"Working"+x);
+			x = val;
+			this.visible = bol;	
+	//this.removeEventListener(Event.ENTER_FRAME, Enter);
+	}
+		// end if 
+	};
+}// End of the function
 
 
 
 //mouse slide
 
 function checkPos() {
-	if (menustatus) {
+if (menustatus) {
 		//true
 		if (MovieClip(root).mouseX<141) {
 			slideMenu(0,true);
 			 menuVisible = true;
-			trace("True:checkPos"+"  "+x);
-			trace(MovieClip(root).mouseX);
-			trace(slideMenu);
+			trace("in");
+		
 		}
 		//false
 		else{
 			slideMenu(-140,false);
+			this.visible = false;
 			menustatus = false;
 			MovieClip(root).menucontrol.visible = true;
 			menuVisible = false;
-			trace("False:checkPos"+" "+x);
-			trace(MovieClip(root).mouseX);
+			trace("out");
 			
 			}
+
+	trace("working");
+														
 		}// end if
 	// end else if  
 }// End of the function
 
+function CheckStat(){
+	//true
+	var lockMenu;
+	if (lockMenu) {
+		lockCheck.visible = true;
+		//stage.removeEventListener(MouseEvent.MOUSE_MOVE,MouseMove);
+		this.visible = true;
+		x = 0;
+	trace("true:CheckStat"+" "+x);
+		trace(lockCheck.visible);
+		}
+else {
+//false
+lockCheck.visible = false;
+stage.addEventListener(MouseEvent.MOUSE_MOVE, MouseMove);
+function MouseMove(event:MouseEvent){		
+	checkPos();
+	trace("MouseX"+mouseX);
+	event.updateAfterEvent();
+	trace("false:CheckStat"+" "+x);
+	trace(lockCheck.visible);
+			
+		};
+								  	
+	}// end else if
+}// End of the function
+
+CheckStat();
 
 var i:int = 1;
 
@@ -156,63 +202,8 @@ while (j<=this.disabledcontainer.length) {
 
 }// end while
 
-//slide menu 
-
-function slideMenu(val:int,bol:Boolean){
-	
-
-this.addEventListener(Event.ENTER_FRAME,Enter);
-
-function Enter(e:Event){
-	//NaN
-	
-	x = x+(val-x)/3;	
-	trace("diri");
-			trace(x);
-		if (x>=val+1 &&x<=val-1) {
-			trace("slideMenu"+"Working"+x);
-			x = val;
-			this.visible = bol;	
-			
-	this.removeEventListener(Event.ENTER_FRAME, Enter);
-
-		}
-
-		// end if  
-		trace(val+"  " +bol);
-		
-	};
-}// End of the function
 
 //lock
-var lockMenu;
-function CheckStat(){
-	//true
-	
-	if (lockMenu == true) {
-		lockCheck.visible = true;
-		this.removeEventListener(MouseEvent.MOUSE_MOVE,MouseMove);
-		this.visible = true;
-		x = 0;
-	trace("true:CheckStat"+" "+x);
-		trace(lockCheck.visible);
-		}
-else {
-//false
-lockCheck.visible = false;
-this.addEventListener(MouseEvent.MOUSE_MOVE, MouseMove);
-function MouseMove(evt:MouseEvent):void{		
-	checkPos();
-	evt.updateAfterEvent();
-	trace("false:CheckStat"+" "+x);
-	trace(lockCheck.visible);
-			
-		};
-								  	
-	}// end else if
-}// End of the function
-
-CheckStat();
 
 
 
@@ -257,11 +248,11 @@ CheckStat();
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="lock" color="#00FF33" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="lock" color="#00FF33" autoNamed="false">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/sprite 76" name="lockBar" selected="true">
+                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/sprite 76" name="lockBar">
                   <matrix>
                     <Matrix tx="5" ty="465.25"/>
                   </matrix>
