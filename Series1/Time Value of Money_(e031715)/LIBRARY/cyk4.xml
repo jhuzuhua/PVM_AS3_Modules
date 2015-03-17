@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="cyk4" itemID="518a0317-0000066a" lastModified="1426581486">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="cyk4" itemID="518a0317-0000066a" lastModified="1425362437">
   <timeline>
-    <DOMTimeline name="cyk4" currentFrame="1" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;38&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="cyk4" currentFrame="1">
       <layers>
         <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
@@ -22,7 +22,6 @@ import flash.events.MouseEvent;
 btnSolution3.addEventListener(MouseEvent.CLICK, displaySolution);
 
 var nocm = 1;
-var disabled: Boolean = false;
 
 function reset (){
 
@@ -31,9 +30,6 @@ trace("hide");
 for (var i = 1; i <= nocm; i++){
 cyk["cm"+i].visible = false;
 }
-
-this.gotoAndStop(1);
-disabled = false;
 
 }
 
@@ -45,20 +41,20 @@ for (var i = 1; i <= nocm; i++){
 cyk["cm"+i].visible = true;
 }
 
-disableButton();
-
-}
-
-function disableButton(){
-	this.gotoAndStop(2);
-	disabled = true;
-}
-
-function checkIfDisabled(): Boolean{
-	return disabled;
 }
 
 reset();
+
+import flash.events.MouseEvent;
+
+this.addEventListener(MouseEvent.MOUSE_UP , releaser);
+function releaser(event:MouseEvent):void
+{
+   // _root.play();
+    nextFrame ();
+}
+
+
 stop();]]></script>
               </Actionscript>
               <elements/>
@@ -74,7 +70,7 @@ cyk.sol = 1;
 */
 
 function onClip(){
-var mc:MovieClip =  this["disabledBtn5"].getChildByName("ImgSol") as MovieClip;
+var mc:MovieClip =  getChildByName("ImgSol") as MovieClip;
    mc.gotoAndStop(1);
 }
 
@@ -123,7 +119,7 @@ onClip();]]></script>
             </DOMFrame>
             <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386" name="disabledBtn5">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.999862670898438" tx="322.5" ty="370.6"/>
                   </matrix>

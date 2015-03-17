@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/_asset/sprite 386" itemID="48285354-00000182" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/_asset/sprite 386" sourceLastModified="1425369060" lastModified="1425369060" lastUniqueIdentifier="13" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/_asset/sprite 386" itemID="48285354-00000182" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/_asset/sprite 386" sourceLastModified="1425369060" lastModified="1426568381" lastUniqueIdentifier="13" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="sprite 386">
       <layers>
@@ -24,7 +24,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#FFFF00" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#FFFF00">
           <frames>
             <DOMFrame index="0" duration="3" motionTweenScale="false" keyMode="8192">
               <elements>
@@ -43,7 +43,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="bg" color="#808080" autoNamed="false">
+        <DOMLayer name="bg" color="#808080" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

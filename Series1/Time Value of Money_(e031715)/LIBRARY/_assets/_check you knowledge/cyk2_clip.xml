@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk2_clip" itemID="48357dcd-0000019e" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk2_clip" sourceLastModified="1426485129" lastModified="1426485129" lastUniqueIdentifier="17" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk2_clip" itemID="48357dcd-0000019e" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk2_clip" sourceLastModified="1375955718" lastModified="1423014503" lastUniqueIdentifier="11" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="cyk2_clip" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;38&lt;/guideline&gt;&lt;guideline direction="h"&gt;169&lt;/guideline&gt;&lt;guideline direction="h"&gt;179&lt;/guideline&gt;&lt;guideline direction="h"&gt;187&lt;/guideline&gt;&lt;guideline direction="h"&gt;197&lt;/guideline&gt;&lt;guideline direction="h"&gt;206&lt;/guideline&gt;&lt;guideline direction="h"&gt;216&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="cyk2_clip">
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00">
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -13,104 +13,6 @@ for (a=1; a<=noButts; a++) {
 this["rbut"+_root.A3].gotoAndStop(3);*/]]></script>
               </Actionscript>
               <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="buttons" color="#9933CC" current="true" isSelected="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" duration="2" keyMode="9728">
-              <elements>
-                <DOMComponentInstance libraryItemName="CykButton" name="cyk3_a" uniqueID="15">
-                  <matrix>
-                    <Matrix a="0.999984741210938" d="0.81817626953125" tx="33.35" ty="165.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="groupName">
-      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="cyk3" type="String"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                     " type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="value">
-      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CykButton" name="cyk3_b" uniqueID="16">
-                  <matrix>
-                    <Matrix a="0.999984741210938" d="0.81817626953125" tx="33.35" ty="183.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="groupName">
-      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="cyk3" type="String"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                     " type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="value">
-      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CykButton" name="cyk3_c" uniqueID="17">
-                  <matrix>
-                    <Matrix a="0.999984741210938" d="0.81817626953125" tx="33.35" ty="202.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="groupName">
-      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="cyk3" type="String"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                     " type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="value">
-      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -126,7 +28,7 @@ this["rbut"+_root.A3].gotoAndStop(3);*/]]></script>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut1" centerPoint3DX="44.4" centerPoint3DY="174.8" isVisible="false">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut1" centerPoint3DX="44.4" centerPoint3DY="174.8">
                   <matrix>
                     <Matrix a="1.000244140625" tx="44.4" ty="174.8"/>
                   </matrix>
@@ -134,7 +36,7 @@ this["rbut"+_root.A3].gotoAndStop(3);*/]]></script>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut2" centerPoint3DX="44.4" centerPoint3DY="191.9" isVisible="false">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut2" centerPoint3DX="44.4" centerPoint3DY="191.9">
                   <matrix>
                     <Matrix a="1.000244140625" tx="44.4" ty="191.9"/>
                   </matrix>
@@ -142,7 +44,7 @@ this["rbut"+_root.A3].gotoAndStop(3);*/]]></script>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut3" centerPoint3DX="44.4" centerPoint3DY="209" isVisible="false">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut3" centerPoint3DX="44.4" centerPoint3DY="209">
                   <matrix>
                     <Matrix a="1.000244140625" tx="44.4" ty="209"/>
                   </matrix>

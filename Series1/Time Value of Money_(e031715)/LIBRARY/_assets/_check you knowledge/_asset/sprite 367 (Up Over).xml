@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/_asset/sprite 367 (Up Over)" itemID="48285354-0000016f" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/_asset/sprite 367 (Up Over)" sourceLastModified="1425454329" lastModified="1425454329" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/_asset/sprite 367 (Up Over)" itemID="48285354-0000016f" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/_asset/sprite 367 (Up Over)" sourceLastModified="1425454329" lastModified="1426568455" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="sprite 367 (Up Over)">
+    <DOMTimeline name="sprite 367 (Up Over)" currentFrame="19">
       <layers>
         <DOMLayer name="Layer 5" color="#FFFF00">
           <frames>
@@ -30,9 +30,18 @@
         </DOMLayer>
         <DOMLayer name="Layer 1" color="#FFFF00" current="true" isSelected="true">
           <frames>
-            <DOMFrame index="0" duration="20" motionTweenScale="false" keyMode="8192">
+            <DOMFrame index="0" duration="8" motionTweenScale="false" keyMode="8192">
               <elements>
                 <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/shape 365 (Down)" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="12" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/shape 365 (Down)" symbolType="graphic" centerPoint3DX="-0.2" centerPoint3DY="-0.05" loop="loop">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
@@ -115,7 +124,7 @@
             </DOMFrame>
             <DOMFrame index="8" duration="12" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="btn_bg" selected="true" symbolType="graphic" firstFrame="2" loop="single frame">
+                <DOMSymbolInstance libraryItemName="btn_bg" symbolType="graphic" firstFrame="2" loop="single frame">
                   <matrix>
                     <Matrix a="0.649993896484375" d="0.649993896484375" tx="-7.2" ty="-7.15"/>
                   </matrix>

@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="btn_bg">
       <layers>
-        <DOMLayer name="Layer 5" color="#4FFFFF">
+        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <Actionscript>
@@ -47,7 +47,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+        <DOMLayer name="Layer 3" color="#FF800A">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

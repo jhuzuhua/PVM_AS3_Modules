@@ -164,10 +164,14 @@
                     <DOMShape>
                       <fills>
                         <FillStyle index="1">
+<<<<<<< Updated upstream
                           <SolidColor color="#79BA7A"/>
+=======
+                          <SolidColor color="#FFFFFF"/>
+>>>>>>> Stashed changes
                         </FillStyle>
                         <FillStyle index="2">
-                          <SolidColor color="#FFFFFF"/>
+                          <SolidColor color="#3B7D3D"/>
                         </FillStyle>
                         <FillStyle index="3">
                           <SolidColor color="#3B7D3D"/>
@@ -175,6 +179,7 @@
                       </fills>
                       <edges>
                         <Edge fillStyle0="1" fillStyle1="2" edges="
+<<<<<<< Updated upstream
 !-132 -111|-134 -94!-134 -94|-116 -77"/>
                         <Edge fillStyle0="2" fillStyle1="3" edges="
 !-94 -56|-103 -40!-103 -40|-134 -40!-134 -40|-133 -64!-133 -64|-116 -77"/>
@@ -190,6 +195,23 @@
                         <Edge fillStyle1="3" edges="
 !-163 -3|-163 -143!-163 -143|-24 -143!-24 -143|-24 -3!-24 -3|-163 -3"/>
                         <Edge fillStyle0="1" fillStyle1="3" edges="
+=======
+!-94 -56|-103 -40!-103 -40|-134 -40!-134 -40|-133 -64!-133 -64|-116 -77"/>
+                        <Edge fillStyle0="3" fillStyle1="1" edges="
+!-132 -111|-134 -94!-134 -94|-116 -77"/>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="
+!-70 -36|-66 -36!-66 -36|-63 -37!-63 -37|-59 -37!-59 -37|-53 -51!-53 -51|-53 -53!-53 -53|-51 -53!-51 -53|-60 -61!-60 -61|-53 -69!-53 -69|-54 -73!-54 -73|-70 -71!-70 -71|-77 -79!-77 -79|-53 -97!-53 -97|-53 -104!-53 -104|-51 -111!-51 -111
+|-64 -117!-64 -117|-93 -94!-93 -94|-110 -113!-110 -113|-132 -113!-132 -113|-132 -111"/>
+                        <Edge fillStyle0="3" fillStyle1="1" edges="
+!-94 -56|-73 -36!-73 -36|-70 -36"/>
+                        <Edge fillStyle0="3" fillStyle1="2" edges="
+!-70 -36|-67 -49!-67 -49|-132 -111"/>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="
+!-149 -129|-39 -129!-39 -129|-39 -17!-39 -17|-149 -17!-149 -17|-149 -129"/>
+                        <Edge fillStyle1="2" edges="
+!-163 -3|-163 -143!-163 -143|-24 -143!-24 -143|-24 -3!-24 -3|-163 -3"/>
+                        <Edge fillStyle0="3" fillStyle1="2" edges="
+>>>>>>> Stashed changes
 !-116 -77|-94 -56"/>
                       </edges>
                     </DOMShape>

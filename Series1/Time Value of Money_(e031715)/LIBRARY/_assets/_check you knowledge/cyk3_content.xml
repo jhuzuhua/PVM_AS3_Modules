@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk3_content" itemID="48359dcf-0000079c" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk3_content" sourceLastModified="1426487113" lastModified="1426487113" lastUniqueIdentifier="3" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk3_content" itemID="48359dcf-0000079c" sourceFlashFilepath="../../../../julietacastanos/Desktop/Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk3_content" sourceLastModified="1375955737" lastModified="1375955737" lastUniqueIdentifier="3" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="cyk3_content" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;57&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -32,7 +32,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText fontRenderingMode="standard" left="0.2" width="425.95" height="52.8" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" left="0.2" width="425.95" height="50.8" isSelectable="false">
                   <matrix>
                     <Matrix tx="56.8" ty="204.7"/>
                   </matrix>
@@ -40,7 +40,7 @@
                     <DOMTextRun>
                       <characters>5,535.85&#xD;6,020.57&#xD;7,525.72</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="3" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

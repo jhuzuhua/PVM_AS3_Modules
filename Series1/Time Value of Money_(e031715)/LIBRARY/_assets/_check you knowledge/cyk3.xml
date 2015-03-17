@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk3" itemID="48359da7-00000798" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk3" sourceLastModified="1426487279" lastModified="1426577810" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk3" itemID="48359da7-00000798" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk3" sourceLastModified="1322022742" lastModified="1426229313" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="cyk3">
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00">
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -24,7 +24,6 @@ import flash.events.MouseEvent;
 btnSolution2.addEventListener(MouseEvent.CLICK, displaySolution);
 
 var nocm = 1;
-var disabled: Boolean = false;
 
 function reset (){
 
@@ -34,33 +33,31 @@ for (var i = 1; i <= nocm; i++){
 cyk["cm"+i].visible = false;
 }
 
-this.gotoAndStop(1);
-disabled = false;
-
 }
 
 
 function displaySolution (e: MouseEvent){
-	
-	trace("show");
-	for (var i = 1; i <= nocm; i++){
-		cyk["cm"+i].visible = true;
-	}
-	
-	disableButton();
 
+trace("show");
+for (var i = 1; i <= nocm; i++){
+cyk["cm"+i].visible = true;
 }
 
-function disableButton(){
-	this.gotoAndStop(2);
-	disabled = true;
-}
-
-function checkIfDisabled(): Boolean{
-	return disabled;
 }
 
 reset();
+
+
+import flash.events.MouseEvent;
+
+this.addEventListener(MouseEvent.MOUSE_UP , releaser);
+function releaser(event:MouseEvent):void
+{
+   // _root.play();
+    nextFrame ();
+}
+
+
 stop();]]></script>
               </Actionscript>
               <elements/>
@@ -76,7 +73,7 @@ cyk.sol = 1;
 */
 
 function onClip(){
-var mc:MovieClip =  this["disabledBtn4"].getChildByName("ImgSol") as MovieClip;
+var mc:MovieClip =  getChildByName("ImgSol") as MovieClip;
    mc.gotoAndStop(1);
 }
 
@@ -88,7 +85,7 @@ onClip();
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 19" color="#FFFF00" current="true" isSelected="true">
+        <DOMLayer name="Layer 19" color="#FFFF00">
           <frames>
             <DOMFrame index="0" duration="2" motionTweenScale="false" keyMode="8192">
               <elements>
@@ -127,7 +124,7 @@ onClip();
             </DOMFrame>
             <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386" name="disabledBtn4">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.999862670898438" tx="322.5" ty="370.6"/>
                   </matrix>
