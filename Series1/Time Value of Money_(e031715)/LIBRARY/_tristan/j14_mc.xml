@@ -82,7 +82,7 @@
                     <Color tintMultiplier="1" tintColor="#000040"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMStaticText fontRenderingMode="standard" width="8.2" height="12" autoExpand="true" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="14.7" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix tx="128.55" ty="130.25"/>
                   </matrix>
