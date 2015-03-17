@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="mymenu">
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00">
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -257,11 +257,11 @@ CheckStat();
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="lock" color="#00FF33" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="lock" color="#00FF33" autoNamed="false">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/sprite 76" name="lockBar" selected="true">
+                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/sprite 76" name="lockBar">
                   <matrix>
                     <Matrix tx="5" ty="465.25"/>
                   </matrix>

@@ -1085,7 +1085,7 @@ function nb4(event:MouseEvent):void
                         <Point x="50" y="50.35"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMStaticText fontRenderingMode="standard" left="0.35" width="174.2" height="17.2" isSelectable="false">
+                    <DOMStaticText fontRenderingMode="standard" left="0.35" width="174.2" height="15.85" isSelectable="false">
                       <matrix>
                         <Matrix a="0.998947143554688" tx="307.25" ty="217.45"/>
                       </matrix>
@@ -1122,7 +1122,7 @@ function nb4(event:MouseEvent):void
                         </DOMTextRun>
                       </textRuns>
                     </DOMStaticText>
-                    <DOMStaticText fontRenderingMode="standard" width="7.45" height="18.4" autoExpand="true" isSelectable="false">
+                    <DOMStaticText fontRenderingMode="standard" width="10" height="15" autoExpand="true" isSelectable="false">
                       <matrix>
                         <Matrix tx="341.15" ty="216.55"/>
                       </matrix>

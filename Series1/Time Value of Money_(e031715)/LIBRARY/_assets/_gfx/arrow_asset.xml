@@ -19,14 +19,14 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!-131 -1|165 -150!165 -150|166 -149"/>
-                    <Edge fillStyle0="1" fillStyle1="2" edges="!166 -149|197 -199"/>
-                    <Edge fillStyle1="2" edges="!166 150|165 149!165 149|165 -148!165 -148|166 -149"/>
                     <Edge fillStyle0="2" edges="!200 196|200 -200!200 -200|197 -199"/>
-                    <Edge fillStyle0="3" edges="!166 150|165 150!165 150|-133 0!-133 0|-131 -1"/>
-                    <Edge fillStyle0="3" fillStyle1="2" edges="!200 196|166 150"/>
-                    <Edge fillStyle0="3" edges="!-197 -1|-199 0!-199 0|200 200!200 200|200 196"/>
+                    <Edge fillStyle1="2" edges="!166 150|165 149!165 149|165 -148!165 -148|166 -149"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!166 -149|197 -199"/>
+                    <Edge fillStyle0="1" edges="!-131 -1|165 -150!165 -150|166 -149"/>
                     <Edge fillStyle0="3" fillStyle1="1" edges="!-131 -1|-197 -1"/>
+                    <Edge fillStyle0="3" edges="!-197 -1|-199 0!-199 0|200 200!200 200|200 196"/>
+                    <Edge fillStyle0="3" fillStyle1="2" edges="!200 196|166 150"/>
+                    <Edge fillStyle0="3" edges="!166 150|165 150!165 150|-133 0!-133 0|-131 -1"/>
                     <Edge fillStyle0="1" edges="!197 -199|-197 -1"/>
                   </edges>
                 </DOMShape>
