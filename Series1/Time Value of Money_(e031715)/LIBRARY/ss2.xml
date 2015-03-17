@@ -430,7 +430,7 @@
                         </DOMTextRun>
                       </textRuns>
                     </DOMStaticText>
-                    <DOMStaticText width="9.5" height="14" autoExpand="true" isSelectable="false">
+                    <DOMStaticText width="7.15" height="17.2" autoExpand="true" isSelectable="false">
                       <matrix>
                         <Matrix a="0.827484130859375" d="0.827484130859375" tx="219.3" ty="150.2"/>
                       </matrix>
@@ -844,7 +844,7 @@
                         </DOMTextRun>
                       </textRuns>
                     </DOMStaticText>
-                    <DOMStaticText width="9.5" height="14" autoExpand="true" isSelectable="false">
+                    <DOMStaticText width="7.15" height="17.2" autoExpand="true" isSelectable="false">
                       <matrix>
                         <Matrix a="0.827484130859375" d="0.827484130859375" tx="219.3" ty="278.3"/>
                       </matrix>

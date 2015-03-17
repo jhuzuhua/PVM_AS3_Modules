@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10_mc draggy 2" itemID="4bc6cafe-000002ba" lastModified="1425456589" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10_mc draggy 2" itemID="4bc6cafe-000002ba" lastModified="1426563282" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="j10_mc draggy 2">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[
+                <script><![CDATA[/*
 import flash.events.MouseEvent;
 import flash.events.Event;
 import flash.net.SecureSocket;
@@ -176,7 +176,7 @@ function wrongHit(x) {
 	};
 };
 
-]]></script>
+*/]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>
@@ -213,7 +213,7 @@ function wrongHit(x) {
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="c" centerPoint3DX="15.7" centerPoint3DY="25.45">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="check" centerPoint3DX="15.7" centerPoint3DY="25.45">
                   <matrix>
                     <Matrix a="0.644866943359375" d="0.644866943359375" tx="15.45" ty="25.6"/>
                   </matrix>
@@ -221,7 +221,7 @@ function wrongHit(x) {
                     <Point x="0.4" y="-0.25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/_unsorted/wrong mark" name="w" centerPoint3DX="15.7" centerPoint3DY="25.45">
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/_unsorted/wrong mark" name="wrong" centerPoint3DX="15.7" centerPoint3DY="25.45">
                   <matrix>
                     <Matrix a="0.644866943359375" d="0.644866943359375" tx="15.7" ty="25.45"/>
                   </matrix>

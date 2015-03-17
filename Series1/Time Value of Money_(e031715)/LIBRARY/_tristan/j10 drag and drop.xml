@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10 drag and drop" itemID="4bc6bb48-00001634" lastModified="1425439772" lastUniqueIdentifier="39">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10 drag and drop" itemID="4bc6bb48-00001634" lastModified="1426563059" lastUniqueIdentifier="39">
   <timeline>
     <DOMTimeline name="j10 drag and drop" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;155&lt;/guideline&gt;&lt;guideline direction="v"&gt;165&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -51,11 +51,11 @@ doCompute(0,0);
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 3" color="#4FFF4F">
+        <DOMLayer name="Layer 3" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[
+                <script><![CDATA[/*
 import flash.events.Event;
 
 var bnames:Array = ["", "3.7948", "4.00", "4.00", "4.00", "4.00"];
@@ -83,7 +83,7 @@ function resetsol(){
 		MovieClip(root).anstot = "";
 }
 
-]]></script>
+*/]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>
@@ -96,7 +96,7 @@ function resetsol(){
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 2" color="#FF4F4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 2" color="#FF4F4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -315,7 +315,7 @@ function resetsol(){
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMSymbolInstance libraryItemName="OLD ITEMS/default/j10 answer" centerPoint3DX="236.7" centerPoint3DY="152.9">
+                <DOMSymbolInstance libraryItemName="OLD ITEMS/default/j10 answer" centerPoint3DX="236.7" centerPoint3DY="152.9" isVisible="false">
                   <matrix>
                     <Matrix a="1.000732421875" tx="212.25" ty="153.1"/>
                   </matrix>

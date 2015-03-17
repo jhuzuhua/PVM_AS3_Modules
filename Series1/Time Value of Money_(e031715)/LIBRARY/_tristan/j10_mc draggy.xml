@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10_mc draggy" itemID="4bc6bb45-00001633" lastModified="1424152935" lastUniqueIdentifier="4">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10_mc draggy" itemID="4bc6bb45-00001633" lastModified="1426563249" lastUniqueIdentifier="4">
   <timeline>
     <DOMTimeline name="j10_mc draggy">
       <layers>
-        <DOMLayer name="functions" color="#FF4F4F" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="functions" color="#FF4F4F" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -203,7 +203,7 @@ wrongHit = function (x) {
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="tf" color="#4F80FF" autoNamed="false">
+        <DOMLayer name="tf" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -220,7 +220,7 @@ wrongHit = function (x) {
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="c" centerPoint3DX="23.55" centerPoint3DY="25.45">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="check" centerPoint3DX="23.55" centerPoint3DY="25.45">
                   <matrix>
                     <Matrix a="0.644866943359375" d="0.644866943359375" tx="23.3" ty="25.6"/>
                   </matrix>
@@ -228,7 +228,7 @@ wrongHit = function (x) {
                     <Point x="0.4" y="-0.25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/_unsorted/wrong mark" name="w" centerPoint3DX="23.55" centerPoint3DY="25.45">
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/_unsorted/wrong mark" name="wrong" selected="true" centerPoint3DX="23.55" centerPoint3DY="25.45">
                   <matrix>
                     <Matrix a="0.644866943359375" d="0.644866943359375" tx="23.55" ty="25.45"/>
                   </matrix>

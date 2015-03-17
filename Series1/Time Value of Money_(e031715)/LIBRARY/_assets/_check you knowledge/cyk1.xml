@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="cyk1">
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
+        <DOMLayer name="Action Layer" color="#FFFF00">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -86,11 +86,11 @@ onClip();
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 19" color="#FFFF00">
+        <DOMLayer name="Layer 19" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="2" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/cyk1_clip" name="cyk" centerPoint3DX="241.75" centerPoint3DY="165.25">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/cyk1_clip" name="cyk" selected="true" centerPoint3DX="241.75" centerPoint3DY="165.25">
                   <matrix>
                     <Matrix d="0.999862670898438"/>
                   </matrix>
