@@ -91,7 +91,7 @@
                     <Point x="5" y="5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMComponentInstance libraryItemName="_assets/custom scrollbar3" name="rollgreen" selected="true" centerPoint3DX="81.5" centerPoint3DY="197.95" uniqueID="2">
+                <DOMComponentInstance libraryItemName="_assets/custom scrollbar3" name="rollgreen" centerPoint3DX="81.5" centerPoint3DY="197.95" uniqueID="2">
                   <matrix>
                     <Matrix tx="68.45" ty="186.4"/>
                   </matrix>

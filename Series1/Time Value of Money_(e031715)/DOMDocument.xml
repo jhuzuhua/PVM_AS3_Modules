@@ -524,13 +524,13 @@
           <Include href="_assets/btn_compo_roll 10.xml" loadImmediate="false" itemID="4bc7cb8d-000003fe" lastModified="1425376937"/>
           <Include href="_assets/btn_long.xml" itemIcon="0" loadImmediate="false" itemID="4eb3988b-000009d5" lastModified="1320393300"/>
           <Include href="_assets/btn_next_arrow.xml" itemIcon="0" loadImmediate="false" itemID="482a4ef6-00001b66" lastModified="1210732278"/>
-          <Include href="_assets/custom scrollbar3.xml" loadImmediate="false" itemID="4487e0b4-0000151a" lastModified="1425377846"/>
+          <Include href="_assets/custom scrollbar3.xml" loadImmediate="false" itemID="4487e0b4-0000151a" lastModified="1426587571"/>
           <Include href="_assets/custom scrollbar3 table.xml" loadImmediate="false" itemID="4bc56e66-00000b8e" lastModified="1425452110"/>
           <Include href="_assets/custom scrolltrack1.xml" loadImmediate="false" itemID="441a5d5a-00000b04" lastModified="1216559123"/>
           <Include href="_assets/excel btn.xml" itemIcon="0" loadImmediate="false" itemID="48371143-00000c5b" lastModified="1373268190"/>
           <Include href="_assets/rewindclip.xml" loadImmediate="false" itemID="482a55a9-00001bcd" lastModified="1423532803"/>
           <Include href="_bonsai/r_arrowhead.xml" loadImmediate="false" itemID="47216c32-00000557" lastModified="1194246901"/>
-          <Include href="_bonsai/r2mc.xml" loadImmediate="false" itemID="4bc56c9e-0000096a" lastModified="1377224359"/>
+          <Include href="_bonsai/r2mc.xml" loadImmediate="false" itemID="4bc56c9e-0000096a" lastModified="1426582222"/>
           <Include href="_bonsai/r3mc.xml" loadImmediate="false" itemID="4bc56f88-00000ceb" lastModified="1402643008"/>
           <Include href="_bonsai/r3mc_1.xml" loadImmediate="false" itemID="4bc58557-00000e42" lastModified="1425376073"/>
           <Include href="_bonsai/r6mc.xml" loadImmediate="false" itemID="4bc586fd-00000fb8" lastModified="1425547971"/>
@@ -703,7 +703,7 @@
           <Include href="swipe.xml" loadImmediate="false" itemID="5502b1e7-00000c1b" lastModified="1426239975"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="1">
+          <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="saving comments" color="#FF4FFF" autoNamed="false" heightLiteral="15">
                          <frames>
@@ -2600,7 +2600,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="5" duration="4" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" selected="true" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
+                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
                                              <transformationPoint>
                                                   <Point x="70" y="240"/>
                                              </transformationPoint>
@@ -2666,7 +2666,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="17" duration="12" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" selected="true" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
+                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
                                              <transformationPoint>
                                                   <Point x="70" y="240"/>
                                              </transformationPoint>
@@ -4101,7 +4101,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="33" duration="4" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="_tristan/j6_mc" centerPoint3DX="391.8" centerPoint3DY="209.75">
+                                        <DOMSymbolInstance libraryItemName="_tristan/j6_mc" selected="true" centerPoint3DX="391.8" centerPoint3DY="209.75">
                                              <matrix>
                                                   <Matrix tx="150" ty="90"/>
                                              </matrix>
@@ -6956,6 +6956,15 @@ function buttonBack51(event:MouseEvent):void{
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="2531318" publishTime="1426587574" publishDebug="true"/>
+          <PublishItem publishSize="2531318" publishTime="1426587527" publishDebug="true"/>
+          <PublishItem publishSize="2531312" publishTime="1426587505" publishDebug="true"/>
+          <PublishItem publishSize="2531328" publishTime="1426587465" publishDebug="true"/>
+          <PublishItem publishSize="2531320" publishTime="1426586288" publishDebug="true"/>
+          <PublishItem publishSize="2531321" publishTime="1426586110" publishDebug="true"/>
+          <PublishItem publishSize="2531318" publishTime="1426585799" publishDebug="true"/>
+          <PublishItem publishSize="2531321" publishTime="1426583429" publishDebug="true"/>
+          <PublishItem publishSize="2531315" publishTime="1426581489" publishDebug="true"/>
           <PublishItem publishSize="2531316" publishTime="1426581382" publishDebug="true"/>
           <PublishItem publishSize="2531085" publishTime="1426578079" publishDebug="true"/>
           <PublishItem publishSize="2531085" publishTime="1426577813" publishDebug="true"/>
@@ -6967,15 +6976,6 @@ function buttonBack51(event:MouseEvent):void{
           <PublishItem publishSize="2530541" publishTime="1426574981" publishDebug="true"/>
           <PublishItem publishSize="2530561" publishTime="1426574898" publishDebug="true"/>
           <PublishItem publishSize="2530562" publishTime="1426573327" publishDebug="true"/>
-          <PublishItem publishSize="2530559" publishTime="1426572639" publishDebug="true"/>
-          <PublishItem publishSize="2530558" publishTime="1426571851" publishDebug="true"/>
-          <PublishItem publishSize="2530501" publishTime="1426571765" publishDebug="true"/>
-          <PublishItem publishSize="2530159" publishTime="1426571284" publishDebug="true"/>
-          <PublishItem publishSize="2532137" publishTime="1426570959" publishDebug="true"/>
-          <PublishItem publishSize="2532141" publishTime="1426570886" publishDebug="true"/>
-          <PublishItem publishSize="2531896" publishTime="1426570858" publishDebug="true"/>
-          <PublishItem publishSize="2531896" publishTime="1426570744" publishDebug="true"/>
-          <PublishItem publishSize="2529969" publishTime="1426570316" publishDebug="true"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="lBSX9Y5jU7802yucctAf9/" href="180438234627084.swc">

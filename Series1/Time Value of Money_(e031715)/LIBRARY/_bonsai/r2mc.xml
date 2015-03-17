@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_bonsai/r2mc" itemID="4bc56c9e-0000096a" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_bonsai/r2mc" sourceLastModified="1377224359" lastModified="1377224359" lastUniqueIdentifier="3" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_bonsai/r2mc" itemID="4bc56c9e-0000096a" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_bonsai/r2mc" sourceLastModified="1377224359" lastModified="1426582222" lastUniqueIdentifier="3" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="r2mc" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;-17&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -66,7 +66,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMComponentInstance libraryItemName="_assets/custom scrollbar3 table" centerPoint3DX="306.4" centerPoint3DY="117.6" uniqueID="3">
+                <DOMComponentInstance libraryItemName="_assets/custom scrollbar3 table" name="scroller1" selected="true" centerPoint3DX="306.4" centerPoint3DY="117.6" uniqueID="3">
                   <matrix>
                     <Matrix tx="293.35" ty="106.05"/>
                   </matrix>

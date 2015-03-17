@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/custom scrollbar3" itemID="4487e0b4-0000151a" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/custom scrollbar3" sourceLastModified="1149755771" lastModified="1425377846" sourceItemID="00000000-ffffffff" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/custom scrollbar3" itemID="4487e0b4-0000151a" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/custom scrollbar3" sourceLastModified="1149755771" lastModified="1426587571" sourceItemID="00000000-ffffffff" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="custom scrollbar3" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;-471&lt;/guideline&gt;&lt;guideline direction="h"&gt;-464&lt;/guideline&gt;&lt;guideline direction="h"&gt;13&lt;/guideline&gt;&lt;guideline direction="h"&gt;-375&lt;/guideline&gt;&lt;guideline direction="v"&gt;2&lt;/guideline&gt;&lt;guideline direction="v"&gt;152&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -37,6 +37,8 @@ var R:Number= MovieClip(parent).track.width-this.width;
 
 
 this.addEventListener(MouseEvent.MOUSE_DOWN, onPress);
+stage.addEventListener(MouseEvent.MOUSE_UP, onRelease);
+
 function onPress(event:MouseEvent) :void 
 { 
 	
@@ -44,13 +46,13 @@ function onPress(event:MouseEvent) :void
 	
 };
 
-this.addEventListener(MouseEvent.MOUSE_UP,onRelease);
+
 
 function onRelease(event:MouseEvent):void
 {
 	
 	event.target.stopDrag();
-	this.removeEventListener(MouseEvent.MOUSE_UP, onRelease);
+	stage.removeEventListener(MouseEvent.MOUSE_DOWN, onPress);
 	
 
 };
