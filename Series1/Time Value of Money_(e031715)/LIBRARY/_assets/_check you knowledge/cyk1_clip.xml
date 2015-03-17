@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1_clip" itemID="48293428-00000504" lastModified="1426567377" lastUniqueIdentifier="43">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1_clip" itemID="48293428-00000504" lastModified="1426229599" lastUniqueIdentifier="46">
   <timeline>
-    <DOMTimeline name="cyk1_clip" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;18&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="cyk1_clip" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;18&lt;/guideline&gt;&lt;guideline direction="h"&gt;94&lt;/guideline&gt;&lt;guideline direction="h"&gt;105&lt;/guideline&gt;&lt;guideline direction="v"&gt;42&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="Action Layer" color="#FFFF00">
           <frames>
@@ -22,7 +22,105 @@ this["rbut"+MovieClip(root).A2].gotoAndStop(3);
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#FFFF00" current="true" isSelected="true">
+        <DOMLayer name="buttons" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMComponentInstance libraryItemName="CykButton" name="cyk1_a" uniqueID="42">
+                  <matrix>
+                    <Matrix a="0.999984741210938" d="0.81817626953125" tx="38.25" ty="54"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="groupName">
+      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="cyk1" type="String"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                     " type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CykButton" name="cyk1_b" uniqueID="43">
+                  <matrix>
+                    <Matrix d="0.81817626953125" tx="38.25" ty="71.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="groupName">
+      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="cyk1" type="String"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                      " type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="CykButton" name="cyk1_c" uniqueID="44">
+                  <matrix>
+                    <Matrix d="0.81817626953125" tx="38.25" ty="90.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="groupName">
+      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="cyk1" type="String"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                     " type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#FFFF00">
           <frames>
             <DOMFrame index="0" duration="2" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -48,7 +146,7 @@ function onClipEvent(event:Event):void
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut1" centerPoint3DX="49" centerPoint3DY="62">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut1" centerPoint3DX="49" centerPoint3DY="62" isVisible="false">
                   <matrix>
                     <Matrix a="1.000244140625" tx="49" ty="62"/>
                   </matrix>
@@ -56,7 +154,7 @@ function onClipEvent(event:Event):void
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut2" centerPoint3DX="49" centerPoint3DY="80">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut2" centerPoint3DX="49" centerPoint3DY="80" isVisible="false">
                   <matrix>
                     <Matrix a="1.000244140625" tx="49" ty="80"/>
                   </matrix>
@@ -72,7 +170,7 @@ function onClipEvent(event:Event):void
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut3" centerPoint3DX="49" centerPoint3DY="97.5">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut3" centerPoint3DX="49" centerPoint3DY="97.5" isVisible="false">
                   <matrix>
                     <Matrix a="1.000244140625" tx="49" ty="97.5"/>
                   </matrix>
@@ -80,7 +178,7 @@ function onClipEvent(event:Event):void
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut4" centerPoint3DX="49" centerPoint3DY="267.5">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut4" centerPoint3DX="49" centerPoint3DY="267.5" isVisible="false">
                   <matrix>
                     <Matrix a="1.000244140625" tx="49" ty="267.5"/>
                   </matrix>
@@ -96,7 +194,7 @@ function onClipEvent(event:Event):void
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut5" centerPoint3DX="49" centerPoint3DY="285">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut5" centerPoint3DX="49" centerPoint3DY="285" isVisible="false">
                   <matrix>
                     <Matrix a="1.000244140625" tx="49" ty="285"/>
                   </matrix>
@@ -448,9 +546,9 @@ function onClipEvent(event:Event):void
                     </DOMStaticText>
                   </members>
                 </DOMGroup>
-                <DOMComponentInstance libraryItemName="RadioButton" selected="true" uniqueID="41">
+                <DOMComponentInstance libraryItemName="CykButton" name="cyk2_a" centerPoint3DX="107.1" centerPoint3DY="268.2" uniqueID="45">
                   <matrix>
-                    <Matrix tx="37.15" ty="51"/>
+                    <Matrix a="1.37994384765625" d="0.81817626953125" tx="38.1" ty="259.2"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
@@ -459,10 +557,10 @@ function onClipEvent(event:Event):void
       <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
    </property>
    <property id="groupName">
-      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="RadioButtonGroup" type="String"/>
+      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="cyk2" type="String"/>
    </property>
    <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                    " type="String"/>
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                                                          " type="String"/>
    </property>
    <property id="labelPlacement">
       <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
@@ -478,9 +576,9 @@ function onClipEvent(event:Event):void
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="RadioButton" uniqueID="42">
+                <DOMComponentInstance libraryItemName="CykButton" name="cyk2_b" centerPoint3DX="107.1" centerPoint3DY="286.2" uniqueID="46">
                   <matrix>
-                    <Matrix tx="37" ty="68.85"/>
+                    <Matrix a="1.3800048828125" d="0.81817626953125" tx="38.1" ty="277.2"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
@@ -489,40 +587,10 @@ function onClipEvent(event:Event):void
       <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
    </property>
    <property id="groupName">
-      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="RadioButtonGroup" type="String"/>
+      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="cyk2" type="String"/>
    </property>
    <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="labelPlacement">
-      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
-   </property>
-   <property id="selected">
-      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="value">
-      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="RadioButton" uniqueID="43">
-                  <matrix>
-                    <Matrix tx="37.15" ty="86.2"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                  <parametersAsXML><![CDATA[   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="groupName">
-      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="RadioButtonGroup" type="String"/>
-   </property>
-   <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="" type="String"/>
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                                                          " type="String"/>
    </property>
    <property id="labelPlacement">
       <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>

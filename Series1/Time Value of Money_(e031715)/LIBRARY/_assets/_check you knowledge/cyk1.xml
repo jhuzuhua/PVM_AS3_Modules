@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1" itemID="48293417-00000503" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk1" sourceLastModified="1322022742" lastModified="1426229333" lastUniqueIdentifier="5" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1" itemID="48293417-00000503" linkageExportForAS="true" linkageClassName="com.Joshua.Cyk1" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk1" sourceLastModified="1426229465" lastModified="1426570379" lastUniqueIdentifier="5" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="cyk1">
+    <DOMTimeline name="cyk1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;262&lt;/guideline&gt;&lt;guideline direction="h"&gt;273&lt;/guideline&gt;&lt;guideline direction="h"&gt;280&lt;/guideline&gt;&lt;guideline direction="h"&gt;291&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00">
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -18,6 +18,7 @@ stop();
 import fl.controls.RadioButtonGroup;
 import flash.events.Event;
 import flash.events.MouseEvent;
+import flash.display.MovieClip;
 
 
 btnSolution1.addEventListener(MouseEvent.MOUSE_DOWN, displaySolution);
@@ -37,16 +38,33 @@ cyk["cm"+i].visible = false;
 
 function displaySolution (e:MouseEvent){
 
-trace("show");
-for (var i = 1; i <= nocm; i++){
-cyk["cm"+i].visible = true;
+	trace("show");
+	for (var i = 1; i <= nocm; i++){
+		cyk["cm"+i].visible = true;
+	}
+	
+	disableButton();
 }
 
+function disableButton(){
+	this.gotoAndStop(2);
+	
+	/*var mc: MovieClip = MovieClip["disabledBtn"].getChildByName("ImgSol") as MovieClip;
+	var n:int = mc.numChildren;
+	
+	trace("disable button (" + mc.name + ") with child count at " + n);
+	
+    for (var i:int=0;i<n;i++)
+    {
+        var clip:MovieClip = mc.getChildAt(i) as MovieClip;
+        if (clip)
+            clip.gotoAndStop(1);
+    }*/
 }
 
 reset();
-/*
-import flash.events.MouseEvent;
+
+/*import flash.events.MouseEvent;
 
 this.addEventListener(MouseEvent.MOUSE_UP,releaser);
 function releaser(event:MouseEvent):void
@@ -55,8 +73,8 @@ function releaser(event:MouseEvent):void
 	
     nextFrame ();
 }
-*/
 
+*/
 
 stop();]]></script>
               </Actionscript>
@@ -73,7 +91,7 @@ cyk.sol = 1;
 */
 
 function onClip(){
-var mc:MovieClip =  getChildByName("ImgSol") as MovieClip;
+var mc:MovieClip =  this["disabledBtn"].getChildByName("ImgSol") as MovieClip;
    mc.gotoAndStop(1);
 }
 
@@ -86,11 +104,11 @@ onClip();
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 19" color="#FFFF00" current="true" isSelected="true">
+        <DOMLayer name="Layer 19" color="#FFFF00">
           <frames>
             <DOMFrame index="0" duration="2" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/cyk1_clip" name="cyk" selected="true" centerPoint3DX="241.75" centerPoint3DY="165.25">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/cyk1_clip" name="cyk" centerPoint3DX="241.75" centerPoint3DY="165.25">
                   <matrix>
                     <Matrix d="0.999862670898438"/>
                   </matrix>
@@ -118,7 +136,7 @@ onClip();
             </DOMFrame>
             <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386" name="disabledBtn">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.999862670898438" tx="322.5" ty="370.6"/>
                   </matrix>

@@ -1,6 +1,6 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="RadioButton" itemID="44b1a57a-00000122" linkageExportForAS="true" linkageClassName="fl.controls.RadioButton" lastModified="1426567538" lastUniqueIdentifier="26" tooltip="RadioButton" customIconID="3" actionscriptClass="fl.controls.RadioButton" livePreviewScmHRef="haezgx0luk.swf" livePreviewScmSourceFilename="RadioButton.swf" persistLivePreview11="true" livePreview11ScmHRef="haezgx0luk15.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS7\en_US\Configuration\TMP3E0EFC9C5097F033..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CykButton" itemID="55024523-00000613" linkageExportForAS="true" linkageBaseClass="fl.controls.RadioButton" linkageClassName="CykButton" lastModified="1426216937" lastUniqueIdentifier="26" isSpriteSubclass="true" tooltip="RadioButton" customIconID="3" actionscriptClass="CykButton" livePreviewScmHRef="haezgx0luk.swf" livePreviewScmSourceFilename="RadioButton.swf" persistLivePreview11="true" livePreview11ScmHRef="haezgx0luk15.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS7\en_US\Configuration\TMP3E0EFC9C5097F033..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
-    <DOMTimeline name="RadioButton" currentFrame="1">
+    <DOMTimeline name="CykButton" currentFrame="1">
       <layers>
         <DOMLayer name="assets" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
@@ -9,17 +9,17 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_upIcon">
+                <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_upIcon" selected="true" centerPoint3DX="100.8" centerPoint3DY="25.3">
                   <matrix>
-                    <Matrix a="0" b="1" c="-1.00018310546875" d="0" tx="108.05" ty="18"/>
+                    <Matrix a="0" b="1.0369873046875" c="-1.03721618652344" d="0" tx="108.05" ty="18"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="7" y="7"/>
+                    <Point x="7.05" y="7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_overIcon">
                   <matrix>
-                    <Matrix a="0" b="1" c="-1.00018310546875" d="0" tx="108.05" ty="48"/>
+                    <Matrix a="0" b="0.999984741210938" c="-1.00018310546875" d="0" tx="108.05" ty="48"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="7" y="7"/>
@@ -27,7 +27,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_downIcon">
                   <matrix>
-                    <Matrix a="0" b="1" c="-1.00018310546875" d="0" tx="108.05" ty="78"/>
+                    <Matrix a="0" b="0.999984741210938" c="-1.00018310546875" d="0" tx="108.05" ty="78"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="7" y="7"/>
@@ -35,7 +35,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_disabledIcon">
                   <matrix>
-                    <Matrix a="0" b="1" c="-1.00018310546875" d="0" tx="108.05" ty="108"/>
+                    <Matrix a="0" b="0.999984741210938" c="-1.00018310546875" d="0" tx="108.05" ty="108"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="7" y="7"/>
@@ -43,10 +43,10 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_selectedUpIcon">
                   <matrix>
-                    <Matrix a="0" b="1" c="-1.00375366210938" d="0" tx="108.05" ty="138"/>
+                    <Matrix a="0" b="1" c="-1.00732421875" d="0" tx="108.05" ty="138"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="7" y="7.45"/>
+                    <Point x="7" y="7.5"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_selectedOverIcon">
@@ -73,7 +73,7 @@
                     <Point x="7" y="6.95"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/Shared/focusRectSkin">
+                <DOMSymbolInstance libraryItemName="Component Assets/Shared/focusRectSkin" isVisible="false">
                   <matrix>
                     <Matrix a="1.00018310546875" tx="26" ty="258"/>
                   </matrix>
@@ -81,43 +81,11 @@
                     <Point x="41.05" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_downIcon">
-                  <matrix>
-                    <Matrix a="0" b="1" c="-1.00018310546875" d="0" tx="108.05" ty="168.05"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="7" y="7"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_downIcon">
-                  <matrix>
-                    <Matrix a="0" b="1" c="-1.00018310546875" d="0" tx="107.95" ty="138.05"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="7" y="7"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_disabledIcon">
-                  <matrix>
-                    <Matrix a="0" b="1" c="-1.00018310546875" d="0" tx="108.05" ty="77.95"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="7" y="7"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Component Assets/RadioButtonSkins/RadioButton_selectedDownIcon">
-                  <matrix>
-                    <Matrix a="0" b="1" c="-1.00732421875" d="0" tx="108.05" ty="228"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="7" y="6.95"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="asset names" color="#4FFFFF" autoNamed="false" layerType="guide">
+        <DOMLayer name="asset names" color="#4FFFFF" locked="true" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
@@ -132,7 +100,7 @@
                     <Point x="231.5" y="136"/>
                   </transformationPoint>
                   <fill>
-                    <SolidColor color="#FFFFFF"/>
+                    <SolidColor color="#EEEEEE"/>
                   </fill>
                   <stroke>
                     <SolidStroke scaleMode="normal">
@@ -159,7 +127,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="avatar" color="#9933CC" autoNamed="false">
+        <DOMLayer name="avatar" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -178,7 +146,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="ComponentShim" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="ComponentShim" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>

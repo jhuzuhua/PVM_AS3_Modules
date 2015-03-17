@@ -228,7 +228,7 @@ wrongHit = function (x) {
                     <Point x="0.4" y="-0.25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/_unsorted/wrong mark" name="wrong" selected="true" centerPoint3DX="23.55" centerPoint3DY="25.45">
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/_unsorted/wrong mark" name="wrong" centerPoint3DX="23.55" centerPoint3DY="25.45">
                   <matrix>
                     <Matrix a="0.644866943359375" d="0.644866943359375" tx="23.55" ty="25.45"/>
                   </matrix>
