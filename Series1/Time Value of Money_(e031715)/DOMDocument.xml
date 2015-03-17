@@ -468,11 +468,11 @@
           <Include href="_assets/_main nav/_assets/shape 67 (Hit).xml" itemIcon="1" loadImmediate="false" itemID="48285354-00000043" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/shape 73.xml" itemIcon="1" loadImmediate="false" itemID="48285354-00000049" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/shape 77.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000004d" lastModified="1210602324"/>
-          <Include href="_assets/_main nav/_assets/sprite 76.xml" loadImmediate="false" itemID="48285354-0000004c" lastModified="1426586469"/>
+          <Include href="_assets/_main nav/_assets/sprite 76.xml" loadImmediate="false" itemID="48285354-0000004c" lastModified="1426570954"/>
           <Include href="_assets/_main nav/_assets/sprite 78.xml" loadImmediate="false" itemID="48285354-0000004e" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/text 58.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000003a" lastModified="1210602324"/>
           <Include href="_assets/_main nav/menu control prograssbar.xml" loadImmediate="false" itemID="482a3c7b-0000077b" lastModified="1426558733"/>
-          <Include href="_assets/_main nav/mymenu.xml" loadImmediate="false" itemID="54ed54f2-00000264" lastModified="1426587252"/>
+          <Include href="_assets/_main nav/mymenu.xml" loadImmediate="false" itemID="54ed54f2-00000264" lastModified="1426570877"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 11 (Up).xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000b" lastModified="1210602324"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 12 (Over).xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000c" lastModified="1210602324"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 13.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000d" lastModified="1210602324"/>
@@ -2776,7 +2776,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="81" duration="20" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" selected="true" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
+                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
                                              <transformationPoint>
                                                   <Point x="70" y="240"/>
                                              </transformationPoint>
@@ -6956,7 +6956,6 @@ function buttonBack51(event:MouseEvent):void{
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-<<<<<<< HEAD
           <PublishItem publishSize="2531318" publishTime="1426587574" publishDebug="true"/>
           <PublishItem publishSize="2531318" publishTime="1426587527" publishDebug="true"/>
           <PublishItem publishSize="2531312" publishTime="1426587505" publishDebug="true"/>
@@ -6966,30 +6965,6 @@ function buttonBack51(event:MouseEvent):void{
           <PublishItem publishSize="2531318" publishTime="1426585799" publishDebug="true"/>
           <PublishItem publishSize="2531321" publishTime="1426583429" publishDebug="true"/>
           <PublishItem publishSize="2531315" publishTime="1426581489" publishDebug="true"/>
-=======
-<<<<<<< HEAD
-          <PublishItem publishSize="2532129" publishTime="1426587390" publishDebug="true"/>
-          <PublishItem publishSize="2532129" publishTime="1426587380" publishDebug="true"/>
-          <PublishItem publishSize="2532129" publishTime="1426587254" publishDebug="true"/>
-          <PublishItem publishSize="2532126" publishTime="1426587226" publishDebug="true"/>
-          <PublishItem publishSize="2532127" publishTime="1426587116" publishDebug="true"/>
-          <PublishItem publishSize="2532128" publishTime="1426586895" publishDebug="true"/>
-          <PublishItem publishSize="2532126" publishTime="1426586792" publishDebug="true"/>
-          <PublishItem publishSize="2532122" publishTime="1426586774" publishDebug="true"/>
-          <PublishItem publishSize="2532122" publishTime="1426586758" publishDebug="true"/>
-          <PublishItem publishSize="2532112" publishTime="1426586715" publishDebug="true"/>
-          <PublishItem publishSize="2532124" publishTime="1426586544" publishDebug="true"/>
-          <PublishItem publishSize="2532123" publishTime="1426586528" publishDebug="true"/>
-          <PublishItem publishSize="2532133" publishTime="1426586473" publishDebug="true"/>
-          <PublishItem publishSize="2532014" publishTime="1426586432" publishDebug="true"/>
-          <PublishItem publishSize="2532015" publishTime="1426586411" publishDebug="true"/>
-          <PublishItem publishSize="2532013" publishTime="1426586095" publishDebug="true"/>
-          <PublishItem publishSize="2532016" publishTime="1426586043" publishDebug="true"/>
-          <PublishItem publishSize="2532013" publishTime="1426586022" publishDebug="true"/>
-          <PublishItem publishSize="2532021" publishTime="1426585988" publishDebug="true"/>
-          <PublishItem publishSize="2532017" publishTime="1426585922" publishDebug="true"/>
-=======
->>>>>>> origin/master
           <PublishItem publishSize="2531316" publishTime="1426581382" publishDebug="true"/>
           <PublishItem publishSize="2531085" publishTime="1426578079" publishDebug="true"/>
           <PublishItem publishSize="2531085" publishTime="1426577813" publishDebug="true"/>
@@ -7001,19 +6976,6 @@ function buttonBack51(event:MouseEvent):void{
           <PublishItem publishSize="2530541" publishTime="1426574981" publishDebug="true"/>
           <PublishItem publishSize="2530561" publishTime="1426574898" publishDebug="true"/>
           <PublishItem publishSize="2530562" publishTime="1426573327" publishDebug="true"/>
-<<<<<<< HEAD
-=======
-          <PublishItem publishSize="2530559" publishTime="1426572639" publishDebug="true"/>
-          <PublishItem publishSize="2530558" publishTime="1426571851" publishDebug="true"/>
-          <PublishItem publishSize="2530501" publishTime="1426571765" publishDebug="true"/>
-          <PublishItem publishSize="2530159" publishTime="1426571284" publishDebug="true"/>
-          <PublishItem publishSize="2532137" publishTime="1426570959" publishDebug="true"/>
-          <PublishItem publishSize="2532141" publishTime="1426570886" publishDebug="true"/>
-          <PublishItem publishSize="2531896" publishTime="1426570858" publishDebug="true"/>
-          <PublishItem publishSize="2531896" publishTime="1426570744" publishDebug="true"/>
-          <PublishItem publishSize="2529969" publishTime="1426570316" publishDebug="true"/>
->>>>>>> origin/master
->>>>>>> origin/master
      </publishHistory>
      <swcCache>
           <Swc hashKey="lBSX9Y5jU7802yucctAf9/" href="180438234627084.swc">

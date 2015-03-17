@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="custom scrollbar3 table">
       <layers>
-        <DOMLayer name="Layer 2" color="#FF4F4F">
+        <DOMLayer name="Layer 2" color="#FF4F4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -52,7 +52,7 @@ this.kittong = Math.round((x-this.parent[this.targ2].x)/((this.parent[this.targ2
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
