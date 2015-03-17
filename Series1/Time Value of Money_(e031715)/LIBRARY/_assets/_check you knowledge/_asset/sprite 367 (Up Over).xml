@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/_asset/sprite 367 (Up Over)" itemID="48285354-0000016f" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/_asset/sprite 367 (Up Over)" sourceLastModified="1425454329" lastModified="1426568455" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/_asset/sprite 367 (Up Over)" itemID="48285354-0000016f" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/_asset/sprite 367 (Up Over)" sourceLastModified="1425454329" lastModified="1425454329" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="sprite 367 (Up Over)" currentFrame="19">
+    <DOMTimeline name="sprite 367 (Up Over)">
       <layers>
         <DOMLayer name="Layer 5" color="#FFFF00">
           <frames>
@@ -16,9 +16,9 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="2" fillStyle1="1" edges="!-45 60|-35 53!-35 53[-25 26 -3 -2!-3 -2[19 -30 44 -48!44 -48|43.5 -48.5"/>
-                    <Edge fillStyle1="1" edges="!43.5 -48.5[#2C.DE #FFFFCE.A9 46 -50!46 -50|49 -46!49 -46[23 -28 1 0!1 0[-21 28 -31 55!-31 55|-43 65!-43 65|-45 60"/>
                     <Edge fillStyle1="2" edges="!-44 24[-33.125 #7.5C -8 -15.5!-8 -15.5[#11.0A #FFFFD9.E1 42 -53!42 -53|43.5 -48.5"/>
+                    <Edge fillStyle1="1" edges="!43.5 -48.5[#2C.DE #FFFFCE.A9 46 -50!46 -50|49 -46!49 -46[23 -28 1 0!1 0[-21 28 -31 55!-31 55|-43 65!-43 65|-45 60"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!-45 60|-35 53!-35 53[-25 26 -3 -2!-3 -2[19 -30 44 -48!44 -48|43.5 -48.5"/>
                     <Edge fillStyle0="1" edges="!-44 24[#FFFFD4.AD #15.1A -40 18!-40 18[#FFFFCC.37 #D.1 -57 13"/>
                     <Edge fillStyle1="2" edges="!-45 60|-48 62!-48 62|-53 47!-53 47[-60 31 -64 24!-64 24[#FFFFBD.81 #15.02 -69 19.5!-69 19.5[#FFFFBA.81 #13.1A -70 19!-70 19[#FFFFB8.15 #11.6A -74 17!-74 17[-67 11 -62 11!-62 11[#FFFFC4.89 11 -57 13"/>
                     <Edge fillStyle0="1" fillStyle1="2" edges="!-57 13[#FFFFCC.89 #11.06 -44 24"/>
@@ -30,18 +30,9 @@
         </DOMLayer>
         <DOMLayer name="Layer 1" color="#FFFF00" current="true" isSelected="true">
           <frames>
-            <DOMFrame index="0" duration="8" motionTweenScale="false" keyMode="8192">
+            <DOMFrame index="0" duration="20" motionTweenScale="false" keyMode="8192">
               <elements>
                 <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/shape 365 (Down)" symbolType="graphic" loop="loop">
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="8" duration="12" motionTweenScale="false" keyMode="8192">
-              <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/shape 365 (Down)" symbolType="graphic" centerPoint3DX="-0.2" centerPoint3DY="-0.05" loop="loop">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
@@ -124,7 +115,7 @@
             </DOMFrame>
             <DOMFrame index="8" duration="12" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="btn_bg" symbolType="graphic" firstFrame="2" loop="single frame">
+                <DOMSymbolInstance libraryItemName="btn_bg" selected="true" symbolType="graphic" firstFrame="2" loop="single frame">
                   <matrix>
                     <Matrix a="0.649993896484375" d="0.649993896484375" tx="-7.2" ty="-7.15"/>
                   </matrix>

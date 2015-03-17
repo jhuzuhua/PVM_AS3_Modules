@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1" itemID="48293417-00000503" linkageExportForAS="true" linkageClassName="com.Joshua.Cyk1" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk1" sourceLastModified="1426229465" lastModified="1426570379" lastUniqueIdentifier="5" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1" itemID="48293417-00000503" linkageExportForAS="true" linkageClassName="com.Joshua.Cyk1" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk1" sourceLastModified="1426229465" lastModified="1426576317" lastUniqueIdentifier="5" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="cyk1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;262&lt;/guideline&gt;&lt;guideline direction="h"&gt;273&lt;/guideline&gt;&lt;guideline direction="h"&gt;280&lt;/guideline&gt;&lt;guideline direction="h"&gt;291&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -24,6 +24,7 @@ import flash.display.MovieClip;
 btnSolution1.addEventListener(MouseEvent.MOUSE_DOWN, displaySolution);
 
 var nocm = 2;
+var disabled: Boolean = false;
 
 function reset(){
 
@@ -32,6 +33,9 @@ trace("hide");
 for (var i = 1; i <= nocm; i++){
 cyk["cm"+i].visible = false;
 }
+
+this.gotoAndStop(1);
+disabled = false;
 
 }
 
@@ -48,18 +52,11 @@ function displaySolution (e:MouseEvent){
 
 function disableButton(){
 	this.gotoAndStop(2);
-	
-	/*var mc: MovieClip = MovieClip["disabledBtn"].getChildByName("ImgSol") as MovieClip;
-	var n:int = mc.numChildren;
-	
-	trace("disable button (" + mc.name + ") with child count at " + n);
-	
-    for (var i:int=0;i<n;i++)
-    {
-        var clip:MovieClip = mc.getChildAt(i) as MovieClip;
-        if (clip)
-            clip.gotoAndStop(1);
-    }*/
+	disabled = true;
+}
+
+function checkIfDisabled(): Boolean{
+	return disabled;
 }
 
 reset();
