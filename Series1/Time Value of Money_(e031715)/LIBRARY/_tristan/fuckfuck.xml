@@ -2792,7 +2792,7 @@ MovieClip(root).gotoAndStop("je3");
                             </DOMTextRun>
                           </textRuns>
                         </DOMStaticText>
-                        <DOMStaticText fontRenderingMode="standard" left="19" width="6.2" height="13.45" autoExpand="true" isSelectable="false">
+                        <DOMStaticText fontRenderingMode="standard" left="17.7" width="7.5" height="11" autoExpand="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.833480834960938" d="0.83331298828125" tx="92.6" ty="209.35"/>
                           </matrix>
@@ -2805,7 +2805,7 @@ MovieClip(root).gotoAndStop("je3");
                             </DOMTextRun>
                           </textRuns>
                         </DOMStaticText>
-                        <DOMStaticText fontRenderingMode="standard" left="19" width="6.2" height="13.45" autoExpand="true" isSelectable="false">
+                        <DOMStaticText fontRenderingMode="standard" left="17.7" width="7.5" height="11" autoExpand="true" isSelectable="false">
                           <matrix>
                             <Matrix a="0.833480834960938" d="0.83331298828125" tx="173.25" ty="209.35"/>
                           </matrix>

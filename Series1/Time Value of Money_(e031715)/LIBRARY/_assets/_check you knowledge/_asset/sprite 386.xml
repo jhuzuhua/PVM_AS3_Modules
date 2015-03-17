@@ -12,7 +12,7 @@
             </DOMFrame>
             <DOMFrame index="1" duration="2" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 369 (Over Down)" selected="true">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 369 (Over Down)">
                   <matrix>
                     <Matrix tx="-1.75" ty="-20.45"/>
                   </matrix>

@@ -190,7 +190,7 @@ function f2(event:MouseEvent):void{
                         </DOMTextRun>
                       </textRuns>
                     </DOMStaticText>
-                    <DOMStaticText fontRenderingMode="standard" width="7.15" height="17.2" autoExpand="true" isSelectable="false">
+                    <DOMStaticText fontRenderingMode="standard" width="9.5" height="14" autoExpand="true" isSelectable="false">
                       <matrix>
                         <Matrix tx="325.75" ty="155.9"/>
                       </matrix>
@@ -524,7 +524,7 @@ function f2(event:MouseEvent):void{
                         </DOMTextRun>
                       </textRuns>
                     </DOMStaticText>
-                    <DOMStaticText fontRenderingMode="standard" width="6.2" height="14.7" autoExpand="true" isSelectable="false">
+                    <DOMStaticText fontRenderingMode="standard" width="8.2" height="12" autoExpand="true" isSelectable="false">
                       <matrix>
                         <Matrix tx="109" ty="135.15"/>
                       </matrix>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426555641" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426570954" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="sprite 76">
       <layers>
@@ -9,13 +9,13 @@
                 <script><![CDATA[import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
-var lockMenu =false;
+var lockMenu;
 
 this.addEventListener(MouseEvent.MOUSE_DOWN, onRelease);
 
 function onRelease(event:MouseEvent):void
 {
-    if(lockMenu == false)
+    if(lockMenu)
     {
 	/*
 		MovieClip(root).menucontrol.visible = true;*/
