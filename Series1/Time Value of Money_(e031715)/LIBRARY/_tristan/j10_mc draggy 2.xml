@@ -1,0 +1,239 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10_mc draggy 2" itemID="4bc6cafe-000002ba" lastModified="1425456589" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="j10_mc draggy 2">
+      <layers>
+        <DOMLayer name="functions" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[
+import flash.events.MouseEvent;
+import flash.events.Event;
+import flash.net.SecureSocket;
+import flash.display.MovieClip;
+
+//scaleX = 70;
+//scaleY = 70;
+var oldX:Number = this.x;
+var oldY:Number = this.y;
+var xOffset = 0;
+var yOffset = 0;
+c.alpha = 0;
+w.alpha = 0;
+var summit=0;
+var snapped:Boolean = true;
+var v="";
+
+
+tf.textColor = 0x000000;
+var prevj:String = "";
+var sel = this.name.slice(1);
+var val = tf.text=MovieClip(parent).bnames[sel];
+
+
+this.addEventListener(Event.ENTER_FRAME,mypress);
+function mypress(event:Event=null):void {
+
+	clearMarks();
+	var base2:uint=int(alpha=100);
+	var base:uint=int(alpha=100);
+	tf.textColor = 0x000000;//giro
+	MovieClip(parent)["oc"+prevj] = false;
+	 prevj = "";	
+	this.removeEventListener(Event.ENTER_FRAME , mypress); 
+
+}
+
+this.addEventListener(MouseEvent.MOUSE_DOWN, dragger);
+function dragger(event:MouseEvent):void{
+	
+	MovieClip(parent)["s"+prevj] = true;
+	mypress();
+	this.startDrag();
+	if (snapped) {
+		val = 0;
+		MovieClip(parent).doCompute(v, 0);
+		MovieClip(parent)["occupied"+v] = false;
+	}
+	
+};
+this.addEventListener(MouseEvent.MOUSE_UP, releaser);
+function releaser(Event:MouseEvent):void{
+	snap();
+};
+MovieClip(parent).occupied1 = false;
+MovieClip(parent).occupied2 = false;
+MovieClip(parent).occupied3 = false;
+
+function snap() {
+	for (var j = 0;j<=30; j++) {
+		if (this.hitTestObject(MovieClip(parent)["t"+j])) {
+			snapped = true;
+			if (!MovieClip(parent)["oc"+j]) {
+				if (j == 1) {
+					v = 1;
+					if (MovieClip(parent).occupied1) {
+						wrongHit(j);
+						//delete v;
+						break;
+					}
+					MovieClip(parent).occupied1 = true;
+				}
+				}
+	stopDrag();
+};
+}
+}
+ function markCorrect() {
+	 c.addEventListener(Event.ENTER_FRAME, Entertain);
+	function Entertain(e:Event) {
+		c.alpha += 10;
+		w.alpha -= 10;
+		if (c.alpha>=90) {
+			c.alpha = 100;
+			w.alpha = 0;
+			c.removeEventListener(Event.ENTER_FRAME, Entertain);
+		}
+	};
+};
+// :: Hit Functions ::  //
+ function correctHit(x) {
+	if (sel == 2 || sel == 3 ||sel == 4|| sel == 5) {
+		if (x == 2) {
+			markCorrect();
+		} else {
+			markWrong();
+		}
+	} else {	
+		if (x == sel) {
+			markCorrect();
+		} else {
+			markWrong();
+		}
+	}
+	this.removeEventListener(Event.ENTER_FRAME , mypress);
+	this.x = Object["t"+x].x-xOffset;
+	this.y = Object(parent)["t"+x].y-yOffset;
+	this.base.alpha = 0;
+	this.base2.alpha =0;
+	//scaleX= 100
+	//scaleY = 100
+	tf.textColor = 0x000000;//giro
+};
+
+
+//
+
+
+//
+function markWrong() {
+	w.addEventListener(Event.ENTER_FRAME, Entertain2);
+	function Entertain2(e:Event) {
+		w.alpha += 10;
+		c.alpha -= 10;
+		if (w.alpha>=90) {
+			w.alpha = 100;
+			c.alpha = 0;
+			w.removeEventListener(Event.ENTER_FRAME, Entertain2);
+			
+		}
+	};
+};
+
+//
+function clearMarks(){
+	c.removeEventListener(Event.ENTER_FRAME,mypress);
+	w.removeEventListener(Event.ENTER_FRAME,mypress);
+	w.alpha = 0;
+	c.alpha = 0;
+};
+
+//
+
+function missedHit(x) {
+	markWrong();
+	this.base2.alpha =0;
+	this.base.alpha = 100;
+	tf.textColor = 0x000000;//
+	this.x = Object(parent)["t"+x].x-xOffset;
+	this.y = Object(parent)["t"+x].y-yOffset;
+};
+//
+
+
+function wrongHit(x) {
+	this.addEventListener(Event.ENTER_FRAME,  Entertain3);
+	function Entertain3(e:Event) {
+		this.x += (oldX-this.x)/3;
+		this.y += (oldY-this.y)/3;
+		if ((this.x>=(oldX-1)) && (this.x<=(oldX+1))) {
+			this.x = oldX;
+			this.y = oldY;
+			//scaleX = 70;
+			//scaleY = 70;
+			this.removeEventListener(Event.ENTER_FRAME , Entertain3);
+		}
+	};
+};
+
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="marks" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tf" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="tf" fontRenderingMode="standard" left="-75.65" width="27.45" height="15.6" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="77.65" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>4.00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="c" centerPoint3DX="15.7" centerPoint3DY="25.45">
+                  <matrix>
+                    <Matrix a="0.644866943359375" d="0.644866943359375" tx="15.45" ty="25.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.4" y="-0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/_unsorted/wrong mark" name="w" centerPoint3DX="15.7" centerPoint3DY="25.45">
+                  <matrix>
+                    <Matrix a="0.644866943359375" d="0.644866943359375" tx="15.7" ty="25.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

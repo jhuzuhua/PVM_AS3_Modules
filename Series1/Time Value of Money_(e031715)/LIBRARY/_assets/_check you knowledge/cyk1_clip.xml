@@ -1,0 +1,548 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1_clip" itemID="48293428-00000504" lastModified="1426214108" lastUniqueIdentifier="43">
+  <timeline>
+    <DOMTimeline name="cyk1_clip" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;18&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Action Layer" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[var noButts = 8;
+var a:int = 0;
+var sol;
+
+for (a=1; a<=noButts; a++) {
+	this["rbut"+a].gotoAndStop(1+sol);
+	trace("kuyawa");
+}
+this["rbut"+MovieClip(root).A1].gotoAndStop(3);
+this["rbut"+MovieClip(root).A2].gotoAndStop(3);
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[import flash.events.Event;
+
+var Q;
+var ans;
+
+this.addEventListener(Event.ENTER_FRAME,onClipEvent);
+function onClipEvent(event:Event):void
+{
+    Q = 2;
+    ans = name.slice(4);
+}
+]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/cyk1_content" name="content" centerPoint3DX="241.75" centerPoint3DY="81.55">
+                  <matrix>
+                    <Matrix d="1.00004577636719"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut1" centerPoint3DX="49" centerPoint3DY="62">
+                  <matrix>
+                    <Matrix a="1.000244140625" tx="49" ty="62"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut2" centerPoint3DX="49" centerPoint3DY="80">
+                  <matrix>
+                    <Matrix a="1.000244140625" tx="49" ty="80"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="cm1" centerPoint3DX="29.4" centerPoint3DY="79.5">
+                  <matrix>
+                    <Matrix tx="29" ty="79.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut3" centerPoint3DX="49" centerPoint3DY="97.5">
+                  <matrix>
+                    <Matrix a="1.000244140625" tx="49" ty="97.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut4" centerPoint3DX="49" centerPoint3DY="267.5">
+                  <matrix>
+                    <Matrix a="1.000244140625" tx="49" ty="267.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="cm2" centerPoint3DX="29.4" centerPoint3DY="284.75">
+                  <matrix>
+                    <Matrix tx="29" ty="284.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/radio_button_cyk" name="rbut5" centerPoint3DX="49" centerPoint3DY="285">
+                  <matrix>
+                    <Matrix a="1.000244140625" tx="49" ty="285"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="860.3" centerPoint3DY="214.1">
+                  <matrix>
+                    <Matrix a="2.946044921875" d="0.7294921875" tx="18.6" ty="164.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#DDDDDD"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="860.3" centerPoint3DY="214.1">
+                  <matrix>
+                    <Matrix a="2.946044921875" d="0.177536010742188" tx="18.6" ty="164.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#000040"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#FFFFFF" alpha="0.2"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                            <StrokeStyle index="2">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor alpha="0.2"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!3888 3641|3888 3638!3888 3296|3888 3638!5067 3638|5067 3641!5067 3638|5067 3296!6264 3638|5067 3638!3888 3638|5067 3638!1531 3641|1531 3638!1531 3296|1531 3638!1531 3638|372 3638!2710 3638|2710 3296!2710 3638|2710 3641!1531 3638|2710
+ 3638"/>
+                            <Edge strokeStyle="2" edges="
+!2710 4361|2710 3999!2710 4361|2710 4741!1531 4741|1531 4361!1531 3999|1531 4361!1531 3999|372 3999!1531 4361|372 4361!1531 4361|2710 4361!2710 3999|1531 3999!5067 4361|5067 4741!5067 3999|5067 4361!5067 4361|6264 4361!5067 3999|6264
+ 3999!3888 3999|3888 4361!3888 4741|3888 4361!3888 4361|5067 4361!5067 3999|3888 3999!1531 3999|1531 3641!3888 4361|2710 4361!5067 3641|5067 3999!3888 3999|3888 3641!2710 3999|3888 3999!2710 3641|2710 3999"/>
+                            <Edge strokeStyle="1" edges="
+!3888 3638|2710 3638"/>
+                            <Edge cubics="!3888 3296(3888,3296;3888,3296 3888,3638 3888,3638q3888 3296 3888 3638)3888,3638;"/>
+                            <Edge cubics="!5067 3296(;5067,3296 5067,3638 5067,3638q5067 3296 5067 3638);"/>
+                            <Edge cubics="!3888 3638(;3888,3638 5067,3638 5067,3638q3888 3638 5067 3638);"/>
+                            <Edge cubics="!5067 3638(;5067,3638 6264,3638 6264,3638q5067 3638 6264 3638);"/>
+                            <Edge cubics="!5067 3999(;5067,3999 5067,4361 5067,4361q5067 3999 5067 4361);"/>
+                            <Edge cubics="!5067 4361(;5067,4361 5067,4741 5067,4741q5067 4361 5067 4741);"/>
+                            <Edge cubics="!3888 3999(;3888,3999 3888,4361 3888,4361q3888 3999 3888 4361);"/>
+                            <Edge cubics="!3888 4361(;3888,4361 3888,4741 3888,4741q3888 4361 3888 4741);"/>
+                            <Edge cubics="!3888 3999(;3888,3999 5067,3999 5067,3999q3888 3999 5067 3999);"/>
+                            <Edge cubics="!3888 4361(;3888,4361 5067,4361 5067,4361q3888 4361 5067 4361);"/>
+                            <Edge cubics="!5067 3999(;5067,3999 6264,3999 6264,3999q5067 3999 6264 3999);"/>
+                            <Edge cubics="!5067 4361(;5067,4361 6264,4361 6264,4361q5067 4361 6264 4361);"/>
+                            <Edge cubics="!3888 3638(;3888,3638 3888,3641 3888,3641q3888 3638 3888 3641);"/>
+                            <Edge cubics="!3888 3641(;3888,3641 3888,3999 3888,3999q3888 3641 3888 3999);"/>
+                            <Edge cubics="!5067 3638(;5067,3638 5067,3641 5067,3641q5067 3638 5067 3641);"/>
+                            <Edge cubics="!5067 3641(;5067,3641 5067,3999 5067,3999q5067 3641 5067 3999);"/>
+                            <Edge cubics="!1531 3296(;1531,3296 1531,3638 1531,3638q1531 3296 1531 3638);"/>
+                            <Edge cubics="!2710 3296(;2710,3296 2710,3638 2710,3638q2710 3296 2710 3638);"/>
+                            <Edge cubics="!1531 3638(;1531,3638 2710,3638 2710,3638q1531 3638 2710 3638);"/>
+                            <Edge cubics="!2710 3999(;2710,3999 2710,4361 2710,4361q2710 3999 2710 4361);"/>
+                            <Edge cubics="!2710 4361(;2710,4361 2710,4741 2710,4741q2710 4361 2710 4741);"/>
+                            <Edge cubics="!1531 3999(;1531,3999 1531,4361 1531,4361q1531 3999 1531 4361);"/>
+                            <Edge cubics="!1531 4361(;1531,4361 1531,4741 1531,4741q1531 4361 1531 4741);"/>
+                            <Edge cubics="!1531 3999(;1531,3999 2710,3999 2710,3999q1531 3999 2710 3999);"/>
+                            <Edge cubics="!1531 4361(;1531,4361 2710,4361 2710,4361q1531 4361 2710 4361);"/>
+                            <Edge cubics="!372 3638(;372,3638 1531,3638 1531,3638q372 3638 1531 3638);"/>
+                            <Edge cubics="!1531 3638(;1531,3638 1531,3641 1531,3641q1531 3638 1531 3641);"/>
+                            <Edge cubics="!1531 3641(;1531,3641 1531,3999 1531,3999q1531 3641 1531 3999);"/>
+                            <Edge cubics="!372 3999(;372,3999 1531,3999 1531,3999q372 3999 1531 3999);"/>
+                            <Edge cubics="!2710 3638(;2710,3638 2710,3641 2710,3641q2710 3638 2710 3641);"/>
+                            <Edge cubics="!2710 3641(;2710,3641 2710,3999 2710,3999q2710 3641 2710 3999);"/>
+                            <Edge cubics="!372 4361(;372,4361 1531,4361 1531,4361q372 4361 1531 4361);"/>
+                            <Edge cubics="!2710 3638(;2710,3638 3888,3638 3888,3638q2710 3638 3888 3638);"/>
+                            <Edge cubics="!2710 3999(;2710,3999 3888,3999 3888,3999q2710 3999 3888 3999);"/>
+                            <Edge cubics="!2710 4361(;2710,4361 3888,4361 3888,4361q2710 4361 3888 4361);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMStaticText fontRenderingMode="standard" width="26.3" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="33.45" ty="166.1"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Time</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="52.7" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="79.3" ty="166.1"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Cash flow</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-2.15" width="30.6" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="151.75" ty="166.1"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Yield</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                        <DOMTextRun>
+                          <characters>1</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" characterPosition="superscript" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="14.25" width="18.3" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="200.45" ty="166.1"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>DF</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                        <DOMTextRun>
+                          <characters>t</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" characterPosition="subscript" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-1.05" width="18.3" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="275.55" ty="166.1"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>PV</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                        <DOMTextRun>
+                          <characters>t</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" characterPosition="subscript" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="6.85" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="43.25" ty="184.2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>1</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="23.45" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="93.95" ty="184.2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>4.00</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="23.4" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="153.15" ty="184.2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>5.00</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="36.7" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="205.45" ty="184.2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>0.9524</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="36.7" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="265.25" ty="184.2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>3.8095</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="6.85" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="43.25" ty="202.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>2</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="23.45" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="93.95" ty="202.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>4.00</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="23.4" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="153.15" ty="202.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>5.00</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="36.7" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="205.45" ty="202.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>0.9070</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="36.7" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="265.25" ty="202.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>3.6281</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="6.85" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="43.25" ty="220.3"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>3</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="23.45" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="93.95" ty="220.3"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>4.00</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="23.4" height="13.4" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="153.15" ty="220.3"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>5.00</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+                <DOMComponentInstance libraryItemName="RadioButton" selected="true" uniqueID="41">
+                  <matrix>
+                    <Matrix tx="37.15" ty="51"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="groupName">
+      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="RadioButtonGroup" type="String"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="                                    " type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="RadioButton" uniqueID="42">
+                  <matrix>
+                    <Matrix tx="37" ty="68.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="groupName">
+      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="RadioButtonGroup" type="String"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="RadioButton" uniqueID="43">
+                  <matrix>
+                    <Matrix tx="37.15" ty="86.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="groupName">
+      <Inspectable name="groupName" variable="groupName" category="" verbose="0" defaultValue="RadioButtonGroup" type="String"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="" type="String"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

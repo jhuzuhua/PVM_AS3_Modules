@@ -1,0 +1,295 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="general/new side background" itemID="42d36153-0000028d" lastModified="1424157588" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="new side background">
+      <layers>
+        <DOMLayer name="Layer 9" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 10" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#808080" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor alpha="0.0313725490196078"/>
+                            </FillStyle>
+                            <FillStyle index="2">
+                              <SolidColor alpha="0.0666666666666667"/>
+                            </FillStyle>
+                            <FillStyle index="3">
+                              <SolidColor alpha="0.0980392156862745"/>
+                            </FillStyle>
+                            <FillStyle index="4">
+                              <SolidColor alpha="0.133333333333333"/>
+                            </FillStyle>
+                            <FillStyle index="5">
+                              <SolidColor alpha="0.231372549019608"/>
+                            </FillStyle>
+                            <FillStyle index="6">
+                              <SolidColor alpha="0.266666666666667"/>
+                            </FillStyle>
+                            <FillStyle index="7">
+                              <SolidColor alpha="0.164705882352941"/>
+                            </FillStyle>
+                            <FillStyle index="8">
+                              <SolidColor alpha="0.2"/>
+                            </FillStyle>
+                            <FillStyle index="9">
+                              <SolidColor alpha="0.298039215686275"/>
+                            </FillStyle>
+                            <FillStyle index="10">
+                              <SolidColor alpha="0.333333333333333"/>
+                            </FillStyle>
+                            <FillStyle index="11">
+                              <SolidColor alpha="0.364705882352941"/>
+                            </FillStyle>
+                            <FillStyle index="12">
+                              <SolidColor alpha="0.4"/>
+                            </FillStyle>
+                            <FillStyle index="13">
+                              <SolidColor alpha="0.431372549019608"/>
+                            </FillStyle>
+                            <FillStyle index="14">
+                              <SolidColor alpha="0.466666666666667"/>
+                            </FillStyle>
+                            <FillStyle index="15">
+                              <SolidColor alpha="0.501960784313725"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" fillStyle1="2" edges="!3076 4555[3106 4563 3126 4592!3126 4592|3127 4592!3127 4592[3144 4618 3145 4648!3145 4648|3145 5091!3145 5091[3145 5092 3145 5093!3145 5093[3144 5122 3126 5148!3126 5148[3106 5176 3076 5184!3076 5184|2905 5236!2905 5236[2862 5248 2830
+ 5228!2830 5228[2830 5227 2828 5226!2828 5226[2792 5202 2791 5155!2791 5155|2791 4585!2791 4585[2790 4536 2830 4513!2830 4513[2861 4491 2905 4504!2905 4504|3076 4555"/>
+                            <Edge fillStyle0="2" fillStyle1="3" edges="
+!3076 4559[3104 4566 3123 4594!3123 4594|3123 4595!3123 4595[3140 4619 3141 4648!3141 4648|3141 5091!3141 5091[3141 5092 3141 5093!3141 5093[3140 5120 3123 5145!3123 5145[3104 5173 3076 5181!3076 5181|2904 5232!2904 5232[2862 5244 2832
+ 5224!2832 5224[2831 5224 2831 5223!2831 5223[2795 5200 2795 5155!2795 5155|2795 4585!2795 4585[2794 4538 2831 4516!2831 4516[2862 4495 2904 4508!2904 4508|3074 4558!3074 4558[3075 4558 3076 4559"/>
+                            <Edge fillStyle0="3" fillStyle1="4" edges="
+!3074 4562[3101 4569 3120 4596!3120 4596[3137 4620 3137 4648!3137 4648|3137 5092!3137 5092[3137 5119 3120 5143!3120 5143|3120 5144!3120 5144[3101 5170 3074 5177!3074 5177|2903 5228!2903 5228|2903 5229!2903 5229[2863 5240 2834 5221!2834
+ 5221|2833 5220!2833 5220[2799 5198 2799 5155!2799 5155|2799 4585!2799 4585[2798 4540 2834 4519!2834 4519[2862 4499 2903 4511!2903 4511|3073 4562!3073 4562|3074 4562"/>
+                            <Edge fillStyle1="1" edges="
+!3077 4551[3108 4559 3129 4590!3129 4590|3130 4591!3130 4591[3148 4617 3148 4648!3148 4648|3148 5091!3148 5091[3148 5092 3148 5093!3148 5093[3148 5123 3130 5149!3130 5149|3129 5150!3129 5150[3108 5180 3077 5188!3077 5188|2906 5239!2906
+ 5239[2861 5252 2828 5230!2828 5230[2827 5230 2827 5229!2827 5229[2788 5204 2788 5155!2788 5155|2788 4585!2788 4585[2786 4534 2827 4510!2827 4510[2861 4487 2906 4500!2906 4500|3076 4551!3076 4551|3077 4551"/>
+                            <Edge fillStyle0="5" fillStyle1="6" edges="
+!2841 4532[2865 4516 2899 4525!2899 4525|3070 4577!3070 4577|3069 4577!3069 4577[3092 4583 3108 4605!3108 4605[3122 4625 3122 4648!3122 4648|3122 5092!3122 5092[3122 5115 3108 5135!3108 5135[3092 5157 3069 5163!3069 5163|3070 5163!3070
+ 5163|2899 5214!2899 5214[2866 5224 2842 5208!2842 5208[2841 5208 2841 5207!2841 5207[2813 5190 2813 5155!2813 5155|2813 4585!2813 4585[2813 4549 2842 4532!2842 4532|2841 4532"/>
+                            <Edge fillStyle0="4" fillStyle1="7" edges="
+!3073 4566[3099 4573 3117 4598!3117 4598|3117 4599!3117 4599[3133 4622 3133 4648!3133 4648|3133 5092!3133 5092[3133 5118 3117 5141!3117 5141[3099 5167 3073 5173!3073 5173|2902 5225!2902 5225[2864 5236 2836 5218!2836 5218|2835 5217!2835
+ 5217[2803 5196 2803 5155!2803 5155|2803 4585!2803 4585[2802 4542 2835 4523!2835 4523[2864 4503 2902 4515!2902 4515|3072 4566!3072 4566|3073 4566"/>
+                            <Edge fillStyle0="8" fillStyle1="5" edges="
+!2900 4522|3070 4573!3070 4573|3071 4573!3071 4573[3095 4579 3111 4603!3111 4603[3125 4624 3126 4648!3126 4648|3126 5092!3126 5092[3125 5115 3111 5137!3111 5137[3095 5160 3071 5167!3071 5167|2900 5218!2900 5218[2865 5228 2840 5211!2840
+ 5211|2839 5211!2839 5211[2810 5192 2810 5155!2810 5155|2810 4585!2810 4585[2809 4547 2839 4529!2839 4529[2865 4511 2900 4522"/>
+                            <Edge fillStyle0="9" fillStyle1="10" edges="
+!2845 4538[2867 4524 2896 4532!2896 4532|3067 4584!3067 4584[3088 4589 3101 4609!3101 4609|3102 4609!3102 4609[3114 4627 3115 4648!3115 4648|3115 5092!3115 5092[3114 5112 3101 5130!3101 5130|3101 5131!3101 5131[3088 5150 3067 5156!3067
+ 5156|2896 5207!2896 5207[2867 5216 2846 5202!2846 5202[2845 5202 2845 5201!2845 5201[2821 5186 2821 5155!2821 5155|2821 4585!2821 4585[2820 4553 2846 4538!2846 4538|2845 4538"/>
+                            <Edge fillStyle0="11" fillStyle1="12" edges="
+!2895 4540|3066 4591!3066 4591|3065 4591!3065 4591[3083 4596 3096 4613!3096 4613|3096 4614!3096 4614[3107 4630 3107 4649!3107 4649|3107 5092!3107 5092[3107 5110 3096 5126!3096 5126[3083 5144 3065 5149!3065 5149|3066 5149!3066 5149|2895
+ 5200!2895 5200[2868 5207 2850 5195!2850 5195|2849 5195!2849 5195[2828 5182 2828 5155!2828 5155|2828 4585!2828 4585[2828 4557 2849 4544!2849 4544[2868 4532 2895 4540"/>
+                            <Edge fillStyle0="7" fillStyle1="8" edges="
+!2901 4518|3072 4569!3072 4569[3097 4576 3114 4600!3114 4600|3114 4601!3114 4601[3129 4623 3130 4648!3130 4648|3130 5092!3130 5092[3129 5117 3114 5139!3114 5139[3097 5164 3072 5170!3072 5170|2901 5221!2901 5221[2865 5232 2838 5214!2838
+ 5214|2837 5214!2837 5214[2806 5194 2806 5155!2806 5155|2806 4585!2806 4585[2805 4544 2838 4525!2838 4525[2864 4507 2901 4518"/>
+                            <Edge fillStyle0="14" fillStyle1="15" edges="
+!2891 4551|3062 4602!3062 4602[3076 4606 3086 4620!3086 4620[3095 4633 3096 4649!3096 4649|3096 5091!3096 5091[3095 5106 3086 5120!3086 5120[3076 5134 3062 5138!3062 5138|2891 5189!2891 5189[2871 5195 2856 5186!2856 5186[2839 5175 2840
+ 5155!2840 5155|2840 4585!2840 4585[2839 4564 2856 4554!2856 4554[2871 4544 2891 4551"/>
+                            <Edge fillStyle0="12" fillStyle1="13" edges="
+!2894 4543|3065 4595!3065 4595|3064 4595!3064 4595[3081 4599 3092 4615!3092 4615[3103 4631 3103 4649!3103 4649|3103 5092!3103 5092[3103 5108 3092 5124!3092 5124[3081 5141 3064 5145!3064 5145|3065 5145!3065 5145|2894 5196!2894 5196[2869
+ 5203 2851 5192!2851 5192[2832 5179 2832 5155!2832 5155|2832 4585!2832 4585[2832 4559 2851 4548!2851 4548[2869 4536 2894 4543"/>
+                            <Edge fillStyle0="10" fillStyle1="11" edges="
+!2896 4536|3067 4588!3067 4588|3066 4587!3066 4587[3085 4592 3099 4611!3099 4611[3110 4629 3111 4648!3111 4648|3111 5092!3111 5092[3110 5111 3099 5129!3099 5129[3085 5147 3066 5152!3066 5152|3067 5152!3067 5152|2896 5203!2896 5203|2895
+ 5203!2895 5203[2868 5211 2847 5199!2847 5199|2847 5198!2847 5198[2824 5183 2825 5155!2825 5155|2825 4585!2825 4585[2824 4555 2847 4542!2847 4542[2868 4528 2895 4536!2895 4536|2896 4536"/>
+                            <Edge fillStyle0="6" fillStyle1="9" edges="
+!2843 4535[2866 4520 2898 4529!2898 4529|3069 4580!3069 4580|3068 4580!3068 4580[3090 4585 3105 4607!3105 4607[3118 4626 3118 4648!3118 4648|3118 5092!3118 5092[3118 5113 3105 5133!3105 5133[3090 5154 3068 5160!3068 5160|3069 5159!3069
+ 5159|2898 5210!2898 5210[2866 5220 2844 5205!2844 5205|2843 5205!2843 5205[2818 5187 2818 5155!2818 5155|2818 4585!2818 4585[2817 4551 2843 4535"/>
+                            <Edge fillStyle0="13" fillStyle1="14" edges="
+!2892 4547|3063 4598!3063 4598[3078 4602 3089 4618!3089 4618[3099 4632 3100 4649!3100 4649|3100 5092!3100 5092[3099 5107 3089 5122!3089 5122[3078 5137 3063 5141!3063 5141|2892 5192!2892 5192[2870 5199 2854 5189!2854 5189|2853 5189!2853
+ 5189[2836 5177 2836 5155!2836 5155|2836 4585!2836 4585[2835 4562 2853 4551!2853 4551[2870 4540 2892 4547"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0.0084228515625" d="0.0215606689453125" tx="146.25" ty="240.95"/>
+                            </matrix>
+                            <GradientEntry color="#757575" ratio="0"/>
+                            <GradientEntry color="#D7D7D7" ratio="0.0901960784313725"/>
+                            <GradientEntry color="#D1D1D1" ratio="0.537254901960784"/>
+                            <GradientEntry color="#707070" ratio="0.831372549019608"/>
+                            <GradientEntry color="#9F9F9F" ratio="1"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#333333" alpha="0.501960784313725"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle0="1" strokeStyle="1" edges="
+!2787 4502|2787 5136!2787 5136[2787 5156 2803 5166!2803 5166[2818 5176 2839 5170!2839 5170|3029 5113!3029 5113[3044 5109 3053 5094!3053 5094[3063 5080 3064 5065!3064 5065|3064 4574!3064 4574[3063 4557 3053 4543!3053 4543[3044 4529 3029
+ 4525!3029 4525|2839 4468!2839 4468[2818 4462 2803 4472!2803 4472[2787 4481 2787 4502"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMStaticText fontRenderingMode="standard" width="35.45" height="13.4" autoExpand="true" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0" b="-0.639984130859375" c="0.639984130859375" d="0" tx="140.45" ty="252.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>MENU</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" face="Arial-BoldMT" fillColor="#666666"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="general/_menu/menu_bgImage" symbolType="graphic" loop="single frame">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.85" tintColor="#282828"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit">
+                  <matrix>
+                    <Matrix a="0.100006103515625" d="4.79998779296875" tx="137.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" blueOffset="51"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" width="33.55" height="11.15" autoExpand="true" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="0.58013916015625" d="0" tx="139.35" ty="256.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.8" y="5.5"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>MENU</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" letterSpacing="1" size="10" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.2"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                            <fill>
+                              <SolidColor color="#333333" alpha="0.501960784313725"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="
+!2760 4350|2960 4455!2960 5144|2760 5250"/>
+                        <Edge fillStyle1="1" edges="
+!2760 5250|2760 4350!2960 4455|2960 5144"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gradient" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0.003662109375" d="0.29296875" tx="137" ty="240"/>
+                            </matrix>
+                            <GradientEntry alpha="0.501960784313725" ratio="0"/>
+                            <GradientEntry alpha="0.2" ratio="0.474509803921569"/>
+                            <GradientEntry alpha="0" ratio="0.909803921568627"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!2799.5 0|2799.5 9600!2799.5 9600|2679.5 9600!2679.5 9600|2679.5 0!2679.5 0|2799.5 0"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

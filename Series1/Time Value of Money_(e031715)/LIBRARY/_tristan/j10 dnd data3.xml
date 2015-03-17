@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10 dnd data3" itemID="54e71362-00000265" lastModified="1424429922">
+  <timeline>
+    <DOMTimeline name="j10 dnd data3" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;14&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="32" height="15.85" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="0.6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>S</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" size="14" face="SymbolMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> DF</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" size="14" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="_tristan/forbasewithdash" centerPoint3DX="20.1" centerPoint3DY="8.65">
+                  <matrix>
+                    <Matrix a="0.994720458984375" d="1.1239013671875" tx="0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23.55" y="8.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

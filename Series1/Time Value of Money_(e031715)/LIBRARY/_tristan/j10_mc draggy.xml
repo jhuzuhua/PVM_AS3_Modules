@@ -1,0 +1,246 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10_mc draggy" itemID="4bc6bb45-00001633" lastModified="1424152935" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="j10_mc draggy">
+      <layers>
+        <DOMLayer name="functions" color="#FF4F4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[//  :: Initialize ::  //
+/*_xscale = 70
+_yscale = 70
+oldX = this._x;
+oldY = this._y;
+xOffset = 0;
+yOffset = 0;
+c._alpha = 0;
+w._alpha = 0;
+tf.textColor = 0xffffff;//giro
+sel = this._name.slice(1);
+val = tf.text=_parent.bnames[sel];
+//  :: Events ::  //
+function mypress() {
+	clearMarks();
+	base2._alpha = 100;
+	base._alpha = 100;
+	tf.textColor = 0xffffff;//giro
+	_parent["oc"+prevj] = false;
+	prevj = "";
+	this.swapDepths(this._parent.summit);
+	this._parent.summit++;
+	this.onEnterFrame = undefined;
+}
+this.onPress = function() {
+	_parent["s"+prevj]._visible = true;
+	mypress();
+	this.startDrag();
+	if (snapped) {
+		val = 0;
+		_parent.doCompute(v, 0);
+		_parent["occupied"+v] = false;
+	}
+};
+this.onRelease = function() {
+	snap();
+};
+_parent.occupied1 = false;
+_parent.occupied2 = false;
+_parent.occupied3 = false;
+snap = function () {
+	for (var j = 0; j<=30; j++) {
+		if (this.hitTest(_parent["t"+j])) {
+			snapped = true;
+			if (!_parent["oc"+j]) {
+				if (j == 1) {
+					v = 1;
+					if (_parent.occupied1) {
+						wrongHit(j);
+						delete v;
+						break;
+					}
+					_parent.occupied1 = true;
+				} else if (j == 2) {
+					v = 2;
+					if (_parent.occupied2) {
+						wrongHit(j);
+						delete v;
+						break;
+					}
+					_parent.occupied2 = true;
+				} else if (j == 3) {
+					v = 3;
+					if (_parent.occupied3) {
+						wrongHit(j);
+						delete v;
+						break;
+					}
+					_parent.occupied3 = true;
+				} else if (j == 4) {
+					v = 4;
+					if (_parent.occupied4) {
+						wrongHit(j);
+						delete v;
+						break;
+					}
+					_parent.occupied4 = true;
+				} else if (j == 5) {
+					v = 5;
+					if (_parent.occupied5) {
+						wrongHit(j);
+						delete v;
+						break;
+					}
+					_parent.occupied5 = true;
+				}
+				_parent.doCompute(v, _parent.bvalues[sel]);
+				_parent["oc"+j] = true;
+				prevj = j;
+				_parent["oc"+prevj] = false;
+				this.onEnterFrame = undefined;
+				_parent["s"+prevj]._visible = false;
+				correctHit(j);
+				break;
+			}
+		} else {
+			snapped = false;
+			wrongHit(j);
+			_parent["occupied"+v] = false;
+		}
+	}
+	stopDrag();
+};
+// :: Check or Wrong :: //
+markCorrect = function (x) {
+	c.onEnterFrame = function() {
+		c._alpha += 10;
+		w._alpha -= 10;
+		if (c._alpha>=90) {
+			c._alpha = 100;
+			w._alpha = 0;
+			c.onEnterFrame = undefined;
+		}
+	};
+};
+markWrong = function () {
+	w.onEnterFrame = function() {
+		w._alpha += 10;
+		c._alpha -= 10;
+		if (w._alpha>=90) {
+			w._alpha = 100;
+			c._alpha = 0;
+			w.onEnterFrame = undefined;
+		}
+	};
+};
+clearMarks = function () {
+	c.onEnterFrame = undefined;
+	w.onEnterFrame = undefined;
+	w._alpha = 0;
+	c._alpha = 0;
+};
+// :: Hit Functions ::  //
+correctHit = function (x) {
+	if (sel == 2 || sel == 3 ||sel == 4|| sel == 5) {
+		if (x == 2) {
+			markCorrect();
+		} else {
+			markWrong();
+		}
+	} else {
+		if (x == sel) {
+			markCorrect();
+		} else {
+			markWrong();
+		}
+	}
+	this.onEnterFrame = undefined;
+	this._x = _parent["t"+x]._x-xOffset;
+	this._y = _parent["t"+x]._y-yOffset;
+	base._alpha = 0;
+	base2._alpha =0;
+	_xscale = 100
+	_yscale = 100
+	tf.textColor = 0x000000;//giro
+};
+missedHit = function (x) {
+	markWrong();
+	base2._alpha =0;
+	base._alpha = 100;
+	tf.textColor = 0x000000;//
+	this._x = _parent["t"+x]._x-xOffset;
+	this._y = _parent["t"+x]._y-yOffset;
+};
+wrongHit = function (x) {
+	this.onEnterFrame = function() {
+		this._x += (oldX-this._x)/3;
+		this._y += (oldY-this._y)/3;
+		if ((this._x>=(oldX-1)) && (this._x<=(oldX+1))) {
+			this._x = oldX;
+			this._y = oldY;
+			_xscale = 70
+			_yscale = 70
+			this.onEnterFrame = undefined;
+		}
+	};
+};
+*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="marks" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="tf" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="tf" fontRenderingMode="standard" left="-75.65" width="43.15" height="15.6" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="77.65" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>3.7948</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="c" centerPoint3DX="23.55" centerPoint3DY="25.45">
+                  <matrix>
+                    <Matrix a="0.644866943359375" d="0.644866943359375" tx="23.3" ty="25.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.4" y="-0.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/_unsorted/wrong mark" name="w" centerPoint3DX="23.55" centerPoint3DY="25.45">
+                  <matrix>
+                    <Matrix a="0.644866943359375" d="0.644866943359375" tx="23.55" ty="25.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

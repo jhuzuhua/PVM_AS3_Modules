@@ -1,0 +1,454 @@
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426561156" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+  <timeline>
+    <DOMTimeline name="mymenu">
+      <layers>
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[import flash.display.MovieClip;
+import flash.events.MouseEvent;
+import flash.events.Event;
+
+
+
+stop();
+
+
+//title.text = this.mytitle;
+//title.autoSize = "Left";
+//title.textColor = this.mytitlecolor;
+
+
+var menu_names:Array = new Array();
+
+menu_names[0] = "";
+menu_names[1] = "Module Outline";
+menu_names[2] = "Introduction";
+menu_names[3] = "Discounting";
+menu_names[4] = "Present Value (PV)"; 
+menu_names[5] = "Properties of PV"; //
+menu_names[6] = "Multiple Cash Flows"; //
+menu_names[7] = "Compounding"; 
+menu_names[8] = "Future Value (FV)";//
+menu_names[9] = "Properties of FV"; //
+menu_names[10] = "Annuity Payments"; //
+menu_names[11] = "PV is given";
+menu_names[12] = "FV is given";
+menu_names[13] = "Cash Flow Positions";
+menu_names[14] = "Solutions";
+
+
+
+
+
+b1.targetLabel = "i1";
+b2.targetLabel = "i2";
+b3.targetLabel = "j2";
+b4.targetLabel = "j2";
+b5.targetLabel = "j5";
+b6.targetLabel = "j8";
+b7.targetLabel = "j12";
+b8.targetLabel = "j13";
+b9.targetLabel = "r1";
+b10.targetLabel = "r5";
+b11.targetLabel = "r6";
+b12.targetLabel = "r9";
+b13.targetLabel = "r12";
+b14.targetLabel = "solutions";
+
+
+this.myrolloutcolor = 0xFFFFFF;
+this.myhovercolor = 0xFFCC00;
+this.mypresscolor = this.myrolloutcolor;
+/*
+//hide
+function vf(){
+this.visible = false;
+}
+vf();
+*/
+
+var menustatus;
+var menuVisible; 
+
+//display
+
+function initz(){
+	//true
+	if (menustatus && menuVisible) {
+
+		lockCheck.visible = true;
+		this.visible = true;
+		this.x = 0;
+		trace("true:Initz"+"  "+this.x);
+
+}
+		else
+	{
+		//false
+			
+		lockCheck.visible = false;
+		this.visible = false;
+		this.x = -140;
+		trace("false:Initz"+" "+this.x);
+	}// end else if
+	
+}
+initz();
+//mouse slide
+function checkPos() {
+	if (menustatus) {
+		//true
+		if (MovieClip(root).mouseX<141) {
+			//slideMenu(0,true);
+			 menuVisible = true;
+			trace("True:checkPos"+"  "+this.x);
+			trace(MovieClip(root).mouseX);
+			//trace(slideMenu);
+		}
+		//false
+		else{
+			this.visible = false;
+			//slideMenu(-140,false);
+			menustatus = false;
+			MovieClip(root).menucontrol.visible = true;
+			menuVisible = false;
+			trace("False:checkPos"+" "+this.x);
+			trace(MovieClip(root).mouseX);
+			
+			}
+		}// end if
+	// end else if  
+}// End of the function
+
+var i:int = 1;
+
+while (i<=menu_names.length) {
+	this["b"+i].butt.enabled = true;
+	this["b"+i].tf.textColor = this.myrolloutcolor;
+	this["b"+i].tf.text = menu_names[i];
+this["b"+i].butt.addEventListener(MouseEvent.CLICK,jumptopage(this["b"+i].targetLabel));
+
+
+function jumptopage(targetLabel:String):Function{
+return function (event:MouseEvent):void{
+MovieClip(root).gotoAndPlay(targetLabel);
+	if(targetLabel == targetLabel){
+	this["b"+i].butt.enabled = false
+	}
+	
+
+
+}; 
+};	
+
+ ++i;
+
+
+}// end while
+
+
+var j:int = 0;
+while (j<=this.disabledcontainer.length) {
+	trace(this.disabledcontainer.length);
+	this["b"+this.disabledcontainer[j]].butt.enabled = false;
+	this["b"+this.disabledcontainer[j]].tf.textColor = this.myhovercolor;
+	++j;	
+
+}// end while
+
+
+//slide menu 
+function slideMenu(val:uint,bol:Boolean ){
+this.addEventListener(Event.ENTER_FRAME,Enter);
+function Enter(e:Event):void{
+	trace(this.x);
+	this.x = this.x+(val-this.x)/3;	
+		trace(this.x);
+	trace("diri");
+	trace(val+"  " +bol);
+		if (this.x>=val+1 && this.x<=val-1) {
+			trace("slideMenu"+"Working"+this.x);
+			this.x = val;
+			this.visible = bol;	
+			
+	//this.removeEventListener(Event.ENTER_FRAME, Enter);
+
+		}
+
+		// end if  
+		trace(val+"  " +bol);
+		
+	};
+}// End of the function
+
+/*
+//lock
+var lockMenu;
+function CheckStat(){
+	//true
+	
+	if (lockMenu == true) {
+		lockCheck.visible = true;
+		this.removeEventListener(MouseEvent.MOUSE_MOVE,MouseMove);
+		this.visible = true;
+		this.x = 0;
+	trace("true:CheckStat"+" "+this.x);
+		trace(lockCheck.visible);
+		}
+else {
+//false
+lockCheck.visible = false;
+this.addEventListener(MouseEvent.MOUSE_MOVE, MouseMove);
+function MouseMove(evt:MouseEvent):void{		
+	checkPos();
+	evt.updateAfterEvent();
+	trace("false:CheckStat"+" "+this.x);
+	trace(lockCheck.visible);
+			
+		};
+								  	
+	}// end else if
+}// End of the function
+
+CheckStat();
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lock" color="#00FF33" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/sprite 76" name="lockBar">
+                  <matrix>
+                    <Matrix tx="5" ty="465.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/sprite 78" name="lockCheck">
+                  <matrix>
+                    <Matrix a="0.496994018554688" d="0.496994018554688" tx="11.65" ty="469.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="title" color="#003399" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" top="0.3" left="0.5" width="119" height="13.4" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix d="0.999847412109375" tx="3" ty="7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Time Value of Money</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="0" face="Arial-BoldMT" fillColor="#FFCC00"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buttons" color="#CC3300" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="menu item main" name="b1" centerPoint3DX="69.7" centerPoint3DY="75.5">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="67"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="menu item main" name="b2" centerPoint3DX="69.7" centerPoint3DY="92.55">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="84.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="menu item main" name="b3" centerPoint3DX="69.7" centerPoint3DY="109.6">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="101.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="submenu item" name="b5" centerPoint3DX="69.85" centerPoint3DY="140.15">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="132.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="submenu item" name="b6" centerPoint3DX="69.85" centerPoint3DY="154.8">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="147.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="menu item main" name="b13" centerPoint3DX="69.7" centerPoint3DY="263.45">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="254.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="menu item main" name="b14" centerPoint3DX="69.7" centerPoint3DY="280.55">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="272.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="submenu item" name="b4" centerPoint3DX="69.85" centerPoint3DY="125.5">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="118.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="menu item main" name="b7" centerPoint3DX="69.7" centerPoint3DY="170.65">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="162.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="submenu item" name="b9" centerPoint3DX="69.85" centerPoint3DY="201.2">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="193.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="submenu item" name="b8" centerPoint3DX="69.85" centerPoint3DY="186.55">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="179.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="menu item main" name="b10" centerPoint3DX="69.7" centerPoint3DY="217.05">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="208.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="submenu item" name="b12" centerPoint3DX="69.85" centerPoint3DY="247.6">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="240.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="submenu item" name="b11" centerPoint3DX="69.85" centerPoint3DY="232.95">
+                  <matrix>
+                    <Matrix a="0.959991455078125" d="0.959991455078125" tx="3" ty="225.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="base" color="#666666" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="general/new side background">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+  <parametersAsXML><![CDATA[   <property id="disabledcontainer">
+      <Inspectable name="disabledcontainer" variable="disabledcontainer" category="" verbose="0" defaultValue="" type="Array"/>
+   </property>
+   <property id="myrolloutcolor">
+      <Inspectable name="myrolloutcolor" variable="myrolloutcolor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+   <property id="myhovercolor">
+      <Inspectable name="myhovercolor" variable="myhovercolor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+   <property id="mypresscolor">
+      <Inspectable name="mypresscolor" variable="mypresscolor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+]]></parametersAsXML>
+</DOMComponentItem>

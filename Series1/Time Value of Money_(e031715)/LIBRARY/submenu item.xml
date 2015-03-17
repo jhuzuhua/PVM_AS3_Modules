@@ -1,0 +1,87 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="submenu item" itemID="482a38a7-00000772" lastModified="1425544238">
+  <timeline>
+    <DOMTimeline name="submenu item">
+      <layers>
+        <DOMLayer name="Action Layer" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[import flash.events.MouseEvent;
+
+function hoverIn():void {
+	tf.textColor = 0xFFCC00;
+}// End of the function
+function hoverOut():void {
+	tf.textColor = MovieClip(parent).myrolloutcolor;
+}// End of the function
+function pressed():void {
+	tf.textColor = 0xFFCC00;
+}// End of the function]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[import flash.events.MouseEvent;
+
+this.addEventListener(MouseEvent.MOUSE_OVER , rollOver2);
+this.addEventListener(MouseEvent.MOUSE_OUT , rollOut2);
+this.addEventListener(MouseEvent.MOUSE_DOWN , pressed2);
+
+
+function rollOver2(event:MouseEvent){
+	hoverIn();
+}
+function rollOut2(event:MouseEvent){
+	hoverOut();
+}
+function pressed2(event:MouseEvent){
+	pressed();
+}
+]]></script>
+              </Actionscript>
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets copy/button 68" name="butt" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix d="0.8587646484375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMDynamicText name="tf" fontRenderingMode="standard" width="129.1" height="11.2" includeOutlines="true" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix a="1.00106811523438" d="1.0032958984375" tx="8" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Submenu </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="0" size="9" bitmapSize="180" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

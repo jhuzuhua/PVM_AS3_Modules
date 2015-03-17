@@ -1,0 +1,51 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/RadioButtonSkins/RadioButton_downIcon" itemID="4399b244-00008370" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageIdentifier="RadioButton_downIcon" linkageClassName="RadioButton_downIcon" lastModified="1426213178">
+  <timeline>
+    <DOMTimeline name="RadioButton_downIcon">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.013702392578125" d="0.0135955810546875" tx="5.95" ty="3.6"/>
+                        </matrix>
+                        <GradientEntry color="#FE9600" ratio="0"/>
+                        <GradientEntry color="#333333" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.011474609375" d="0.0113983154296875" tx="8.55" ty="10.9"/>
+                        </matrix>
+                        <GradientEntry color="#FE9600" ratio="0.0156862745098039"/>
+                        <GradientEntry color="#333333" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                        <fill>
+                          <SolidColor color="#000066" alpha="0.223529411764706"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!212 70[241 99 242 141!242 141[241 182 212 212!212 212[182 242 140 242!140 242[98 242 68 212!68 212[39 182 39 141!39 141[39 99 68 70!68 70[98 40 140 40!140 40[182 40 212 70"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!240 41[281 82 281 140!281 140[281 198 240 239!240 239[199 280 140 280!140 280[81 280 40 239!40 239[-1 198 -1 140!-1 140[-1 82 40 41!40 41[81 0 140 0!140 0[199 0 240 41"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

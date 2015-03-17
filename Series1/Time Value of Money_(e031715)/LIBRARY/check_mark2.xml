@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="check_mark2" itemID="54f5560a-00000390" lastModified="1425364490">
+  <timeline>
+    <DOMTimeline name="check_mark2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/check_mark" name="check2" selected="true" centerPoint3DX="8.95" centerPoint3DY="8.55">
+                  <matrix>
+                    <Matrix a="0.79998779296875" d="0.79998779296875" tx="8.65" ty="8.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.4" y="-0.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

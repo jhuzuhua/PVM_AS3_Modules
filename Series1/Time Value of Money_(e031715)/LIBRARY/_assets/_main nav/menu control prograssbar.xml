@@ -1,0 +1,178 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/menu control prograssbar" itemID="482a3c7b-0000077b" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_main nav/menu control prograssbar" sourceLastModified="1322022674" lastModified="1426558733" lastUniqueIdentifier="8" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="menu control prograssbar">
+      <layers>
+        <DOMLayer name="Action Layer" color="#FFFF00" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[import flash.events.MouseEvent;
+import flash.events.Event;
+import flash.display.MovieClip;
+
+
+
+this.addEventListener(MouseEvent.MOUSE_OVER,over4);
+
+var menustatus;
+function over4(event:MouseEvent){
+	MovieClip(root).mymenu.visible = true;
+MovieClip(root).mymenu.slideMenu(0,true);
+	menustatus = true;
+	this.visible = false;
+trace(MovieClip(root).mymenu.visible+"this1");
+trace(menustatus+"this");
+
+	//trace(MovieClip(root).mymenu.initz());
+	
+};
+
+
+
+
+this.addEventListener(Event.ENTER_FRAME,onEnterFrame3);
+progressBar.height = MovieClip(root).pBarwid;
+function onEnterFrame3(e:Event):void{
+	//var frameOffset = MovieClip(root).webfile != true ? (6) : (1);
+	MovieClip(root).pBarwid = Math.round(this.height*(MovieClip(root).currentFrame)/MovieClip(root).totalFrames);
+	//trace(MovieClip(root).pBarwid+ "/" +progressBar.height);
+	progressBar.height = progressBar.height+(MovieClip(root).pBarwid+-progressBar.height)/6;
+	
+};
+
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#330019"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!184 9517|186 9512!186 9512|136 9417!136 9417|86 9512!86 9512|89 9517!89 9517|184 9517"/>
+                        <Edge cubics="!86 9512(;86,9512 136,9417 136,9417q86 9512 136 9417);"/>
+                        <Edge cubics="!186 9512(;186,9512 184,9517 184,9517q186 9512 184 9517);"/>
+                        <Edge cubics="!89 9517(89,9517;89,9517 86,9512 86,9512q89 9517 86 9512)86,9512;"/>
+                        <Edge cubics="!136 9417(;136,9417 186,9512 186,9512q136 9417 186 9512);"/>
+                        <Edge cubics="!89 9517(;89,9517 184,9517 184,9517q89 9517 184 9517)184,9517;"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMStaticText fontRenderingMode="standard" width="99.3" height="11.15" autoExpand="true" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="0.8" ty="467.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Time Value of Money</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.8" lineSpacing="0" size="10" face="Arial-BoldMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Box 100x100 white bordered" name="progressBar" centerPoint3DX="6.25" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix a="0.12493896484375" d="0.010040283203125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_course outline/_assets/sprite 39" centerPoint3DX="-50" centerPoint3DY="240">
+                  <matrix>
+                    <Matrix a="1.00006103515625" d="4.79998779296875" tx="-100"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/text 58" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="0.58013916015625" d="0" tx="13.45" ty="256.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/shape 59" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.713180541992188" tx="13.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_course outline/_assets/sprite 39" name="prograssbar" centerPoint3DX="6.25" centerPoint3DY="239.95">
+                  <matrix>
+                    <Matrix a="0.125" d="4.79998779296875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#CCCCCC"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

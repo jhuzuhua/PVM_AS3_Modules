@@ -1,0 +1,213 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/MCs/m31mc_data2" itemID="4725c055-0000040a" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_tristan/MCs/m31mc_data2" sourceLastModified="1403491510" lastModified="1424946290" lastUniqueIdentifier="30" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="m31mc_data2" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;-301&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="functions" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[/*import flash.events.Event;
+
+
+function redraw() {
+	this.graphics.clear();
+ var locale = MovieClip(parent.parent);
+
+	
+	this.addEventListener(Event.ENTER_FRAME, FrameEnter);
+	function FrameEnter(event:Event):void {
+		this.s1.y += (((Number(locale.year1) * -1) + 100) - this.s1.y) / 3;
+		for (var q = 1; q <= 10; q++) {
+			this["s" + (q + 1)].y += (((Number(locale["year" + (q + 1)]) * -1) + 100) - this["s" + (q + 1)].y) / 3;
+
+		}
+		redraw();
+
+	};
+
+	this.graphics.lineStyle(0, 0xFF0000, 100);
+	this.graphics.moveTo(s1.x + .5, s1.y + .5);
+	for (var k = 2; k <= 10; k++) {
+		this.graphics.lineTo(this["s" + k].x + .5, this["s" + k].y + .5);
+	
+		}
+	this.updateAfterEvent();
+}
+//this.onMouseMove = redraw;
+redraw();
+*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="speed" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s1" centerPoint3DX="0.75" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="0.25" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s2" centerPoint3DX="17.95" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="17.45" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s3" centerPoint3DX="35.15" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="34.65" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s4" centerPoint3DX="52.35" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="51.85" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s5" centerPoint3DX="69.55" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="69.05" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s6" centerPoint3DX="86.75" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="86.25" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s7" centerPoint3DX="103.95" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="103.45" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s8" centerPoint3DX="121.15" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="120.65" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s9" centerPoint3DX="138.35" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="137.85" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="s10" centerPoint3DX="155.6" centerPoint3DY="-59.5">
+                  <matrix>
+                    <Matrix a="0.0099945068359375" d="0.0099945068359375" tx="155.1" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF00FF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="base" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#FFFFFF"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!2 -5002|1.5 0"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#FFFFFF"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!0.5 0|3125 0"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

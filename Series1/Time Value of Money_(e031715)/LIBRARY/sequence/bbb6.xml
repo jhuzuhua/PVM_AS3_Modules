@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="sequence/bbb6" itemID="527364ae-00000349" sourceFlashFilepath="../../../../julietacastanos/Desktop/Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="sequence/bbb6" sourceLastModified="1383294127" lastModified="1383294127" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="bbb6">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!807 21S2[825 28 836 48!836 48[847 66 847 89!847 89[847 117 829 138!829 138[810 157 771 163!771 163[785 169 792 176!792 176[808 191 823 213!823 213|870 288!870 288|824 288!824 288|788 230!788 230[772 205 763 193!763 193[750 179 743 174
+!743 174[734 168 726 166!726 166[719 165 705 165!705 165|663 165!663 165|663 287!663 287|626 287!626 287|626 11!626 11|749 13!749 13[786 13 807 21!810 89[810 68 797 56!797 56[782 43 751 42!751 42|663 40!663 40|663 132!663 132|742 133
+!742 133[767 133 782 130!782 130[795 124 803 113!803 113[810 101 810 89!377 5|434 90!434 90[448 114 463 138!463 138[476 116 494 89!494 89|549 9!549 9|592 9!592 9|479 167!479 167|479 285!479 285|441 285!441 285|441 167!441 167|331 4!331
+ 4|377 5!165 1|165 184!165 184|204 184!204 184|204 216!204 216|165 216!165 216|165 283!165 283|129 283!129 283|129 214!129 214|0 214!0 214|0 182!0 182|136 0!136 0|165 1!129 55|36 182!36 182|129 183!129 183|129 55"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_bonsai/r13mc_box" itemID="4bc6c7f9-00000d6a" sourceFlashFilepath="../../../../julietacastanos/Desktop/Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_bonsai/r13mc_box" sourceLastModified="1375925908" symbolType="graphic" lastModified="1375925908" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="r13mc_box">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="43.25" y="7.55"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="43.25" y="7.55"/>
+                      </transformationPoint>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal">
+                            <fill>
+                              <SolidColor color="#FF0000"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!1732.5 303.5|0 303.5!0 303.5|0 0!0 0|1732.5 0!1732.5 0|1732.5 303.5"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

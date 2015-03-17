@@ -1,0 +1,131 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_navigation_buttons/btn_backward_blink" itemID="482a4e0f-000019a6" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_navigation_buttons/btn_backward_blink" sourceLastModified="1322027278" symbolType="button" lastModified="1322027278" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="btn_backward_blink">
+      <layers>
+        <DOMLayer name="tooltip" color="#FFFF00" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_navigation_buttons/_assets/sprite 389 (Over Down)">
+                  <matrix>
+                    <Matrix tx="-1.75" ty="-20.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_navigation_buttons/_assets/sprite 389 (Over Down)">
+                  <matrix>
+                    <Matrix tx="-1.75" ty="-20.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#9999FF" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_navigation_buttons/_assets/sprite 87 (Up Over)" selected="true" centerPoint3DX="-1.45" centerPoint3DY="-2">
+                  <matrix>
+                    <Matrix a="-0.96990966796875" d="-0.968673706054688" tx="-1.45" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_navigation_buttons/_assets/sprite 87 (Up Over)" selected="true" centerPoint3DX="-1.45" centerPoint3DY="-2">
+                  <matrix>
+                    <Matrix a="-0.96990966796875" d="-0.968673706054688" tx="-1.45" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_navigation_buttons/_assets/shape 92 (Down)" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.87548828125" d="0.871795654296875" ty="-1.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#FFFF00" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="btn_bg" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-11.65" ty="-12.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.65" y="10.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="btn_bg" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-11.65" ty="-12.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.65" y="10.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color brightness="0.07"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="btn_bg" symbolType="graphic" firstFrame="1" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-11.65" ty="-12.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.65" y="10.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color brightness="0.07"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

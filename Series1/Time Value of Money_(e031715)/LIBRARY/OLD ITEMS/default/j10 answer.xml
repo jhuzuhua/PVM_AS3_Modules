@@ -1,0 +1,51 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OLD ITEMS/default/j10 answer" itemID="4bc6bb78-0000163d" symbolType="graphic" lastModified="1271315320">
+  <timeline>
+    <DOMTimeline name="j10 answer">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!538 -24[458 78 422 176!422 176|408 186!408 186[390 198 376 210!376 210[374 198 364 172!364 172|356 154!356 154[332 94 316 71!316 71[299 47 280 45!280 45[306 21 325 21!325 21[352 21 384 93!384 93|395 119!395 119[452 17 533 -69!533 -69
+[614 -155 704 -209!704 -209|713 -193!713 -193[619 -126 538 -24"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!522 -32[442 70 406 168!406 168|392 178!392 178[374 190 360 202!360 202[358 190 348 164!348 164|340 146!340 146[316 86 300 63!300 63[283 39 264 37!264 37[290 13 309 13!309 13[336 13 368 85!368 85|379 111!379 111[436 9 517 -77!517 -77
+[598 -163 688 -217!688 -217|697 -201!697 -201[603 -134 522 -32"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

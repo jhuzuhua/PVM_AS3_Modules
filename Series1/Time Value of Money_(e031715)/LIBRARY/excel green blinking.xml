@@ -1,0 +1,74 @@
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="excel green blinking" itemID="51db7569-00000231" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="excel green blinking" sourceLastModified="1373336937" lastModified="1423013677" sourceItemID="00000000-ffffffff" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+  <timeline>
+    <DOMTimeline name="excel green blinking">
+      <layers>
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[/*excel_btn.onRelease = function() {
+	if (toolboxFiles.length>0) {
+		getToolbox(toolboxFiles);
+	}
+};*/
+/*function gettoolbox() {
+	//var toolbox_file = toolboxFiles.toString();
+	var toolbox_file = toolboxFiles;
+	var clientcode = "toolbox";
+	var ssid = _root.ssid;
+	if (ssid == undefined || ssid == "") {
+		ssid = "admincb32bbf7160c9fac79734bypass";
+	}
+	var tool_link = "http://www.fitforbanking.com/sign/livetraining/portal_"+clientcode+".php?fid="+toolbox_file+"&hours=0.5&ssid="+ssid+"";
+	getURL(tool_link, "box");
+}
+excel_btn.onRelease = function() {
+	
+	if (toolboxFiles.length>0) {
+		gettoolbox();
+	}
+};
+function gettoolbox() {
+	var w = 320;
+	var h = 320;
+	var toolbox_file = toolboxFiles;
+	var clientcode = "toolbox";
+	var ssid = _root.ssid;
+	if (ssid == undefined || ssid == "") {
+		ssid = "admincb32bbf7160c9fac79734bypass";
+	}
+	var tool_link = "http://www.fitforbanking.com/sign/livetraining/portal_"+clientcode+".php?fid="+toolbox_file+"&hours=0.5&ssid="+ssid+"";
+	getURL("javascript:var myWin; if(!myWin || myWin.closed){myWin = window.open(\'"+url+"\',\'toolbox\',\'"+"width="+w+",height="+h+",toolbar=0,location=0,directories=0,status=0,menubar=1,scrollbars=0,resizable=1,top=\'+((screen.height/2)-("+h/2+"))+\',left=\'+((screen.width/2)-("+w/2+"))+\'"+"\')}else{myWin.focus();};void(0);", "");
+}
+excel_btn.onRelease = function() {
+	if (toolboxFiles.length>0) {
+		gettoolbox();
+	}
+}
+*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/excel btn" name="excel_btn" symbolType="button">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+  <parametersAsXML><![CDATA[   <property id="toolboxFiles">
+      <Inspectable name="Toolbox Files" variable="toolboxFiles" category="" verbose="0" defaultValue="tool" type="String"/>
+   </property>
+]]></parametersAsXML>
+</DOMComponentItem>

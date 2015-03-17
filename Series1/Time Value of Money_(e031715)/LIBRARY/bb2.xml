@@ -1,0 +1,592 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bb2" itemID="527200a2-0000059a" sourceFlashFilepath="../../../../julietacastanos/Desktop/Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="bb2" sourceLastModified="1383296030" lastModified="1383296030" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="bb2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 001.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 002.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 003.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 004.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 005.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 006.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 007.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 008.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 009.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 010.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 011.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 012.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 013.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 014.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 015.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 016.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 017.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 018.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 019.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 020.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 021.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 022.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 023.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 024.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 025.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 026.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 027.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="27" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 028.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 029.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 030.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 031.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="31" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 032.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 033.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 034.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 035.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 036.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 037.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 038.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 039.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 040.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 041.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 042.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="42" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 043.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="43" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 044.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 045.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="45" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 046.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="46" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 047.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="47" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 048.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="48" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 049.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 050.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 051.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="51" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 052.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="52" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 053.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="53" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 054.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="54" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 055.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 056.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="56" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 057.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="57" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 058.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="58" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 059.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 060.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="60" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 061.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="61" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 062.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="62" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 063.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="63" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 064.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="64" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 065.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 066.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="66" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 067.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 068.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 069.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="69" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 070.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="70" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 071.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="71" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 072.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="72" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 073.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="73" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 074.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="74" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 075.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 076.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="76" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 077.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="77" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 078.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="78" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 079.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="79" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 080.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="80" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 081.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="81" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 082.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="82" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 083.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="83" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 084.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="84" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 085.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="85" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 086.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="86" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 087.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="87" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 088.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="88" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 089.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="89" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 090.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="90" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 091.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="91" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 092.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="92" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 093.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="93" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 094.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="94" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 095.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="95" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 096.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="96" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 097.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="97" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 098.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="98" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 099.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="99" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 100.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 101.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="101" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 102.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="102" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 103.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="103" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 104.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="104" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 105.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="105" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 106.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="106" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 107.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="107" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 108.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="108" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 109.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="109" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 110.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="110" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 111.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="111" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 112.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="112" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 113.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="113" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 114.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="114" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 115.jpg"/>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="115" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="sequence/interests 116.jpg"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

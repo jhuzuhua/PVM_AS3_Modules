@@ -1,0 +1,247 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/introduction juren" itemID="43739556-00000315" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_tristan/introduction juren" sourceLastModified="1304580772" lastModified="1423015546" lastUniqueIdentifier="5" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="introduction juren" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;57&lt;/guideline&gt;&lt;guideline direction="v"&gt;454&lt;/guideline&gt;&lt;guideline direction="h"&gt;219&lt;/guideline&gt;&lt;guideline direction="h"&gt;4&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="actions" color="#FF4F4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();
+/*this._alpha = 0;
+this.onEnterFrame = function() {
+	this._alpha += (100-this._alpha)/3;
+	if (this._alpha<=101 && this._alpha>=99) {
+		this._alpha = 100;
+		this.onEnterFrame = undefined;
+	}
+};
+
+//set position at the middle
+this._y =(Stage.height-this._height)/2;
+*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="215.3" height="279.6" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.999542236328125" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>A key concept in developed econo</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" letterSpacing="-0.2" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>-</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>mies is to shift cash flows along the</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" letterSpacing="-0.2" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> time axis.&#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Companies, individuals and govern-</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" letterSpacing="-0.3" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>ments have to make decisions a-bout present and future invest-ments.&#xD;&#xD;The rate of time preferences de-pends on the market interest rate. The level of interest rates affects the time value of money signifi-cantly.&#xD;&#xD;Learn more about this concept.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMBitmapInstance libraryItemName="laptop.jpg">
+                  <matrix>
+                    <Matrix a="0.40155029296875" d="0.4014892578125" tx="234.45" ty="4.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="174.8" y="133.35"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="166.35" height="138.8" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.999542236328125" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Companies, individuals and</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" letterSpacing="-0.2" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>governments regularly shift</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" letterSpacing="-0.2" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>their future resources to use</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" letterSpacing="-0.3" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> them in the present.&#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>They borrow capital with the</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" letterSpacing="-0.3" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> promise to repay the loans from future cash flows.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMGroup>
+                  <members>
+                    <DOMComponentInstance libraryItemName="_assets/_components/grey_w shadow AS" selected="true" uniqueID="2">
+                      <matrix>
+                        <Matrix a="1.69496154785156" d="1.30107116699219" tx="190.4" ty="4.3"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point/>
+                      </transformationPoint>
+                      <parametersAsXML><![CDATA[   <property id="myColor">
+      <Inspectable name="Face Color" variable="myColor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+]]></parametersAsXML>
+                    </DOMComponentInstance>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMBitmapInstance selected="true" libraryItemName="old_stuffs/industry">
+                          <matrix>
+                            <Matrix a="0.323410034179688" d="0.34820556640625" tx="190.4" ty="4.3"/>
+                          </matrix>
+                          <transformationPoint>
+                            <Point x="261.9" y="187.25"/>
+                          </transformationPoint>
+                        </DOMBitmapInstance>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="166.35" height="121.2" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.999542236328125" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Other market participants shift their present resour-</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>ces to the future. They lend</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" letterSpacing="-0.2" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> capital by buying bonds, depositing their money in banks or buying shares in a company.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMComponentInstance libraryItemName="_assets/_components/grey_w shadow AS" centerPoint3DX="274.9" centerPoint3DY="69.55" uniqueID="3">
+                  <matrix>
+                    <Matrix a="1.69073486328125" d="1.30548095703125" tx="190.4" ty="4.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="myColor">
+      <Inspectable name="Face Color" variable="myColor" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <BitmapFill bitmapPath="MODULE assets/p1">
+                            <matrix>
+                              <Matrix a="12.9833984375" d="12.9833984375" tx="190.4" ty="4.3"/>
+                            </matrix>
+                          </BitmapFill>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!7197 2694|3808 2694!3808 2694|3808 86!3808 86|7197 86!7197 86|7197 2694"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

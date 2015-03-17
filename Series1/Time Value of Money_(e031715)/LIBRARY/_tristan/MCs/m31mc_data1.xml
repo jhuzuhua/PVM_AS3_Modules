@@ -1,0 +1,401 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/MCs/m31mc_data1" itemID="4725c051-00000409" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_tristan/MCs/m31mc_data1" sourceLastModified="1403491304" lastModified="1424934202" lastUniqueIdentifier="8" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="m31mc_data1" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;0&lt;/guideline&gt;&lt;guideline direction="h"&gt;0&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="function" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[import flash.events.MouseEvent;
+
+////////////////////////////////////////
+///             DRAG                 ///
+////////////////////////////////////////
+base.addEventListener(MouseEvent.MOUSE_DOWN,Press);
+base.addEventListener(MouseEvent.MOUSE_UP, Release);
+
+
+function Press(event:MouseEvent):void{
+MovieClip(parent).startDrag();	
+}
+this.addEventListener(MouseEvent.MOUSE_UP,onRelease);
+function onRelease(event:MouseEvent):void
+{
+	this.removeEventListener(MouseEvent.MOUSE_UP, onRelease);
+	event.target.stopDrag();
+
+};
+function Release(event:MouseEvent):void{
+	MovieClip(root).stopDrag();
+}
+base.useHandCursor = false;
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#9933CC" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit">
+                  <matrix>
+                    <Matrix a="1.18649291992188" d="1.0159912109375" tx="37.25" ty="10.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#4FFF4F" parentLayerIndex="1">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_tristan/MCs/m31mc_data2" name="graphlines" centerPoint3DX="96.8" centerPoint3DY="60.8">
+                  <matrix>
+                    <Matrix a="0.7305908203125" d="0.399993896484375" tx="37.85" ty="111.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#FFFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="13.4" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="17.6" ty="106.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>100</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="13.4" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="17.6" ty="86.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>150</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="13.4" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="17.6" ty="66.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>200</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="13.4" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="17.6" ty="46.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>250</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="13.4" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="17.6" ty="26.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>300</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="13.4" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="17.6" ty="6.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>350</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="34.75" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="47.4" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="60.05" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>3</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="72.7" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>4</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="85.35" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>5</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="98" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>6</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="110.65" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>7</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="123.3" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>8</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="135.95" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>9</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" left="0.1" width="20.2" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="86.65" ty="135.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Years</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="44.95" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="4.3" ty="84"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Future Value</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" left="-1.4" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="148.95" ty="118.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>10</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" useScreenSpacing="true" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="base" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <DashedStroke dash1="3" dash2="2" scaleMode="normal" weight="0.1">
+                                <fill>
+                                  <SolidColor color="#666666"/>
+                                </fill>
+                              </DashedStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!762 623|3036 623!762 1423|3036 1423!762 1823|3036 1823!3036 1023|762 1023!3036 223|762 223"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <DashedStroke dash1="3" dash2="2" scaleMode="normal" weight="0.1">
+                                <fill>
+                                  <SolidColor color="#666666"/>
+                                </fill>
+                              </DashedStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!2783 2220|2783 223!2277 2220|2277 223!2530 2220|2530 223!1265 2220|1265 223!1518 2220|1518 223!2024 2220|2024 223!1771 2220|1771 223!3039 2223|3039 223!1012 2223|1012 223"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#FFFFFF"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!761 223|717 223!717 623|761 623!717 1823|761 1823!761 1023|717 1023!717 1423|761 1423!1265 2276|1265 2223!1518 2276|1518 2223!1012 2276|1012 2223!759 2276|759 2223!759 2223|717 2223!2783 2276|2783 2223!2530 2276|2530 2223!3039 2276|3039
+ 2223!2024 2276|2024 2223!2277 2276|2277 2223!1771 2276|1771 2223"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="base" centerPoint3DX="106.8" centerPoint3DY="75.55">
+                  <matrix>
+                    <Matrix a="1.61125183105469" d="1.51115417480469"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#333333"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

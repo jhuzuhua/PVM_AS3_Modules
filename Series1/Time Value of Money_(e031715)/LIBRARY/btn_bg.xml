@@ -1,0 +1,194 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="btn_bg" itemID="4e97cb9f-00000745" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="btn_bg" sourceLastModified="1320221281" lastModified="1320221281" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="btn_bg">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC" alpha="0.8"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!391 -30[460 -30 460 39!460 39|460 388!460 388[460 457 391 457!391 457|42 457!42 457[-27 457 -27 388!-27 388|-27 39!-27 39[-27 -30 42 -30!42 -30|391 -30!42 -23[-20 -23 -20 39!-20 39|-20 388!-20 388[-20 450 42 450!42 450|391 450!391 450
+[453 450 453 388!453 388|453 39!453 39[453 -23 391 -23!391 -23|42 -23"/>
+                    <Edge cubics="!391 -23(;391,-23 42,-23 42,-23q391 -23 42 -23);"/>
+                    <Edge cubics="!42 -30(;42,-30 391,-30 391,-30q42 -30 391 -30);"/>
+                    <Edge cubics="!-20 39(;-20,39 -20,388 -20,388q-20 39 -20 388);"/>
+                    <Edge cubics="!-27 388(;-27,388 -27,39 -27,39q-27 388 -27 39);"/>
+                    <Edge cubics="!453 388(;453,388 453,39 453,39q453 388 453 39);"/>
+                    <Edge cubics="!460 39(;460,39 460,388 460,388q460 39 460 388);"/>
+                    <Edge cubics="!42 450(;42,450 391,450 391,450q42 450 391 450);"/>
+                    <Edge cubics="!391 457(;391,457 42,457 42,457q391 457 42 457);"/>
+                    <Edge cubics="!391 450(;432,450 453,429 453,388q391 450Q453 450q453 388);"/>
+                    <Edge cubics="!460 388(;460,434 437,457 391,457q460 388Q460 457q391 457);"/>
+                    <Edge cubics="!42 -23(;1,-23 -20,-2 -20,39q42 -23Q-20 -23q-20 39);"/>
+                    <Edge cubics="!-20 388(;-20,429 1,450 42,450q-20 388Q-20 450q42 450);"/>
+                    <Edge cubics="!453 39(;453,-2 432,-23 391,-23q453 39Q453 -23q391 -23);"/>
+                    <Edge cubics="!391 -30(;437,-30 460,-7 460,39q391 -30Q460 -30q460 39);"/>
+                    <Edge cubics="!42 457(;-4,457 -27,434 -27,388q42 457Q-27 457q-27 388);"/>
+                    <Edge cubics="!-27 39(;-27,-7 -4,-30 42,-30q-27 39Q-27 -30q42 -30);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-0.0018157958984375" b="-0.009979248046875" c="0.0077362060546875" d="-0.00140380859375" tx="53.15" ty="-0.4"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0.0509803921568627" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" alpha="0.2" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!391 -30[460 -30 460 39!460 39|460 183!460 183[#E7.11 #147.67 -27 338.5!-27 338.5|-27 39!-27 39[-27 -30 42 -30!42 -30|391 -30"/>
+                    <Edge cubics="!391 -30(;438,-30 460,-7 460,39q391 -30Q460 -30q460 39);"/>
+                    <Edge cubics="!-27 339(;-27,339 -27,39 -27,39q-27 339 -27 39);"/>
+                    <Edge cubics="!-27 39(;-27,-7 -4,-30 42,-30q-27 39Q-27 -30q42 -30);"/>
+                    <Edge cubics="!42 -30(;42,-30 391,-30 391,-30q42 -30 391 -30);"/>
+                    <Edge cubics="!460 39(;460,39 460,183 460,183q460 39 460 183);"/>
+                    <Edge cubics="!460 183(;307,279 145,331 -27,339q460 183Q231 327q-27 339);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-0.0018157958984375" b="-0.009979248046875" c="0.0077362060546875" d="-0.00140380859375" tx="53.15" ty="-0.4"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0.0509803921568627" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" alpha="0.152941176470588" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!391 -30[460 -30 460 39!460 39|460 183!460 183[#E7.11 #147.67 -27 338.5!-27 338.5|-27 39!-27 39[-27 -30 42 -30!42 -30|391 -30"/>
+                    <Edge cubics="!391 -30(;438,-30 460,-7 460,39q391 -30Q460 -30q460 39);"/>
+                    <Edge cubics="!460 39(;460,39 460,233 460,233q460 39 460 233);"/>
+                    <Edge cubics="!-27 339(;-27,339 -27,39 -27,39q-27 339 -27 39);"/>
+                    <Edge cubics="!-27 39(;-27,-7 -4,-30 42,-30q-27 39Q-27 -30q42 -30);"/>
+                    <Edge cubics="!42 -30(;42,-30 391,-30 391,-30q42 -30 391 -30);"/>
+                    <Edge cubics="!-27 339(;145,331 307,296 460,233q-27 339Q231 327q460 233);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="-0.0018157958984375" b="-0.009979248046875" c="0.0077362060546875" d="-0.00140380859375" tx="53.15" ty="-0.4"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0.0509803921568627" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" alpha="0.2" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!391 -30[460 -30 460 39!460 39|460 183!460 183[#E7.11 #147.67 -27 338.5!-27 338.5|-27 39!-27 39[-27 -30 42 -30!42 -30|391 -30"/>
+                    <Edge cubics="!391 -30(;438,-30 460,-7 460,39q391 -30Q460 -30q460 39);"/>
+                    <Edge cubics="!-27 339(;-27,339 -27,39 -27,39q-27 339 -27 39);"/>
+                    <Edge cubics="!-27 39(;-27,-7 -4,-30 42,-30q-27 39Q-27 -30q42 -30);"/>
+                    <Edge cubics="!42 -30(;42,-30 391,-30 391,-30q42 -30 391 -30);"/>
+                    <Edge cubics="!460 39(;460,39 460,183 460,183q460 39 460 183);"/>
+                    <Edge cubics="!460 183(;307,279 145,331 -27,339q460 183Q231 327q-27 339);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#000066"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!391 -30[460 -30 460 39!460 39|460 388!460 388[460 457 391 457!391 457|42 457!42 457[-27 457 -27 388!-27 388|-27 39!-27 39[-27 -30 42 -30!42 -30|391 -30"/>
+                    <Edge cubics="!391 -30(;438,-30 460,-7 460,39q391 -30Q460 -30q460 39);"/>
+                    <Edge cubics="!460 39(;460,39 460,388 460,388q460 39 460 388);"/>
+                    <Edge cubics="!460 388(;460,435 438,457 391,457q460 388Q460 457q391 457);"/>
+                    <Edge cubics="!-27 388(;-27,388 -27,39 -27,39q-27 388 -27 39);"/>
+                    <Edge cubics="!42 457(;-4,457 -27,435 -27,388q42 457Q-27 457q-27 388);"/>
+                    <Edge cubics="!-27 39(;-27,-7 -4,-30 42,-30q-27 39Q-27 -30q42 -30);"/>
+                    <Edge cubics="!42 -30(;42,-30 391,-30 391,-30q42 -30 391 -30);"/>
+                    <Edge cubics="!391 457(;391,457 42,457 42,457q391 457 42 457);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.0354461669921875" d="0.0234222412109375" tx="11.1" ty="24.7"/>
+                        </matrix>
+                        <GradientEntry color="#07C821" ratio="0"/>
+                        <GradientEntry color="#014B09" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!391 -30[460 -30 460 39!460 39|460 388!460 388[460 457 391 457!391 457|42 457!42 457[-27 457 -27 388!-27 388|-27 39!-27 39[-27 -30 42 -30!42 -30|391 -30"/>
+                    <Edge cubics="!391 -30(;438,-30 460,-7 460,39q391 -30Q460 -30q460 39);"/>
+                    <Edge cubics="!460 39(;460,39 460,388 460,388q460 39 460 388);"/>
+                    <Edge cubics="!460 388(;460,435 438,457 391,457q460 388Q460 457q391 457);"/>
+                    <Edge cubics="!-27 388(;-27,388 -27,39 -27,39q-27 388 -27 39);"/>
+                    <Edge cubics="!42 457(;-4,457 -27,435 -27,388q42 457Q-27 457q-27 388);"/>
+                    <Edge cubics="!-27 39(;-27,-7 -4,-30 42,-30q-27 39Q-27 -30q42 -30);"/>
+                    <Edge cubics="!42 -30(;42,-30 391,-30 391,-30q42 -30 391 -30);"/>
+                    <Edge cubics="!391 457(;391,457 42,457 42,457q391 457 42 457);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

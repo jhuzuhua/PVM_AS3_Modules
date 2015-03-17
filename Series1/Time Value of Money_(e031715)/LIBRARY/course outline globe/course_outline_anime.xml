@@ -1,0 +1,216 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="course outline globe/course_outline_anime" itemID="4757c338-000006a4" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="course outline globe/course_outline_anime" sourceLastModified="1243832221" lastModified="1425367935" lastUniqueIdentifier="66" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="course_outline_anime" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;137&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 8" color="#808080" current="true" isSelected="true" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="23" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[import fl.motion.Color;
+
+/* 
+1 = Beginner; 
+2 = Advance; 
+3 = Professional 
+*/
+
+var moduleLevelID: int = 1;
+
+var levelText = new Array();
+levelText[1] = "Beginner";
+levelText[2] = "Advanced";
+levelText[3] = "Professional";
+
+var levelTextColor = new Array();
+//levelTextColor[1] = 0x00CC00; //green
+levelTextColor[1] = 0x009900; //green
+levelTextColor[2] = 0xFFFF00; //yellow
+levelTextColor[3] = 0xFF0000; //red
+
+function setLevelColor(mc) {
+var level_color: Color = new Color();
+//level_color.setRGB(levelTextColor[moduleLevelID]);
+var newColorTransform:ColorTransform = mc.transform.colorTransform;
+newColorTransform.color = levelTextColor[moduleLevelID];
+mc.transform.colorTransform = newColorTransform;
+}
+
+//set position at the middle
+this.y = (MovieClip(root).height-this.height)/2;
+//
+theMask.height = courseOutline.height+courseOutline.y+20;
+
+courseOutline.mask = theMask;]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow" color="#FFFF4F" locked="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_arrow" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix a="1.07354736328125" tx="385.55" ty="185.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="module" color="#FFFF4F" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_title" name="ctitle">
+                  <matrix>
+                    <Matrix tx="249.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="92.9" y="14.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_title" name="ctitle">
+                  <matrix>
+                    <Matrix tx="249.8" ty="40"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="92.9" y="14.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="13" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_title" name="ctitle" selected="true">
+                  <matrix>
+                    <Matrix tx="249.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="92.9" y="14.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_title" name="ctitle" centerPoint3DX="342.55" centerPoint3DY="14.7">
+                  <matrix>
+                    <Matrix tx="249.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="92.9" y="14.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="level text" color="#4F80FF" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_level" name="levelmc1">
+                  <matrix>
+                    <Matrix tx="348.55" ty="62.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.7" y="8.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="text" color="#4FFF4F" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_text" name="courseOutline" centerPoint3DX="414.8" centerPoint3DY="125">
+                  <matrix>
+                    <Matrix tx="266.9" ty="62.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="104.2" y="77.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="theMask" color="#FF4FFF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_mask" name="theMask">
+                  <matrix>
+                    <Matrix d="0.117218017578125" tx="209.4" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.95" y="149.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="module outline" color="#9933CC" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="20" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="course outline globe/course_outline_icon" name="cline">
+                  <matrix>
+                    <Matrix tx="254.05" ty="65.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="52.75" y="44.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="globe" color="#FF4F4F" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

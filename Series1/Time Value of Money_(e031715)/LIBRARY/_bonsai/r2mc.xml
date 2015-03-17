@@ -1,0 +1,130 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_bonsai/r2mc" itemID="4bc56c9e-0000096a" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_bonsai/r2mc" sourceLastModified="1377224359" lastModified="1377224359" lastUniqueIdentifier="3" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="r2mc" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;-17&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="0.35" width="189.8" height="156.4" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.998947143554688" tx="291.65" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Properties of Future Values</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="Arial-BoldMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>&#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Note that an increase in the in-terest rate significantly changes</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" letterSpacing="-0.25" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> the future value.&#xD;&#xD;&#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Move scrollbar.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#00CC00"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="m31mc_table 2" name="table" centerPoint3DX="248.35" centerPoint3DY="167.75">
+                  <matrix>
+                    <Matrix a="1.00030517578125" tx="85" ty="39.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_assets/custom scrolltrack1" name="track" centerPoint3DX="365.4" centerPoint3DY="119">
+                  <matrix>
+                    <Matrix a="9.43063354492188" d="0.199996948242188" tx="293.4" ty="118"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMComponentInstance libraryItemName="_assets/custom scrollbar3 table" centerPoint3DX="306.4" centerPoint3DY="117.6" uniqueID="3">
+                  <matrix>
+                    <Matrix tx="293.35" ty="106.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <parametersAsXML><![CDATA[   <property id="targ">
+      <Inspectable name="Target" variable="targ" category="" verbose="0" defaultValue="table" type="String"/>
+   </property>
+   <property id="targ2">
+      <Inspectable name="Scroll Track" variable="targ2" category="" verbose="0" defaultValue="track" type="String"/>
+   </property>
+   <property id="myframes">
+      <Inspectable name="Frames" variable="myframes" category="" verbose="0" defaultValue="10" type="Number"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#99CC00"/>
+                        </FillStyle>
+                      </fills>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="0.1">
+                            <fill>
+                              <SolidColor/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge fillStyle1="1" strokeStyle="1" edges="!5756 898[5756 964 5709 1011!5709 1011[5662 1058 5596 1058!5596 1058[5529 1058 5482 1011!5482 1011[5436 964 5436 898!5436 898[5436 831 5482 784!5482 784[5529 738 5596 738!5596 738[5662 738 5709 784!5709 784[5756 831 5756 898"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMStaticText fontRenderingMode="standard" width="8.5" height="11.15" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="276.25" ty="38.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>1.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" size="10" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

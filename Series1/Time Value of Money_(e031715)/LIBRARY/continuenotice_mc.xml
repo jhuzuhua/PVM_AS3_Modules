@@ -1,0 +1,326 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="continuenotice_mc" itemID="4eb39a73-000009db" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="continuenotice_mc" sourceLastModified="1320822764" lastModified="1423815822" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="continuenotice_mc">
+      <layers>
+        <DOMLayer name="actionscript" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[import flash.events.MouseEvent;
+
+btn_long.addEventListener(MouseEvent.CLICK, Continue);
+
+
+function Continue(event:MouseEvent):void{
+     MovieClip(parent).nextFrame();
+	
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="0.808334350585938" d="0.896469116210938" tx="-111.35" ty="-142.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="331.5" y="244.95"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.196078431372549"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor alpha="0.215686274509804"/>
+                    </FillStyle>
+                    <FillStyle index="3">
+                      <SolidColor alpha="0.274509803921569"/>
+                    </FillStyle>
+                    <FillStyle index="4">
+                      <SolidColor alpha="0.294117647058824"/>
+                    </FillStyle>
+                    <FillStyle index="5">
+                      <SolidColor alpha="0.113725490196078"/>
+                    </FillStyle>
+                    <FillStyle index="6">
+                      <SolidColor alpha="0.0941176470588235"/>
+                    </FillStyle>
+                    <FillStyle index="7">
+                      <SolidColor alpha="0.0745098039215686"/>
+                    </FillStyle>
+                    <FillStyle index="8">
+                      <SolidColor alpha="0.0352941176470588"/>
+                    </FillStyle>
+                    <FillStyle index="9">
+                      <SolidColor alpha="0.0156862745098039"/>
+                    </FillStyle>
+                    <FillStyle index="10">
+                      <SolidColor alpha="0.301960784313725"/>
+                    </FillStyle>
+                    <FillStyle index="11">
+                      <SolidColor alpha="0.286274509803922"/>
+                    </FillStyle>
+                    <FillStyle index="12">
+                      <SolidColor alpha="0.282352941176471"/>
+                    </FillStyle>
+                    <FillStyle index="13">
+                      <SolidColor alpha="0.270588235294118"/>
+                    </FillStyle>
+                    <FillStyle index="14">
+                      <SolidColor alpha="0.262745098039216"/>
+                    </FillStyle>
+                    <FillStyle index="15">
+                      <SolidColor alpha="0.258823529411765"/>
+                    </FillStyle>
+                    <FillStyle index="16">
+                      <SolidColor alpha="0.250980392156863"/>
+                    </FillStyle>
+                    <FillStyle index="17">
+                      <SolidColor alpha="0.243137254901961"/>
+                    </FillStyle>
+                    <FillStyle index="18">
+                      <SolidColor alpha="0.23921568627451"/>
+                    </FillStyle>
+                    <FillStyle index="19">
+                      <SolidColor alpha="0.231372549019608"/>
+                    </FillStyle>
+                    <FillStyle index="20">
+                      <SolidColor alpha="0.227450980392157"/>
+                    </FillStyle>
+                    <FillStyle index="21">
+                      <SolidColor alpha="0.219607843137255"/>
+                    </FillStyle>
+                    <FillStyle index="22">
+                      <SolidColor alpha="0.207843137254902"/>
+                    </FillStyle>
+                    <FillStyle index="23">
+                      <SolidColor alpha="0.203921568627451"/>
+                    </FillStyle>
+                    <FillStyle index="24">
+                      <SolidColor alpha="0.192156862745098"/>
+                    </FillStyle>
+                    <FillStyle index="25">
+                      <SolidColor alpha="0.184313725490196"/>
+                    </FillStyle>
+                    <FillStyle index="26">
+                      <SolidColor alpha="0.180392156862745"/>
+                    </FillStyle>
+                    <FillStyle index="27">
+                      <SolidColor alpha="0.172549019607843"/>
+                    </FillStyle>
+                    <FillStyle index="28">
+                      <SolidColor alpha="0.168627450980392"/>
+                    </FillStyle>
+                    <FillStyle index="29">
+                      <SolidColor alpha="0.16078431372549"/>
+                    </FillStyle>
+                    <FillStyle index="30">
+                      <SolidColor alpha="0.156862745098039"/>
+                    </FillStyle>
+                    <FillStyle index="31">
+                      <SolidColor alpha="0.149019607843137"/>
+                    </FillStyle>
+                    <FillStyle index="32">
+                      <SolidColor alpha="0.141176470588235"/>
+                    </FillStyle>
+                    <FillStyle index="33">
+                      <SolidColor alpha="0.137254901960784"/>
+                    </FillStyle>
+                    <FillStyle index="34">
+                      <SolidColor alpha="0.129411764705882"/>
+                    </FillStyle>
+                    <FillStyle index="35">
+                      <SolidColor alpha="0.125490196078431"/>
+                    </FillStyle>
+                    <FillStyle index="36">
+                      <SolidColor alpha="0.117647058823529"/>
+                    </FillStyle>
+                    <FillStyle index="37">
+                      <SolidColor alpha="0.105882352941176"/>
+                    </FillStyle>
+                    <FillStyle index="38">
+                      <SolidColor alpha="0.101960784313725"/>
+                    </FillStyle>
+                    <FillStyle index="39">
+                      <SolidColor alpha="0.0862745098039216"/>
+                    </FillStyle>
+                    <FillStyle index="40">
+                      <SolidColor alpha="0.0823529411764706"/>
+                    </FillStyle>
+                    <FillStyle index="41">
+                      <SolidColor alpha="0.0705882352941176"/>
+                    </FillStyle>
+                    <FillStyle index="42">
+                      <SolidColor alpha="0.0627450980392157"/>
+                    </FillStyle>
+                    <FillStyle index="43">
+                      <SolidColor alpha="0.0588235294117647"/>
+                    </FillStyle>
+                    <FillStyle index="44">
+                      <SolidColor alpha="0.0509803921568627"/>
+                    </FillStyle>
+                    <FillStyle index="45">
+                      <SolidColor alpha="0.00392156862745098"/>
+                    </FillStyle>
+                    <FillStyle index="46">
+                      <SolidColor alpha="0.0117647058823529"/>
+                    </FillStyle>
+                    <FillStyle index="47">
+                      <SolidColor alpha="0.0235294117647059"/>
+                    </FillStyle>
+                    <FillStyle index="48">
+                      <SolidColor alpha="0.0274509803921569"/>
+                    </FillStyle>
+                    <FillStyle index="49">
+                      <SolidColor alpha="0.0392156862745098"/>
+                    </FillStyle>
+                    <FillStyle index="50">
+                      <SolidColor alpha="0.0470588235294118"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="50" fillStyle1="44" edges="!10456 3684|10456 6112!10456 6112[10456 #19A4.01 10004 6564!10004 6564|3255 6564!3255 6564[2803 6564 2803 6112!2803 6112|2803 3684!2803 3684[2803 3232 3255 3232!3255 3232|10004 3232!10004 3232[#28D8.01 3232 10456 3684"/>
+                    <Edge fillStyle0="49" fillStyle1="50" edges="!10462 3684|10462 6112!10462 6112[10462 6570 10004 6570!10004 6570|3255 6570!3255 6570[2797 6570 2797 6112!2797 6112|2797 3684!2797 3684[2797 3226 3255 3226!3255 3226|10004 3226!10004 3226[10462 3226 10462 3684"/>
+                    <Edge fillStyle0="8" fillStyle1="49" edges="!10468 3684|10468 6112!10468 6112[10468 6576 10004 6576!10004 6576|3255 6576!3255 6576[2791 6576 2791 6112!2791 6112|2791 3684!2791 3684[2791 3220 3255 3220!3255 3220|10004 3220!10004 3220[10468 3220 10468 3684"/>
+                    <Edge fillStyle0="48" fillStyle1="8" edges="!10474 3684|10474 6112!10474 6112[10474 6582 10004 6582!10004 6582|3255 6582!3255 6582[2785 6582 2785 6112!2785 6112|2785 3684!2785 3684[2785 3214 3255 3214!3255 3214|10004 3214!10004 3214[10474 3214 10474 3684"/>
+                    <Edge fillStyle0="47" fillStyle1="48" edges="!10480 3684|10480 6112!10480 6112[10480 6588 10004 6588!10004 6588|3255 6588!3255 6588[2779 6588 2779 6112!2779 6112|2779 3684!2779 3684[2779 3208 3255 3208!3255 3208|10004 3208!10004 3208[10480 3208 10480 3684"/>
+                    <Edge fillStyle0="9" fillStyle1="47" edges="!10486 3684|10486 6112!10486 6112[10486 6594 10004 6594!10004 6594|3255 6594!3255 6594[2773 6594 2773 6112!2773 6112|2773 3684!2773 3684[2773 3202 3255 3202!3255 3202|10004 3202!10004 3202[10486 3202 10486 3684"/>
+                    <Edge fillStyle0="46" fillStyle1="9" edges="!10492 3684|10492 6112!10492 6112[10492 6600 10004 6600!10004 6600|3255 6600!3255 6600[2767 6600 2767 6112!2767 6112|2767 3684!2767 3684[2767 3196 3255 3196!3255 3196|10004 3196!10004 3196[10492 3196 10492 3684"/>
+                    <Edge fillStyle0="45" fillStyle1="46" edges="!10498 3684|10498 6112!10498 6112[10498 6606 10004 6606!10004 6606|3255 6606!3255 6606[2761 6606 2761 6112!2761 6112|2761 3684!2761 3684[2761 3190 3255 3190!3255 3190|10004 3190!10004 3190[10498 3190 10498 3684"/>
+                    <Edge fillStyle1="45" edges="!10504 3684|10504 6112!10504 6112[10504 6612 10004 6612!10004 6612|3255 6612!3255 6612[2755 6612 2755 6112!2755 6112|2755 3684!2755 3684[2755 3184 3255 3184!3255 3184|10004 3184!10004 3184[10504 3184 10504 3684"/>
+                    <Edge fillStyle0="44" fillStyle1="43" edges="!10450 3684|10450 6112!10450 6112[10450 #199E.01 10004 6558!10004 6558|3255 6558!3255 6558[#AF8.FF 6558 2809 6112!2809 6112|2809 3684!2809 3684[2809 #CA5.FF 3255 3238!3255 3238|10004 3238!10004 3238[#28D2.01 3238 10450 3684"/>
+                    <Edge fillStyle0="43" fillStyle1="42" edges="!10444 3684|10444 6112!10444 6112[10444 6552 10004 6552!10004 6552|3255 6552!3255 6552[2815 6552 2815 6112!2815 6112|2815 3684!2815 3684[2815 3244 3255 3244!3255 3244|10004 3244!10004 3244[10444 3244 10444 3684"/>
+                    <Edge fillStyle0="42" fillStyle1="41" edges="!10438 3684|10438 6112!10438 6112[10438 6546 10004 6546!10004 6546|3255 6546!3255 6546[2821 6546 2821 6112!2821 6112|2821 3684!2821 3684[2821 3250 3255 3250!3255 3250|10004 3250!10004 3250[10438 3250 10438 3684"/>
+                    <Edge fillStyle0="41" fillStyle1="7" edges="!10432 3684|10432 6112!10432 6112[10432 6540 10004 6540!10004 6540|3255 6540!3255 6540[2827 6540 2827 6112!2827 6112|2827 3684!2827 3684[2827 3256 3255 3256!3255 3256|10004 3256!10004 3256[10432 3256 10432 3684"/>
+                    <Edge fillStyle0="7" fillStyle1="40" edges="!10426 3684|10426 6112!10426 6112[10426 6534 10004 6534!10004 6534|3255 6534!3255 6534[2833 6534 2833 6112!2833 6112|2833 3684!2833 3684[2833 3262 3255 3262!3255 3262|10004 3262!10004 3262[10426 3262 10426 3684"/>
+                    <Edge fillStyle0="40" fillStyle1="39" edges="!10420 3684|10420 6112!10420 6112[10420 6528 10004 6528!10004 6528|3255 6528!3255 6528[2839 6528 2839 6112!2839 6112|2839 3684!2839 3684[2839 3268 3255 3268!3255 3268|10004 3268!10004 3268[10420 3268 10420 3684"/>
+                    <Edge fillStyle0="39" fillStyle1="6" edges="!10414 3684|10414 6112!10414 6112[10414 #1979.FF 10004 6522!10004 6522|3255 6522!3255 6522[#B1D.01 6522 2845 6112!2845 6112|2845 3684!2845 3684[2845 #CCA.01 3255 3274!3255 3274|10004 3274!10004 3274[#28AD.FF 3274 10414 3684"/>
+                    <Edge fillStyle0="6" fillStyle1="38" edges="!10408 3684|10408 6112!10408 6112[10408 6516 10004 6516!10004 6516|3255 6516!3255 6516[2851 6516 2851 6112!2851 6112|2851 3684!2851 3684[2851 3280 3255 3280!3255 3280|10004 3280!10004 3280[10408 3280 10408 3684"/>
+                    <Edge fillStyle0="38" fillStyle1="37" edges="!10402 3684|10402 6112!10402 6112[10402 6510 10004 6510!10004 6510|3255 6510!3255 6510[2857 6510 2857 6112!2857 6112|2857 3684!2857 3684[2857 3286 3255 3286!3255 3286|10004 3286!10004 3286[10402 3286 10402 3684"/>
+                    <Edge fillStyle0="37" fillStyle1="5" edges="!10396 3684|10396 6112!10396 6112[10396 6504 10004 6504!10004 6504|3255 6504!3255 6504[2863 6504 2863 6112!2863 6112|2863 3684!2863 3684[2863 3292 3255 3292!3255 3292|10004 3292!10004 3292[10396 3292 10396 3684"/>
+                    <Edge fillStyle0="5" fillStyle1="36" edges="!10390 3684|10390 6112!10390 6112[10390 6498 10004 6498!10004 6498|3255 6498!3255 6498[2869 6498 2869 6112!2869 6112|2869 3684!2869 3684[2869 3298 3255 3298!3255 3298|10004 3298!10004 3298[10390 3298 10390 3684"/>
+                    <Edge fillStyle0="36" fillStyle1="35" edges="!10384 3684|10384 6112!10384 6112[10384 6492 10004 6492!10004 6492|3255 6492!3255 6492[2875 6492 2875 6112!2875 6112|2875 3684!2875 3684[2875 3304 3255 3304!3255 3304|10004 3304!10004 3304[10384 3304 10384 3684"/>
+                    <Edge fillStyle0="35" fillStyle1="34" edges="!10378 3684|10378 6112!10378 6112[10378 6486 10004 6486!10004 6486|3255 6486!3255 6486[2881 6486 2881 6112!2881 6112|2881 3684!2881 3684[2881 3310 3255 3310!3255 3310|10004 3310!10004 3310[10378 3310 10378 3684"/>
+                    <Edge fillStyle0="34" fillStyle1="33" edges="!10372 3684|10372 6112!10372 6112[10372 6480 10004 6480!10004 6480|3255 6480!3255 6480[2887 6480 2887 6112!2887 6112|2887 3684!2887 3684[2887 3316 3255 3316!3255 3316|10004 3316!10004 3316[10372 3316 10372 3684"/>
+                    <Edge fillStyle0="33" fillStyle1="32" edges="!10366 3684|10366 6112!10366 6112[10366 6474 10004 6474!10004 6474|3255 6474!3255 6474[2893 6474 2893 6112!2893 6112|2893 3684!2893 3684[2893 3322 3255 3322!3255 3322|10004 3322!10004 3322[10366 3322 10366 3684"/>
+                    <Edge fillStyle0="32" fillStyle1="31" edges="!10360 3684|10360 6112!10360 6112[10360 #1944.01 10004 6468!10004 6468|3255 6468!3255 6468[#B52.FF 6468 2899 6112!2899 6112|2899 3684!2899 3684[2899 #CFF.FF 3255 3328!3255 3328|10004 3328!10004 3328[#2878.01 3328 10360 3684"/>
+                    <Edge fillStyle0="31" fillStyle1="30" edges="!10354 3684|10354 6112!10354 6112[10354 6462 10004 6462!10004 6462|3255 6462!3255 6462[2905 6462 2905 6112!2905 6112|2905 3684!2905 3684[2905 3334 3255 3334!3255 3334|10004 3334!10004 3334[10354 3334 10354 3684"/>
+                    <Edge fillStyle0="30" fillStyle1="29" edges="!10348 3684|10348 6112!10348 6112[10348 6456 10004 6456!10004 6456|3255 6456!3255 6456[2911 6456 2911 6112!2911 6112|2911 3684!2911 3684[2911 3340 3255 3340!3255 3340|10004 3340!10004 3340[10348 3340 10348 3684"/>
+                    <Edge fillStyle0="29" fillStyle1="28" edges="!10342 3684|10342 6112!10342 6112[10342 6450 10004 6450!10004 6450|3255 6450!3255 6450[2917 6450 2917 6112!2917 6112|2917 3684!2917 3684[2917 3346 3255 3346!3255 3346|10004 3346!10004 3346[10342 3346 10342 3684"/>
+                    <Edge fillStyle0="28" fillStyle1="27" edges="!10336 3684|10336 6112!10336 6112[10336 6444 10004 6444!10004 6444|3255 6444!3255 6444[2923 6444 2923 6112!2923 6112|2923 3684!2923 3684[2923 3352 3255 3352!3255 3352|10004 3352!10004 3352[10336 3352 10336 3684"/>
+                    <Edge fillStyle0="27" fillStyle1="26" edges="!10330 3684|10330 6112!10330 6112[10330 #1925.FF 10004 6438!10004 6438|3255 6438!3255 6438[#B71.01 6438 2929 6112!2929 6112|2929 3684!2929 3684[2929 #D1E.01 3255 3358!3255 3358|10004 3358!10004 3358[#2859.FF 3358 10330 3684"/>
+                    <Edge fillStyle0="26" fillStyle1="25" edges="!10324 3684|10324 6112!10324 6112[10324 6432 10004 6432!10004 6432|3255 6432!3255 6432[2935 6432 2935 6112!2935 6112|2935 3684!2935 3684[2935 3364 3255 3364!3255 3364|10004 3364!10004 3364[10324 3364 10324 3684"/>
+                    <Edge fillStyle0="25" fillStyle1="24" edges="!10318 3684|10318 6112!10318 6112[10318 6426 10004 6426!10004 6426|3255 6426!3255 6426[2941 6426 2941 6112!2941 6112|2941 3684!2941 3684[2941 3370 3255 3370!3255 3370|10004 3370!10004 3370[10318 3370 10318 3684"/>
+                    <Edge fillStyle0="24" fillStyle1="1" edges="!10312 3684|10312 6112!10312 6112[10312 6420 10004 6420!10004 6420|3255 6420!3255 6420[2947 6420 2947 6112!2947 6112|2947 3684!2947 3684[2947 3376 3255 3376!3255 3376|10004 3376!10004 3376[10312 3376 10312 3684"/>
+                    <Edge fillStyle0="1" fillStyle1="23" edges="!10306 3684|10306 6112!10306 6112[10306 #190E.01 10004 6414!10004 6414|3255 6414!3255 6414[2953 6414 2953 6112!2953 6112|2953 3684!2953 3684[2953 3382 3255 3382!3255 3382|10004 3382!10004 3382[#2842.01 3382 10306 3684"/>
+                    <Edge fillStyle0="23" fillStyle1="22" edges="!10300 3684|10300 6112!10300 6112[10300 6408 10004 6408!10004 6408|3255 6408!3255 6408[2959 6408 2959 6112!2959 6112|2959 3684!2959 3684[2959 3388 3255 3388!3255 3388|10004 3388!10004 3388[10300 3388 10300 3684"/>
+                    <Edge fillStyle0="22" fillStyle1="2" edges="!10294 3684|10294 6112!10294 6112[10294 6402 10004 6402!10004 6402|3255 6402!3255 6402[2965 6402 2965 6112!2965 6112|2965 3684!2965 3684[2965 3394 3255 3394!3255 3394|10004 3394!10004 3394[10294 3394 10294 3684"/>
+                    <Edge fillStyle0="2" fillStyle1="21" edges="!10288 3684|10288 6112!10288 6112[10288 6396 10004 6396!10004 6396|3255 6396!3255 6396[2971 6396 2971 6112!2971 6112|2971 3684!2971 3684[2971 3400 3255 3400!3255 3400|10004 3400!10004 3400[10288 3400 10288 3684"/>
+                    <Edge fillStyle0="21" fillStyle1="20" edges="!10282 3684|10282 6112!10282 6112[10282 6390 10004 6390!10004 6390|3255 6390!3255 6390[2977 6390 2977 6112!2977 6112|2977 3684!2977 3684[2977 3406 3255 3406!3255 3406|10004 3406!10004 3406[10282 3406 10282 3684"/>
+                    <Edge fillStyle0="20" fillStyle1="19" edges="!10276 3684|10276 6112!10276 6112[10276 6384 10004 6384!10004 6384|3255 6384!3255 6384[2983 6384 2983 6112!2983 6112|2983 3684!2983 3684[2983 3412 3255 3412!3255 3412|10004 3412!10004 3412[10276 3412 10276 3684"/>
+                    <Edge fillStyle0="19" fillStyle1="18" edges="!10270 3684|10270 6112!10270 6112[10270 6378 10004 6378!10004 6378|3255 6378!3255 6378[2989 6378 2989 6112!2989 6112|2989 3684!2989 3684[2989 3418 3255 3418!3255 3418|10004 3418!10004 3418[10270 3418 10270 3684"/>
+                    <Edge fillStyle0="18" fillStyle1="17" edges="!10264 3684|10264 6112!10264 6112[10264 6372 10004 6372!10004 6372|3255 6372!3255 6372[2995 6372 2995 6112!2995 6112|2995 3684!2995 3684[2995 3424 3255 3424!3255 3424|10004 3424!10004 3424[10264 3424 10264 3684"/>
+                    <Edge fillStyle0="17" fillStyle1="16" edges="!10258 3684|10258 6112!10258 6112[10258 6366 10004 6366!10004 6366|3255 6366!3255 6366[3001 6366 3001 6112!3001 6112|3001 3684!3001 3684[3001 3430 3255 3430!3255 3430|10004 3430!10004 3430[10258 3430 10258 3684"/>
+                    <Edge fillStyle0="16" fillStyle1="15" edges="!10252 3684|10252 6112!10252 6112[10252 6360 10004 6360!10004 6360|3255 6360!3255 6360[3007 6360 3007 6112!3007 6112|3007 3684!3007 3684[3007 3436 3255 3436!3255 3436|10004 3436!10004 3436[10252 3436 10252 3684"/>
+                    <Edge fillStyle0="15" fillStyle1="14" edges="!10246 3684|10246 6112!10246 6112[10246 6354 10004 6354!10004 6354|3255 6354!3255 6354[3013 6354 3013 6112!3013 6112|3013 3684!3013 3684[3013 3442 3255 3442!3255 3442|10004 3442!10004 3442[10246 3442 10246 3684"/>
+                    <Edge fillStyle0="14" fillStyle1="13" edges="!10240 3684|10240 6112!10240 6112[10240 6348 10004 6348!10004 6348|3255 6348!3255 6348[3019 6348 3019 6112!3019 6112|3019 3684!3019 3684[3019 3448 3255 3448!3255 3448|10004 3448!10004 3448[10240 3448 10240 3684"/>
+                    <Edge fillStyle0="13" fillStyle1="3" edges="!10234 3684|10234 6112!10234 6112[10234 6342 10004 6342!10004 6342|3255 6342!3255 6342[3025 6342 3025 6112!3025 6112|3025 3684!3025 3684[3025 3454 3255 3454!3255 3454|10004 3454!10004 3454[10234 3454 10234 3684"/>
+                    <Edge fillStyle0="3" fillStyle1="12" edges="!10228 3684|10228 6112!10228 6112[10228 6336 10004 6336!10004 6336|3255 6336!3255 6336[3031 6336 3031 6112!3031 6112|3031 3684!3031 3684[3031 3460 3255 3460!3255 3460|10004 3460!10004 3460[10228 3460 10228 3684"/>
+                    <Edge fillStyle0="12" fillStyle1="11" edges="!10222 3684|10222 6112!10222 6112[10222 #18BA.01 10004 6330!10004 6330|3255 6330!3255 6330[#BDC.FF 6330 3037 6112!3037 6112|3037 3684!3037 3684[3037 #D89.FF 3255 3466!3255 3466|10004 3466!10004 3466[#27EE.01 3466 10222 3684"/>
+                    <Edge fillStyle0="11" fillStyle1="4" edges="!10216 3684|10216 6112!10216 6112[10216 6324 10004 6324!10004 6324|3255 6324!3255 6324[3043 6324 3043 6112!3043 6112|3043 3684!3043 3684[3043 3472 3255 3472!3255 3472|10004 3472!10004 3472[10216 3472 10216 3684"/>
+                    <Edge fillStyle0="4" fillStyle1="10" edges="!10210 3684|10210 6112!10210 6112[10210 6318 10004 6318!10004 6318|3255 6318!3255 6318[3049 6318 3049 6112!3049 6112|3049 3684!3049 3684[3049 3478 3255 3478!3255 3478|10004 3478!10004 3478[10210 3478 10210 3684"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <transformationPoint>
+                    <Point x="150" y="70"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#EDEDED"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!5832 0|168 0!168 0[0 0 0 198!0 198|0 2602!0 2602[0 2800 168 2800!168 2800|5832 2800!5832 2800[6000 2800 6000 2602!6000 2602|6000 198!6000 198[6000 0 5832 0"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText fontRenderingMode="standard" width="238" height="50.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="31" ty="23.65"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>You have a previously saved session. </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" size="14" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Would you like to continue or start the</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" letterSpacing="-0.2" size="14" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> module from the beginning?</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" size="14" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="_assets/btn_long" name="btn_long" symbolType="button">
+                  <matrix>
+                    <Matrix tx="43.3" ty="93.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" width="56" height="14" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="66.1" ty="98.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Continue</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" size="14" face="Arial Baltic"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="_assets/btn_long" symbolType="button">
+                  <matrix>
+                    <Matrix tx="154.8" ty="93.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" width="61.4" height="14" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="174.9" ty="98.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Start New</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" size="14" face="Arial Baltic"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

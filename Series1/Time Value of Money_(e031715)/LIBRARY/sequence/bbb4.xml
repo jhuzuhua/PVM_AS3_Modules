@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="sequence/bbb4" itemID="5273649a-00000345" sourceFlashFilepath="../../../../julietacastanos/Desktop/Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="sequence/bbb4" sourceLastModified="1383294106" lastModified="1383294106" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="bbb4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!800 61S2[818 70 829 90!829 90[840 108 840 132!840 132[840 160 822 179!822 179[803 197 764 201!764 201[778 208 785 216!785 216[801 231 816 255!816 255|863 332!863 332|817 329!817 329|781 270!781 270[765 244 756 230!756 230[743 215 736
+ 210!736 210[727 204 719 202!719 202[712 199 698 199!698 199|656 197!656 197|656 319!656 319|619 317!619 317|619 40!619 40|742 50!742 50[779 52 800 61!744 80|656 73!656 73|656 165!656 165|735 170!735 170[760 171 775 168!775 168[788 164
+ 796 153!796 153[803 142 803 129!803 129[803 109 790 96!790 96[775 81 744 80!585 38|472 190!472 190|472 308!472 308|434 306!434 306|434 188!434 188|324 18!324 18|370 22!370 22|427 111!427 111[441 135 456 159!456 159[469 138 487 112!487
+ 112|542 35!542 35|585 38!170 27[194 52 196 86!196 86[194 102 188 119!188 119[181 134 165 152!165 152[146 168 108 198!108 198[76 222 67 231!67 231[57 239 51 248!51 248|196 258!196 258|196 291!196 291|0 279!0 279[0 266 4 255!4 255[11 235
+ 28 219!28 219[45 201 76 178!76 178[124 143 140 123!140 123[158 102 159 82!159 82[159 61 143 47!143 47[127 31 103 29!103 29[76 27 60 41!60 41[44 55 45 83!45 83|8 76!8 76[10 35 37 16!37 16[61 -3 104 1!104 1[146 4 170 27"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

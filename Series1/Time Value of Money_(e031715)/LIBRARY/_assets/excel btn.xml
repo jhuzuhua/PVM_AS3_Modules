@@ -1,0 +1,254 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/excel btn" itemID="48371143-00000c5b" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/excel btn" sourceLastModified="1373268190" symbolType="button" lastModified="1373268190" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="excel btn">
+      <layers>
+        <DOMLayer name="Layer 8" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_gfx/work with excel">
+                  <matrix>
+                    <Matrix tx="-1.75" ty="-20.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_gfx/work with excel">
+                  <matrix>
+                    <Matrix tx="-1.75" ty="-20.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_gfx/excelsheet" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.58917236328125" d="1.58917236328125" tx="-9.05" ty="-9.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.80078125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                        <FillStyle index="2">
+                          <SolidColor color="#3B7D3D"/>
+                        </FillStyle>
+                        <FillStyle index="3">
+                          <SolidColor color="#79BA7A"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="!-129 -84|-148 -69!-148 -69|-149 -42!-149 -42|-114 -42!-114 -42|-105 -60"/>
+                        <Edge fillStyle0="3" fillStyle1="1" edges="!-146 -122|-149 -103!-149 -103|-129 -84"/>
+                        <Edge fillStyle0="1" fillStyle1="2" edges="!-146 -122|-146 -123!-146 -123|-122 -123!-122 -123|-103 -103!-103 -103|-71 -128!-71 -128|-57 -122!-57 -122|-59 -114!-59 -114|-59 -106!-59 -106|-86 -85!-86 -85|-78 -77!-78 -77|-60 -79!-60 -79|-59 -74!-59 -74|-67 -66!-67 -66|-57 -57!-57
+ -57|-59 -57!-59 -57|-59 -55!-59 -55|-65 -39!-65 -39|-70 -39!-70 -39|-73 -37!-73 -37|-78 -37"/>
+                        <Edge fillStyle0="2" fillStyle1="3" edges="
+!-105 -60|-129 -84"/>
+                        <Edge fillStyle0="3" fillStyle1="1" edges="
+!-105 -60|-81 -37!-81 -37|-78 -37"/>
+                        <Edge fillStyle0="3" fillStyle1="2" edges="
+!-78 -37|-75 -52!-75 -52|-146 -122"/>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="
+!-165 -141|-43 -141!-43 -141|-43 -17!-43 -17|-165 -17!-165 -17|-165 -141"/>
+                        <Edge fillStyle1="2" edges="
+!-181 -1|-181 -157!-181 -157|-27 -157!-27 -157|-27 -1!-27 -1|-181 -1"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_gfx/excelsheet" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.58917236328125" d="1.58917236328125" tx="-9.05" ty="-9.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.69921875"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                        <FillStyle index="2">
+                          <SolidColor color="#3B7D3D"/>
+                        </FillStyle>
+                        <FillStyle index="3">
+                          <SolidColor color="#79BA7A"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" fillStyle1="3" edges="
+!-129 -84|-149 -103!-149 -103|-146 -122"/>
+                        <Edge fillStyle0="1" fillStyle1="2" edges="
+!-105 -60|-114 -42!-114 -42|-149 -42!-149 -42|-148 -69!-148 -69|-129 -84!-146 -122|-146 -123!-146 -123|-122 -123!-122 -123|-103 -103!-103 -103|-71 -128!-71 -128|-57 -122!-57 -122|-59 -114!-59 -114|-59 -106!-59 -106|-86 -85!-86 -85|-78
+ -77!-78 -77|-60 -79!-60 -79|-59 -74!-59 -74|-67 -66!-67 -66|-57 -57!-57 -57|-59 -57!-59 -57|-59 -55!-59 -55|-65 -39!-65 -39|-70 -39!-70 -39|-73 -37!-73 -37|-78 -37"/>
+                        <Edge fillStyle0="2" fillStyle1="3" edges="
+!-105 -60|-129 -84!-146 -122|-75 -52!-75 -52|-78 -37"/>
+                        <Edge fillStyle0="1" fillStyle1="3" edges="
+!-78 -37|-81 -37!-81 -37|-105 -60"/>
+                        <Edge fillStyle0="2" fillStyle1="1" edges="
+!-165 -141|-43 -141!-43 -141|-43 -17!-43 -17|-165 -17!-165 -17|-165 -141"/>
+                        <Edge fillStyle1="2" edges="
+!-181 -1|-181 -157!-181 -157|-27 -157!-27 -157|-27 -1!-27 -1|-181 -1"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_gfx/excelsheet" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.43023681640625" d="1.43023681640625" tx="-8.15" ty="-8.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#79BA7A"/>
+                        </FillStyle>
+                        <FillStyle index="2">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                        <FillStyle index="3">
+                          <SolidColor color="#3B7D3D"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" fillStyle1="2" edges="
+!-132 -111|-134 -94!-134 -94|-116 -77"/>
+                        <Edge fillStyle0="2" fillStyle1="3" edges="
+!-94 -56|-103 -40!-103 -40|-134 -40!-134 -40|-133 -64!-133 -64|-116 -77"/>
+                        <Edge fillStyle0="3" fillStyle1="2" edges="
+!-70 -36|-66 -36!-66 -36|-63 -37!-63 -37|-59 -37!-59 -37|-53 -51!-53 -51|-53 -53!-53 -53|-51 -53!-51 -53|-60 -61!-60 -61|-53 -69!-53 -69|-54 -73!-54 -73|-70 -71!-70 -71|-77 -79!-77 -79|-53 -97!-53 -97|-53 -104!-53 -104|-51 -111!-51 -111
+|-64 -117!-64 -117|-93 -94!-93 -94|-110 -113!-110 -113|-132 -113!-132 -113|-132 -111"/>
+                        <Edge fillStyle0="1" fillStyle1="2" edges="
+!-94 -56|-73 -36!-73 -36|-70 -36"/>
+                        <Edge fillStyle0="1" fillStyle1="3" edges="
+!-70 -36|-67 -49!-67 -49|-132 -111"/>
+                        <Edge fillStyle0="3" fillStyle1="2" edges="
+!-149 -129|-39 -129!-39 -129|-39 -17!-39 -17|-149 -17!-149 -17|-149 -129"/>
+                        <Edge fillStyle1="3" edges="
+!-163 -3|-163 -143!-163 -143|-24 -143!-24 -143|-24 -3!-24 -3|-163 -3"/>
+                        <Edge fillStyle0="1" fillStyle1="3" edges="
+!-116 -77|-94 -56"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" motionTweenScale="false" keyMode="8192">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bg" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="excel btn blink">
+                  <matrix>
+                    <Matrix tx="-13" ty="-14"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.15" y="12.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="btn_bg copy" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-11.65" ty="-12.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.65" y="10.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color brightness="0.07"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="btn_bg copy" symbolType="graphic" firstFrame="1" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-11.65" ty="-12.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.65" y="10.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color brightness="0.07"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

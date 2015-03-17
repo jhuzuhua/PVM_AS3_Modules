@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Component Assets/RadioButtonSkins/RadioButton_upIcon" itemID="44b1a5bf-00000134" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="RadioButton_upIcon" lastModified="1426213006">
+  <timeline>
+    <DOMTimeline name="RadioButton_upIcon">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.0135955810546875" d="0.0135955810546875" tx="5.95" ty="3.6"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#333333" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!239 41[280 82 280 140!280 140[280 198 239 239!239 239[198 280 140 280!140 280[82 280 41 239!41 239[0 198 0 140!0 140[0 82 41 41!41 41[82 0 140 0!140 0[198 0 239 41"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

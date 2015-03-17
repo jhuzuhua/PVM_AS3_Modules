@@ -1,0 +1,104 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426555641" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="sprite 76">
+      <layers>
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[import flash.events.MouseEvent;
+import flash.display.MovieClip;
+
+var lockMenu =false;
+
+this.addEventListener(MouseEvent.MOUSE_DOWN, onRelease);
+
+function onRelease(event:MouseEvent):void
+{
+    if(lockMenu == false)
+    {
+	/*
+		MovieClip(root).menucontrol.visible = true;*/
+		//MovieClip(parent).lockCheck.visible = false;
+	lockMenu = false;
+		trace(lockMenu);
+
+		//trace("lock false"+MovieClip(parent).lockCheck.visible);
+    }
+    else 
+    {
+
+	//MovieClip(parent).lockCheck.visible = true;
+		lockMenu = true;
+		trace(lockMenu);
+		//trace("lock true"+MovieClip(parent).lockCheck.visible);
+    } // end else if
+
+MovieClip(root).mymenu.CheckStat();
+};
+   
+
+
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FFFF00" locked="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/100x100">
+                  <matrix>
+                    <Matrix a="1.27442932128906" d="0.1199951171875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMDynamicText fontRenderingMode="standard" width="66.5" height="8.95" isSelectable="false" scrollable="true">
+                  <matrix>
+                    <Matrix tx="14.05" ty="2.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>LOCK MENU BAR&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="0" size="8" bitmapSize="160" face="ArialMT" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/shape 73" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
