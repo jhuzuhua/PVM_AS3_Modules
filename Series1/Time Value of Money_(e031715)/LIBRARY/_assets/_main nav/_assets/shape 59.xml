@@ -29,7 +29,7 @@
                   </strokes>
                   <edges>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!4 4350S6|204 4455!204 5144|4 5250"/>
-                    <Edge fillStyle1="1" edges="!204 4455S2|204 5144!4 5250|4 4350"/>
+                    <Edge fillStyle1="1" edges="!4 5250S2|4 4350!204 4455|204 5144"/>
                   </edges>
                 </DOMShape>
               </elements>
