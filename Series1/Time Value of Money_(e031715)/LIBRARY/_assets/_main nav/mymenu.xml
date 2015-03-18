@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426587252" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426656756" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="mymenu">
       <layers>
@@ -62,16 +62,12 @@ this.myrolloutcolor = 0xFFFFFF;
 this.myhovercolor = 0xFFCC00;
 this.mypresscolor = this.myrolloutcolor;
 
-
-var menustatus;
-var menuVisible; 
-
-	
-//display
+var menustatus ;
+var menuVisible ; 
 
 function initz(){
 	//true
-	if (menustatus && menuVisible) {
+	if (menustatus && menuVisible ) {
 		lockCheck.visible = true;
 		this.visible = true;
 		x = 0;
@@ -87,7 +83,55 @@ function initz(){
 }
 
 initz();
+
 //slide menu 
+
+
+var i:int = 1;
+
+while (i<=menu_names.length) {
+	this["b"+i].butt.enabled = true;
+	this["b"+i].tf.textColor = this.myrolloutcolor;
+	this["b"+i].tf.text = menu_names[i];
+this["b"+i].butt.addEventListener(MouseEvent.CLICK,jumptopage(this["b"+i].targetLabel));
+
+
+function jumptopage(targetLabel:String):Function{
+return function (event:MouseEvent):void{
+MovieClip(root).gotoAndPlay(targetLabel);
+	if(targetLabel == targetLabel){
+	this["b"+i].butt.enabled = false
+	}
+	
+
+
+}; 
+};	
+
+ ++i;
+
+
+}// end while
+
+
+var j:int = 0;
+while (j<=this.disabledcontainer.length) {
+	trace(this.disabledcontainer.length);
+	this["b"+this.disabledcontainer[j]].butt.enabled = false;
+	this["b"+this.disabledcontainer[j]].tf.textColor = this.myhovercolor;
+	++j;	
+
+}// end while
+
+
+//lock
+
+
+	
+
+//display
+
+
 
 function slideMenu(val,bol){
 this.addEventListener(Event.ENTER_FRAME,Enter);
@@ -139,7 +183,9 @@ if (menustatus) {
 
 function CheckStat(){
 	//true
-	var lockMenu;
+	var lockMenu = true;
+
+	
 	if (lockMenu) {
 		lockCheck.visible = true;
 		//stage.removeEventListener(MouseEvent.MOUSE_MOVE,MouseMove);
@@ -148,8 +194,9 @@ function CheckStat(){
 	trace("true:CheckStat"+" "+x);
 		trace(lockCheck.visible);
 		}
-else {
+//else {
 //false
+	/*if(lockMenu == false){
 lockCheck.visible = false;
 stage.addEventListener(MouseEvent.MOUSE_MOVE, MouseMove);
 function MouseMove(event:MouseEvent){		
@@ -159,54 +206,12 @@ function MouseMove(event:MouseEvent){
 	trace("false:CheckStat"+" "+x);
 	trace(lockCheck.visible);
 			
-		};
+		};*/
 								  	
-	}// end else if
+	//}// end else if
 }// End of the function
 
 CheckStat();
-
-var i:int = 1;
-
-while (i<=menu_names.length) {
-	this["b"+i].butt.enabled = true;
-	this["b"+i].tf.textColor = this.myrolloutcolor;
-	this["b"+i].tf.text = menu_names[i];
-this["b"+i].butt.addEventListener(MouseEvent.CLICK,jumptopage(this["b"+i].targetLabel));
-
-
-function jumptopage(targetLabel:String):Function{
-return function (event:MouseEvent):void{
-MovieClip(root).gotoAndPlay(targetLabel);
-	if(targetLabel == targetLabel){
-	this["b"+i].butt.enabled = false
-	}
-	
-
-
-}; 
-};	
-
- ++i;
-
-
-}// end while
-
-
-var j:int = 0;
-while (j<=this.disabledcontainer.length) {
-	trace(this.disabledcontainer.length);
-	this["b"+this.disabledcontainer[j]].butt.enabled = false;
-	this["b"+this.disabledcontainer[j]].tf.textColor = this.myhovercolor;
-	++j;	
-
-}// end while
-
-
-//lock
-
-
-
 
 
 
