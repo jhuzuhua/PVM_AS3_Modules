@@ -1,8 +1,8 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/custom scrollbar3 table" itemID="4bc56e66-00000b8e" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="_assets/custom scrollbar3 table" sourceLastModified="1426660441" lastModified="1426660441" sourceItemID="00000000-ffffffff" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/custom scrollbar3 table" itemID="4bc56e66-00000b8e" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/custom scrollbar3 table" sourceLastModified="1377225791" lastModified="1425452110" sourceItemID="00000000-ffffffff" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="custom scrollbar3 table">
       <layers>
-        <DOMLayer name="Layer 2" color="#FF4F4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 2" color="#FF4F4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -12,7 +12,7 @@ var B:Number= this.y;//bottom
 var R:Number= MovieClip(parent).track.width-this.width;//right
 
 this.addEventListener(MouseEvent.MOUSE_DOWN, onPress);
-stage.addEventListener(MouseEvent.MOUSE_UP, onReleaser);
+this.addEventListener(MouseEvent.MOUSE_UP, onRelease);
 this.addEventListener(Event.ENTER_FRAME, onEnterFrame);
 
 
@@ -25,25 +25,25 @@ function onPress(event:MouseEvent) :void
 };
 
 
-function onReleaser(event:MouseEvent):void
+function onRelease(event:MouseEvent):void
 {
 	
 	stopDrag();
-	stage.removeEventListener(MouseEvent.MOUSE_DOWN, onPress);
 	MovieClip(root).gotoAndStop('je4');
-	
 };
 
     	
 var onReleaseOutside = this.roller1;
 function onEnterFrame(e:Event):void
 {
-	this.kittong = Math.round((x-this.parent[this.targ2].x)/((this.parent[this.targ2].width-this.width)/(this.myframes-1)))+1;
-	this.parent[this.targ].gotoAndStop(this.kittong);
+this.kittong = Math.round((x-this.parent[this.targ2].x)/((this.parent[this.targ2].width-this.width)/(this.myframes-1)))+1;
+		this.parent[this.targ].gotoAndStop(this.kittong);
 	this.parent[this.targ].theYield = this.kittong;
+	/*this.parent[this.targ].doCompute();
+	*/
 	
-	trace("this.kitting = " + this.kittong);
-	this.parent[this.targ].doCompute();
+	
+	
 };
 
 ]]></script>
@@ -52,7 +52,7 @@ function onEnterFrame(e:Event):void
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4F80FF">
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

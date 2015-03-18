@@ -57,9 +57,9 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle0="1" edges="!48 900|48 949!48 949|2148 949!2148 949|2148 49!2148 49|2101 49!2101 49|2101 894!2101 894|2100 894"/>
                     <Edge fillStyle0="2" strokeStyle="1" edges="!2100 894|2100 0!2100 0|0 0!0 0|0 900!0 900|48 900"/>
                     <Edge fillStyle0="2" fillStyle1="1" strokeStyle="1" edges="!48 900|2100 900!2100 900|2100 894"/>
+                    <Edge fillStyle0="1" edges="!48 900|48 949!48 949|2148 949!2148 949|2148 49!2148 49|2101 49!2101 49|2101 894!2101 894|2100 894"/>
                   </edges>
                 </DOMShape>
               </elements>

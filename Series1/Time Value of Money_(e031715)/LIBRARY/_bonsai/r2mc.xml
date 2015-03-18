@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_bonsai/r2mc" itemID="4bc56c9e-0000096a" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="_bonsai/r2mc" sourceLastModified="1426654186" lastModified="1426654186" lastUniqueIdentifier="3" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_bonsai/r2mc" itemID="4bc56c9e-0000096a" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_bonsai/r2mc" sourceLastModified="1377224359" lastModified="1377224359" lastUniqueIdentifier="3" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="r2mc" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;-17&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -50,7 +50,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="m31mc_table 2" name="table" selected="true" centerPoint3DX="248.35" centerPoint3DY="167.75">
+                <DOMSymbolInstance libraryItemName="m31mc_table 2" name="table" centerPoint3DX="248.35" centerPoint3DY="167.75">
                   <matrix>
                     <Matrix a="1.00030517578125" tx="85" ty="39.7"/>
                   </matrix>
@@ -66,7 +66,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMComponentInstance libraryItemName="_assets/custom scrollbar3 table" name="Component518" cacheAsBitmap="true" tabIndex="1" hasAccessibleData="true" centerPoint3DX="306.4" centerPoint3DY="117.6" uniqueID="3">
+                <DOMComponentInstance libraryItemName="_assets/custom scrollbar3 table" centerPoint3DX="306.4" centerPoint3DY="117.6" uniqueID="3">
                   <matrix>
                     <Matrix tx="293.35" ty="106.05"/>
                   </matrix>

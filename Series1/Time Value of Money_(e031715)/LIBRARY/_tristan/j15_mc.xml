@@ -970,7 +970,7 @@ function r4(event:MouseEvent){
                   </strokes>
                   <edges>
                     <Edge strokeStyle="1" edges="
-!3588 1751|3371 1751!3371 1751|3371 3725!2354 1751|1337 1751!1337 1751|1337 3725!2354 3725|2354 1751!3371 1751|2354 1751"/>
+!3588 1751|3371 1751!3371 1751|3371 3725!2354 3725|2354 1751!2354 1751|1337 1751!1337 1751|1337 3725!3371 1751|2354 1751"/>
                   </edges>
                 </DOMShape>
                 <DOMStaticText fontRenderingMode="standard" width="27.9" height="11.15" autoExpand="true" isSelectable="false">
