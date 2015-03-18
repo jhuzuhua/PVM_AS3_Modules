@@ -1,0 +1,170 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="m31mc_table 2" itemID="4725bf7e-00000408" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="m31mc_table 2" sourceLastModified="1426666201" lastModified="1426669794" lastUniqueIdentifier="11" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="m31mc_table 2">
+      <layers>
+        <DOMLayer name="Layer 10" color="#FF4F4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[import flash.display.MovieClip;
+import flash.text.TextField;
+
+////////////////////////////////////////
+///         CUSTOM METHOD            ///
+////////////////////////////////////////
+
+
+var zeroToAdd;
+var theYield;
+var tempval: Number;
+var tempval2: String;
+var deciLength: Array;
+var yield;
+
+function roundME(number: Number, dplaces: int) {
+	trace("here");
+	var places = Math.pow(10, dplaces);
+	tempval = Math.round(number*places)/places;
+	tempval2 = String(tempval);
+	deciLength = tempval2.split(".");
+	zeroToAdd = Number(deciLength[1].length)-dplaces;
+	zeroToAdd = Math.abs(zeroToAdd);
+	for (var addZero = 0; addZero<zeroToAdd; addZero++) {
+		deciLength[1] += "0";
+		trace(deciLength[1]);
+	}
+
+	trace("rounded to " + deciLength[0]+"."+deciLength[1]);
+	return deciLength[0]+"."+deciLength[1];
+}
+
+
+//joshua
+function round2(num:Number, decimals:int):Number
+{
+    var m:int = Math.pow(10, decimals);
+    return Math.round(num * m) / m;
+}
+
+
+
+////////////////////////////////////////
+///      RESTRICT INPUT FIELDS       ///
+////////////////////////////////////////
+//this.yield.restrict = "0-9.";
+////////////////////////////////////////
+/// TABBING USING ENTER AND TAB KEYS ///
+////////////////////////////////////////
+//this.focus = ["yield"];
+////////////////////////////////////////
+///      CALCULATION FUNCTIONS       ///
+////////////////////////////////////////
+
+////////////////////////////////////////
+
+var ctr = 1;
+var myYear;
+function for_in() {
+	
+	myYear = 100*(Math.pow((1+(Number(theYield)/100)), ctr));
+	
+	trace("myYear value = " + (myYear));
+	//this["year"+ctr] = roundME(myYear,2);
+	this["year"+ctr] = round2(myYear, 2);
+	
+	trace("year " + ctr + " = "+ this["year"+ctr]);
+	
+	//assign value to year input fields
+	//var input: TextField = this["yearsFV_mc"].getChildByName("year1") as TextField;
+	var mc1: MovieClip = this["fv_values_mc"] as MovieClip;
+	var tf: TextField = mc1.getChildByName("year"+ctr) as TextField;
+	tf.text = Number(this["year"+ctr]).toFixed(2);
+	
+	var mc: MovieClip = this["graph"].getChildByName("graphlines");
+	mc.redraw();
+	
+	if (ctr<=10) {
+		ctr++;
+		for_in();
+	}
+	
+}
+
+function doCompute() {
+	//theYield = yield.text;
+	
+	if (Number(theYield)<0) {
+		theYield = 0;
+	} else if (Number(theYield)>15) {
+		//theYield = 15;
+	} else if (theYield == "" || theYield == null) {
+		theYield = 0;
+	}
+	
+	trace("yield value is = " + theYield);
+	
+	ctr = 1;
+	for_in();
+	
+}
+
+doCompute();
+for_in();
+//Selection.setFocus("yield");
+
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_tristan/MCs/m31mc_data1" name="graph" centerPoint3DX="27.75" centerPoint3DY="79.35">
+                  <matrix>
+                    <Matrix a="1.05003356933594" d="1.0501708984375" tx="-84.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 14" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yearsFV_mc" name="fv_values_mc">
+                  <matrix>
+                    <Matrix tx="89.1" ty="0.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.35" y="88"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 9" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
