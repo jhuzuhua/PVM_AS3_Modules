@@ -1,47 +1,74 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/MCs/m31mc_data2" itemID="4725c055-0000040a" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_tristan/MCs/m31mc_data2" sourceLastModified="1403491510" lastModified="1424946290" lastUniqueIdentifier="30" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/MCs/m31mc_data2" itemID="4725c055-0000040a" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="_tristan/MCs/m31mc_data2" sourceLastModified="1426665173" lastModified="1426665173" lastUniqueIdentifier="30" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="m31mc_data2" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;-301&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="functions" color="#FF4F4F" autoNamed="false">
+        <DOMLayer name="functions" color="#FF4F4F" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[/*import flash.events.Event;
+                <script><![CDATA[import flash.events.Event;
+import flash.events.MouseEvent;
 
+this.addEventListener(Event.ENTER_FRAME, FrameEnter);
+
+var locale = MovieClip(parent.parent);
 
 function redraw() {
 	this.graphics.clear();
- var locale = MovieClip(parent.parent);
-
 	
-	this.addEventListener(Event.ENTER_FRAME, FrameEnter);
-	function FrameEnter(event:Event):void {
-		this.s1.y += (((Number(locale.year1) * -1) + 100) - this.s1.y) / 3;
-		for (var q = 1; q <= 10; q++) {
-			this["s" + (q + 1)].y += (((Number(locale["year" + (q + 1)]) * -1) + 100) - this["s" + (q + 1)].y) / 3;
-
-		}
-		redraw();
-
-	};
-
 	this.graphics.lineStyle(0, 0xFF0000, 100);
 	this.graphics.moveTo(s1.x + .5, s1.y + .5);
-	for (var k = 2; k <= 10; k++) {
-		this.graphics.lineTo(this["s" + k].x + .5, this["s" + k].y + .5);
 	
+	for (var k = 2; k <= 10; k++) {
+		
+		
+		trace(this["s" + k].x + ", " + this["s" + k].y);
+		
+		try {
+			this.graphics.lineTo(this["s" + k].x + .5, this["s" + k].y + .5);
 		}
-	this.updateAfterEvent();
+		
+		catch(error: Error) {
+			trace(error);
+		}
+		
+	}
+	
+	//this.updateAfterEvent();
+	dispatchEvent(new Event ("FrameEnter"));
 }
+
+function FrameEnter(e:Event):void {
+	
+	trace("frame enter");
+	
+	this.s1.y += (((Number(locale.year1) * -1) + 100) - this.s1.y) / 3;
+	
+	for (var q = 1; q <= 10; q++) {
+		
+		try{
+			this["s" + (q + 1)].y += (((Number(locale["year" + (q + 1)]) * -1) + 100) - this["s" + (q + 1)].y) / 3;
+		}
+		
+		catch(error: Error){
+			trace(error);
+		}
+		
+
+	}
+	
+	redraw();
+};
+	
 //this.onMouseMove = redraw;
 redraw();
-*/]]></script>
+]]></script>
               </Actionscript>
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="speed" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="speed" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -159,7 +186,7 @@ redraw();
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="base" color="#4F80FF" locked="true" autoNamed="false">
+        <DOMLayer name="base" color="#4F80FF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

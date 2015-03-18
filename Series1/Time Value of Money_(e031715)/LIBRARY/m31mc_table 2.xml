@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="m31mc_table 2" itemID="4725bf7e-00000408" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="m31mc_table 2" sourceLastModified="1377225751" lastModified="1425633223" lastUniqueIdentifier="10" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="m31mc_table 2" itemID="4725bf7e-00000408" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="m31mc_table 2" sourceLastModified="1426666201" lastModified="1426666439" lastUniqueIdentifier="10" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="m31mc_table 2">
       <layers>
@@ -6,26 +6,43 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
-                <script><![CDATA[////////////////////////////////////////
+                <script><![CDATA[import flash.display.MovieClip;
+
+////////////////////////////////////////
 ///         CUSTOM METHOD            ///
 ////////////////////////////////////////
 
 
 var zeroToAdd;
+var theYield;
+var tempval: Number;
+var tempval2: String;
+var deciLength: Array;
+var yield;
 
-function roundME(number, dplaces) {
+function roundME(number: Number, dplaces: int) {
 	trace("here");
 	var places = Math.pow(10, dplaces);
-	var tempval = Math.round(number*places)/places;
-	var tempval2 = String(tempval);
-	var deciLength = tempval2.split(".");
-	//zeroToAdd = Number(deciLength[1].length)-dplaces;
+	tempval = Math.round(number*places)/places;
+	tempval2 = String(tempval);
+	deciLength = tempval2.split(".");
+	zeroToAdd = Number(deciLength[1].length)-dplaces;
 	zeroToAdd = Math.abs(zeroToAdd);
 	for (var addZero = 0; addZero<zeroToAdd; addZero++) {
 		deciLength[1] += "0";
+		trace(deciLength[1]);
 	}
 
+	trace("rounded to " + deciLength[0]+"."+deciLength[1]);
 	return deciLength[0]+"."+deciLength[1];
+}
+
+
+//joshua
+function round2(num:Number, decimals:int):Number
+{
+    var m:int = Math.pow(10, decimals);
+    return Math.round(num * m) / m;
 }
 
 
@@ -37,7 +54,7 @@ function roundME(number, dplaces) {
 ////////////////////////////////////////
 /// TABBING USING ENTER AND TAB KEYS ///
 ////////////////////////////////////////
-//focus = ["yield"];
+//this.focus = ["yield"];
 ////////////////////////////////////////
 ///      CALCULATION FUNCTIONS       ///
 ////////////////////////////////////////
@@ -48,24 +65,31 @@ var ctr = 1;
 var myYear;
 function for_in() {
 	
-	//var myYear = 100*(Math.pow((1+(Number(theYield)/100)), ctr));
-	this["year"+ctr] = roundME(myYear,2);
+	myYear = 100*(Math.pow((1+(Number(theYield)/100)), ctr));
 	
-	//graph.graphlines.redraw();
+	trace("myYear value = " + myYear);
+	//this["year"+ctr] = roundME(myYear,2);
+	this["year"+ctr] = round2(myYear, 2);
+	
+	trace("year " + ctr + " = "+ this["year"+ctr]);
+	
+	//assign value to year input fields
+	//var input: MovieClip = MovieClip(parent).getChildByName("year"+ctr) as MovieClip;
+	//input.tf.text = myYear;
+	
+	var mc: MovieClip = this["graph"].getChildByName("graphlines");
+	mc.redraw();
+	
 	if (ctr<=10) {
-			
 		ctr++;
 		for_in();
-			
-		
-
 	}
 	
 }
 
-/*
 function doCompute() {
 	//theYield = yield.text;
+	
 	if (Number(theYield)<0) {
 		theYield = 0;
 	} else if (Number(theYield)>15) {
@@ -73,11 +97,15 @@ function doCompute() {
 	} else if (theYield == "" || theYield == null) {
 		theYield = 0;
 	}
-	ctr = 1;
-for_in();
 	
-}*/
-//doCompute();
+	trace("yield value is = " + theYield);
+	
+	ctr = 1;
+	for_in();
+	
+}
+
+doCompute();
 for_in();
 //Selection.setFocus("yield");
 
