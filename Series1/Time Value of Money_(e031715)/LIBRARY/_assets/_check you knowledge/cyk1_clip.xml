@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1_clip" itemID="48293428-00000504" lastModified="1426229599" lastUniqueIdentifier="46">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1_clip" itemID="48293428-00000504" lastModified="1426670185" lastUniqueIdentifier="46">
   <timeline>
-    <DOMTimeline name="cyk1_clip" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;18&lt;/guideline&gt;&lt;guideline direction="h"&gt;94&lt;/guideline&gt;&lt;guideline direction="h"&gt;105&lt;/guideline&gt;&lt;guideline direction="v"&gt;42&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="cyk1_clip" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;18&lt;/guideline&gt;&lt;guideline direction="h"&gt;107&lt;/guideline&gt;&lt;guideline direction="v"&gt;42&lt;/guideline&gt;&lt;guideline direction="h"&gt;57&lt;/guideline&gt;&lt;guideline direction="h"&gt;67&lt;/guideline&gt;&lt;guideline direction="h"&gt;76&lt;/guideline&gt;&lt;guideline direction="h"&gt;87&lt;/guideline&gt;&lt;guideline direction="h"&gt;0&lt;/guideline&gt;&lt;guideline direction="h"&gt;-1&lt;/guideline&gt;&lt;guideline direction="h"&gt;96&lt;/guideline&gt;&lt;guideline direction="h"&gt;91&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00">
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -22,7 +22,7 @@ this["rbut"+MovieClip(root).A2].gotoAndStop(3);
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="buttons" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="buttons" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
@@ -58,7 +58,7 @@ this["rbut"+MovieClip(root).A2].gotoAndStop(3);
                 </DOMComponentInstance>
                 <DOMComponentInstance libraryItemName="CykButton" name="cyk1_b" uniqueID="43">
                   <matrix>
-                    <Matrix d="0.81817626953125" tx="38.25" ty="71.75"/>
+                    <Matrix d="0.81817626953125" tx="38.25" ty="73"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
@@ -88,7 +88,7 @@ this["rbut"+MovieClip(root).A2].gotoAndStop(3);
                 </DOMComponentInstance>
                 <DOMComponentInstance libraryItemName="CykButton" name="cyk1_c" uniqueID="44">
                   <matrix>
-                    <Matrix d="0.81817626953125" tx="38.25" ty="90.95"/>
+                    <Matrix d="0.81817626953125" tx="38.25" ty="92.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
@@ -546,9 +546,9 @@ function onClipEvent(event:Event):void
                     </DOMStaticText>
                   </members>
                 </DOMGroup>
-                <DOMComponentInstance libraryItemName="CykButton" name="cyk2_a" centerPoint3DX="107.1" centerPoint3DY="268.2" uniqueID="45">
+                <DOMComponentInstance libraryItemName="CykButton" name="cyk2_a" centerPoint3DX="107.1" centerPoint3DY="267.7" uniqueID="45">
                   <matrix>
-                    <Matrix a="1.37994384765625" d="0.81817626953125" tx="38.1" ty="259.2"/>
+                    <Matrix a="1.37994384765625" d="0.81817626953125" tx="38.1" ty="258.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
@@ -576,9 +576,9 @@ function onClipEvent(event:Event):void
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="CykButton" name="cyk2_b" centerPoint3DX="107.1" centerPoint3DY="286.2" uniqueID="46">
+                <DOMComponentInstance libraryItemName="CykButton" name="cyk2_b" centerPoint3DX="107.1" centerPoint3DY="287.45" uniqueID="46">
                   <matrix>
-                    <Matrix a="1.3800048828125" d="0.81817626953125" tx="38.1" ty="277.2"/>
+                    <Matrix a="1.3800048828125" d="0.81817626953125" tx="38.1" ty="278.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>

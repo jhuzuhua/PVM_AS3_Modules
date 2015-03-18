@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="cyk4" itemID="518a0317-0000066a" lastModified="1425362437">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="cyk4" itemID="518a0317-0000066a" lastModified="1426674682">
   <timeline>
-    <DOMTimeline name="cyk4" currentFrame="1">
+    <DOMTimeline name="cyk4">
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
+        <DOMLayer name="Action Layer" color="#FFFF00">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
@@ -22,39 +22,67 @@ import flash.events.MouseEvent;
 btnSolution3.addEventListener(MouseEvent.CLICK, displaySolution);
 
 var nocm = 1;
+var disabled: Boolean = false;
 
-function reset (){
+//reset function
+function reset(){
 
-trace("hide");
+	disabled = false;
+	
+	this.gotoAndStop(1);
 
-for (var i = 1; i <= nocm; i++){
-cyk["cm"+i].visible = false;
-}
+	for (var j = 1; j <= nocm; j++){
+		cyk["cm"+j].visible = false;
+	}
+
+	var n:int = this["cyk"].numChildren;
+	
+    for (var i:int=0;i<n;i++){
+		
+        if (this["cyk"].getChildAt(i) is RadioButton){
+				var btn: RadioButton = this["cyk"].getChildAt(i) as RadioButton;
+				btn.enabled = true;
+		}
+    }
 
 }
 
 
 function displaySolution (e: MouseEvent){
 
-trace("show");
-for (var i = 1; i <= nocm; i++){
-cyk["cm"+i].visible = true;
+	trace("show");
+	
+	for (var i = 1; i <= nocm; i++){
+		cyk["cm"+i].visible = true;
+	}
+	
+	disableButton();
+
 }
 
+//disabled button
+function disableButton(){
+	this.gotoAndStop(2);
+	
+	disabled = true;
+	
+	var n:int = this["cyk"].numChildren;
+	
+    for (var i:int=0;i<n;i++)
+    {
+        if (this["cyk"].getChildAt(i) is RadioButton){
+				var btn: RadioButton = this["cyk"].getChildAt(i) as RadioButton;
+				btn.enabled = false;
+		}
+    }
+}
+
+//
+function checkIfDisabled(): Boolean{
+	return disabled;
 }
 
 reset();
-
-import flash.events.MouseEvent;
-
-this.addEventListener(MouseEvent.MOUSE_UP , releaser);
-function releaser(event:MouseEvent):void
-{
-   // _root.play();
-    nextFrame ();
-}
-
-
 stop();]]></script>
               </Actionscript>
               <elements/>
@@ -70,7 +98,7 @@ cyk.sol = 1;
 */
 
 function onClip(){
-var mc:MovieClip =  getChildByName("ImgSol") as MovieClip;
+var mc:MovieClip =  this["disabledBtn4"].getChildByName("ImgSol") as MovieClip;
    mc.gotoAndStop(1);
 }
 
@@ -80,11 +108,11 @@ onClip();]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 19" color="#FFFF00">
+        <DOMLayer name="Layer 19" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="2" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="cyk4_clip" name="cyk" centerPoint3DX="242.65" centerPoint3DY="124.15">
+                <DOMSymbolInstance libraryItemName="cyk4_clip" name="cyk" selected="true" centerPoint3DX="242.65" centerPoint3DY="124.15">
                   <matrix>
                     <Matrix d="0.999862670898438"/>
                   </matrix>
@@ -119,7 +147,7 @@ onClip();]]></script>
             </DOMFrame>
             <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386" name="disabledBtn4">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.999862670898438" tx="322.5" ty="370.6"/>
                   </matrix>

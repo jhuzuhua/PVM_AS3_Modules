@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1_content" itemID="48293496-00000506" lastModified="1426229259" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1_content" itemID="48293496-00000506" lastModified="1426670038" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="cyk1_content" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;262&lt;/guideline&gt;&lt;guideline direction="h"&gt;273&lt;/guideline&gt;&lt;guideline direction="h"&gt;280&lt;/guideline&gt;&lt;guideline direction="h"&gt;291&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -32,7 +32,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText fontRenderingMode="standard" left="0.2" width="418.4" height="52.8" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" left="0.2" width="418.4" height="54.8" isSelectable="false">
                   <matrix>
                     <Matrix tx="61.8" ty="54.8"/>
                   </matrix>
@@ -40,7 +40,7 @@
                     <DOMTextRun>
                       <characters>80.2451&#xD;78.3526&#xD;82.1927</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="3" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="4" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -71,7 +71,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText fontRenderingMode="standard" left="0.2" width="418.4" height="34.2" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" left="0.2" width="418.4" height="35.2" isSelectable="false">
                   <matrix>
                     <Matrix tx="61.8" ty="260"/>
                   </matrix>
@@ -79,25 +79,25 @@
                     <DOMTextRun>
                       <characters>0.8890 = 1/(1.04)</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="3" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="4" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters>3</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="3" size="14" bitmapSize="280" characterPosition="superscript" face="ArialMT" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="4" size="14" bitmapSize="280" characterPosition="superscript" face="ArialMT" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters>&#xD;0.8638 = 1/(1.05)</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="3" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="4" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters>3</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="3" size="14" bitmapSize="280" characterPosition="superscript" face="ArialMT" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="4" size="14" bitmapSize="280" characterPosition="superscript" face="ArialMT" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

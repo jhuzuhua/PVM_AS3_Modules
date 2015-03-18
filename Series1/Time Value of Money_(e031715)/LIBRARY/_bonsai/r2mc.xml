@@ -50,7 +50,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMSymbolInstance libraryItemName="m31mc_table 2" name="table" selected="true" centerPoint3DX="248.35" centerPoint3DY="167.75">
+                <DOMSymbolInstance libraryItemName="m31mc_table 2" name="table" centerPoint3DX="248.35" centerPoint3DY="167.75">
                   <matrix>
                     <Matrix a="1.00030517578125" tx="85" ty="39.7"/>
                   </matrix>

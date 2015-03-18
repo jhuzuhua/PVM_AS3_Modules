@@ -17,7 +17,7 @@
                     <Color tintMultiplier="1" tintColor="#DDDDDD"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
                     <DOMDynamicText name="year4" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
@@ -136,7 +136,7 @@
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText name="year10" selected="true" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year10" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
                         <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="161.85"/>
                       </matrix>

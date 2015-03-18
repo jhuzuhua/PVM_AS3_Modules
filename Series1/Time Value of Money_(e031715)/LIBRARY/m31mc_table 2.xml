@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="m31mc_table 2" itemID="4725bf7e-00000408" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="m31mc_table 2" sourceLastModified="1426666201" lastModified="1426669794" lastUniqueIdentifier="11" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="m31mc_table 2" itemID="4725bf7e-00000408" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="m31mc_table 2" sourceLastModified="1426666201" lastModified="1426674910" lastUniqueIdentifier="11" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="m31mc_table 2">
       <layers>
@@ -83,7 +83,7 @@ function for_in() {
 	var mc: MovieClip = this["graph"].getChildByName("graphlines");
 	mc.redraw();
 	
-	if (ctr<=10) {
+	if (ctr<10) {
 		ctr++;
 		for_in();
 	}

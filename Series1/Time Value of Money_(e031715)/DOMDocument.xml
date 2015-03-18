@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="640" height="480" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" guidesVisible="false" rulerVisible="true" viewAngle3D="62.4108334222141" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="640" height="480" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 14.2 build 20" majorVersion="14" minorVersion="2" buildNumber="20" rulerVisible="true" viewAngle3D="62.4108334222141" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
           <DOMFolderItem name="_assets" itemID="482a4f28-00001b71" isExpanded="true"/>
           <DOMFolderItem name="_assets copy" itemID="4bc7db59-000008ef"/>
@@ -437,20 +437,20 @@
           <Include href="_assets/_check you knowledge/_asset/check.xml" itemIcon="1" loadImmediate="false" itemID="482a49e6-00000cec" lastModified="1425020775"/>
           <Include href="_assets/_check you knowledge/_asset/radio_button_cyk.xml" loadImmediate="false" itemID="482934ef-00000508" lastModified="1210660439"/>
           <Include href="_assets/_check you knowledge/_asset/shape 365 (Down).xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000016d" lastModified="1210602324"/>
-          <Include href="_assets/_check you knowledge/_asset/sprite 367 (Up Over).xml" loadImmediate="false" itemID="48285354-0000016f" lastModified="1426568455"/>
+          <Include href="_assets/_check you knowledge/_asset/sprite 367 (Up Over).xml" loadImmediate="false" itemID="48285354-0000016f" lastModified="1425454329"/>
           <Include href="_assets/_check you knowledge/_asset/sprite 369 (Over Down).xml" loadImmediate="false" itemID="48285354-00000171" lastModified="1210602324"/>
-          <Include href="_assets/_check you knowledge/_asset/sprite 386.xml" loadImmediate="false" itemID="48285354-00000182" lastModified="1426568381"/>
+          <Include href="_assets/_check you knowledge/_asset/sprite 386.xml" loadImmediate="false" itemID="48285354-00000182" lastModified="1425369060"/>
           <Include href="_assets/_check you knowledge/_asset/text 368.xml" itemIcon="1" loadImmediate="false" itemID="48285354-00000170" lastModified="1210602324"/>
           <Include href="_assets/_check you knowledge/check_mark.xml" loadImmediate="false" itemID="482934d4-00000507" lastModified="1210731000"/>
-          <Include href="_assets/_check you knowledge/cyk1.xml" itemID="48293417-00000503" lastModified="1426570379"/>
-          <Include href="_assets/_check you knowledge/cyk1_clip.xml" loadImmediate="false" itemID="48293428-00000504" lastModified="1426229599"/>
-          <Include href="_assets/_check you knowledge/cyk1_content.xml" loadImmediate="false" itemID="48293496-00000506" lastModified="1426229259"/>
-          <Include href="_assets/_check you knowledge/cyk2.xml" loadImmediate="false" itemID="48357dc5-0000019c" lastModified="1425368631"/>
-          <Include href="_assets/_check you knowledge/cyk2_clip.xml" loadImmediate="false" itemID="48357dcd-0000019e" lastModified="1423014503"/>
-          <Include href="_assets/_check you knowledge/cyk2_content.xml" loadImmediate="false" itemID="48357dd6-000001a0" lastModified="1375955715"/>
-          <Include href="_assets/_check you knowledge/cyk3.xml" loadImmediate="false" itemID="48359da7-00000798" lastModified="1426229313"/>
-          <Include href="_assets/_check you knowledge/cyk3_clip.xml" loadImmediate="false" itemID="48359dc5-0000079a" lastModified="1423014873"/>
-          <Include href="_assets/_check you knowledge/cyk3_content.xml" loadImmediate="false" itemID="48359dcf-0000079c" lastModified="1375955737"/>
+          <Include href="_assets/_check you knowledge/cyk1.xml" itemID="48293417-00000503" lastModified="1426673873"/>
+          <Include href="_assets/_check you knowledge/cyk1_clip.xml" loadImmediate="false" itemID="48293428-00000504" lastModified="1426670185"/>
+          <Include href="_assets/_check you knowledge/cyk1_content.xml" loadImmediate="false" itemID="48293496-00000506" lastModified="1426670038"/>
+          <Include href="_assets/_check you knowledge/cyk2.xml" loadImmediate="false" itemID="48357dc5-0000019c" lastModified="1426673978"/>
+          <Include href="_assets/_check you knowledge/cyk2_clip.xml" loadImmediate="false" itemID="48357dcd-0000019e" lastModified="1426485129"/>
+          <Include href="_assets/_check you knowledge/cyk2_content.xml" loadImmediate="false" itemID="48357dd6-000001a0" lastModified="1426484975"/>
+          <Include href="_assets/_check you knowledge/cyk3.xml" loadImmediate="false" itemID="48359da7-00000798" lastModified="1426674185"/>
+          <Include href="_assets/_check you knowledge/cyk3_clip.xml" loadImmediate="false" itemID="48359dc5-0000079a" lastModified="1426487177"/>
+          <Include href="_assets/_check you knowledge/cyk3_content.xml" loadImmediate="false" itemID="48359dcf-0000079c" lastModified="1426487113"/>
           <Include href="_assets/_components/grey_w shadow AS.xml" loadImmediate="false" itemID="40ba93f5-0000027c" lastModified="1423015523"/>
           <Include href="_assets/_course outline/_assets/sprite 39.xml" loadImmediate="false" itemID="48285354-00000027" lastModified="1285230473"/>
           <Include href="_assets/_general unsorted/_unsorted/wrong mark.xml" loadImmediate="false" itemID="3eb61beb-000005ac" lastModified="1098259591"/>
@@ -504,7 +504,7 @@
           <Include href="_assets/_navigation_buttons/_assets/text 1122.xml" itemIcon="1" loadImmediate="false" itemID="48285354-00000462" lastModified="1210602324"/>
           <Include href="_assets/_navigation_buttons/btn_backward.xml" itemIcon="0" loadImmediate="false" itemID="54d2cfc5-0000025c" lastModified="1423101893"/>
           <Include href="_assets/_navigation_buttons/btn_backward_blink.xml" itemIcon="0" loadImmediate="false" itemID="482a4e0f-000019a6" lastModified="1322027278"/>
-          <Include href="_assets/_navigation_buttons/btn_check.xml" itemIcon="0" loadImmediate="false" itemID="482933de-00000501" lastModified="1426568094"/>
+          <Include href="_assets/_navigation_buttons/btn_check.xml" itemIcon="0" loadImmediate="false" itemID="482933de-00000501" lastModified="1425368209"/>
           <Include href="_assets/_navigation_buttons/btn_close.xml" itemIcon="0" loadImmediate="false" itemID="48293342-000004ad" lastModified="1425437019"/>
           <Include href="_assets/_navigation_buttons/btn_forward.xml" itemIcon="0" loadImmediate="false" itemID="4829332e-000004aa" lastModified="1423022343"/>
           <Include href="_assets/_navigation_buttons/btn_forward_blink.xml" itemIcon="0" loadImmediate="false" itemID="48293336-000004ab" lastModified="1373504153"/>
@@ -623,9 +623,9 @@
           <Include href="course outline globe/course_outline_mask.xml" loadImmediate="false" itemID="4a1b7ff0-00001352" lastModified="1243316240"/>
           <Include href="course outline globe/course_outline_text.xml" loadImmediate="false" itemID="499bc885-0000007c" lastModified="1402299577"/>
           <Include href="course outline globe/course_outline_title.xml" loadImmediate="false" itemID="49a7fa64-0000006f" lastModified="1423015464"/>
-          <Include href="cyk4.xml" loadImmediate="false" itemID="518a0317-0000066a" lastModified="1425362437"/>
-          <Include href="cyk4_clip.xml" loadImmediate="false" itemID="518a031e-0000066c" lastModified="1424074209"/>
-          <Include href="cyk4_content.xml" loadImmediate="false" itemID="518a031b-0000066b" lastModified="1368000446"/>
+          <Include href="cyk4.xml" loadImmediate="false" itemID="518a0317-0000066a" lastModified="1426674682"/>
+          <Include href="cyk4_clip.xml" loadImmediate="false" itemID="518a031e-0000066c" lastModified="1426674828"/>
+          <Include href="cyk4_content.xml" loadImmediate="false" itemID="518a031b-0000066b" lastModified="1426674396"/>
           <Include href="CykButton.xml" itemID="55024523-00000613" lastModified="1426216937"/>
           <Include href="excel btn blink.xml" loadImmediate="false" itemID="51da66ce-00001da4" lastModified="1373267675"/>
           <Include href="excel green blinking.xml" loadImmediate="false" itemID="51db7569-00000231" lastModified="1423013677"/>
@@ -635,7 +635,7 @@
           <Include href="general/new side background.xml" loadImmediate="false" itemID="42d36153-0000028d" lastModified="1424157588"/>
           <Include href="general/triagle but green.xml" itemIcon="0" loadImmediate="false" itemID="3cba64da-00000090" lastModified="1130994609"/>
           <Include href="loaderanimation.xml" loadImmediate="false" itemID="4db7ae55-00000248" lastModified="1307002635"/>
-          <Include href="m31mc_table 2.xml" loadImmediate="false" itemID="4725bf7e-00000408" lastModified="1426669794"/>
+          <Include href="m31mc_table 2.xml" loadImmediate="false" itemID="4725bf7e-00000408" lastModified="1426674910"/>
           <Include href="menu item main.xml" loadImmediate="false" itemID="482a389f-00000771" lastModified="1425606063"/>
           <Include href="OLD ITEMS/default/j10 answer.xml" itemIcon="1" loadImmediate="false" itemID="4bc6bb78-0000163d" lastModified="1271315320"/>
           <Include href="p1.xml" itemIcon="0" loadImmediate="false" itemID="54f81b73-00000381" lastModified="1425546099"/>
@@ -696,7 +696,7 @@
           <Include href="sequence/bbb48.xml" loadImmediate="false" itemID="527365ca-0000039e" lastModified="1383294411"/>
           <Include href="solutions nav asset.xml" itemIcon="1" loadImmediate="false" itemID="482a4a24-00000cee" lastModified="1210731044"/>
           <Include href="solutions nav btn.xml" itemIcon="0" loadImmediate="false" itemID="482a4a17-00000ced" lastModified="1210731031"/>
-          <Include href="solutions slide.xml" loadImmediate="false" itemID="482a4956-00000bbd" lastModified="1426567538"/>
+          <Include href="solutions slide.xml" loadImmediate="false" itemID="482a4956-00000bbd" lastModified="1426674061"/>
           <Include href="ss1.xml" itemIcon="0" loadImmediate="false" itemID="51deefef-00000445" lastModified="1423118913"/>
           <Include href="ss2.xml" itemIcon="0" loadImmediate="false" itemID="51def03d-0000044a" lastModified="1402643290"/>
           <Include href="submenu item.xml" loadImmediate="false" itemID="482a38a7-00000772" lastModified="1425544238"/>
@@ -1513,11 +1513,18 @@ btn_backward15.addEventListener(MouseEvent.CLICK,buttonBack15);
 function buttonClick15(event:MouseEvent):void{
 //if(event.target == btn_forward1){
 		gotoAndStop(62);
-
 }
 function buttonBack15(event:MouseEvent):void{
 //if(event.target == btn_forward1){
+	
+	if (this["cyk1"].checkIfDisabled()){
+		this["cyk1"].reset();
+	}
+	
+	else{
 		gotoAndStop(54);
+	}
+		
 
 }
 ]]></script>
@@ -1865,7 +1872,14 @@ function buttonClick29(event:MouseEvent):void{
 }
 function buttonBack29(event:MouseEvent):void{
 //if(event.target == btn_forward1){
+	
+	if (this["cyk2"].checkIfDisabled()){
+		this["cyk2"].reset();
+	}
+	
+	else{
 		gotoAndStop(90);
+	}
 
 }
 ]]></script>
@@ -2214,7 +2228,14 @@ function buttonClick43(event:MouseEvent):void{
 }
 function buttonBack43(event:MouseEvent):void{
 //if(event.target == btn_forward1){
+	
+	if (this["cyk3"].checkIfDisabled()){
+		this["cyk3"].reset();
+	}
+	
+	else{
 		gotoAndStop(126);
+	}
 
 }
 ]]></script>
@@ -2360,7 +2381,15 @@ function buttonClick48(event:MouseEvent):void{
 }
 function buttonBack49(event:MouseEvent):void{
 //if(event.target == btn_forward1){
+		//gotoAndStop(138);
+	
+	if (this["cyk4"].checkIfDisabled()){
+		this["cyk4"].reset();
+	}
+	
+	else{
 		gotoAndStop(138);
+	}
 
 }
 ]]></script>
@@ -2842,7 +2871,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="133" duration="12" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" selected="true" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
+                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
                                              <transformationPoint>
                                                   <Point x="70" y="240"/>
                                              </transformationPoint>
@@ -4533,7 +4562,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="141" duration="4" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="cyk4" name="cyk4" centerPoint3DX="391.75" centerPoint3DY="283.05">
+                                        <DOMSymbolInstance libraryItemName="cyk4" name="cyk4" selected="true" centerPoint3DX="391.75" centerPoint3DY="283.05">
                                              <matrix>
                                                   <Matrix tx="150" ty="90"/>
                                              </matrix>
@@ -6934,26 +6963,26 @@ function buttonBack51(event:MouseEvent):void{
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="2531018" publishTime="1426669734" publishDebug="true"/>
-          <PublishItem publishSize="2475554" publishTime="1426669721" publishDebug="true"/>
-          <PublishItem publishSize="2531010" publishTime="1426669395" publishDebug="true"/>
-          <PublishItem publishSize="2530971" publishTime="1426669234" publishDebug="true"/>
-          <PublishItem publishSize="2530966" publishTime="1426669205" publishDebug="true"/>
-          <PublishItem publishSize="2530966" publishTime="1426669174" publishDebug="true"/>
-          <PublishItem publishSize="2475514" publishTime="1426669127" publishDebug="true"/>
-          <PublishItem publishSize="2530949" publishTime="1426669086" publishDebug="true"/>
-          <PublishItem publishSize="2530949" publishTime="1426669038" publishDebug="true"/>
-          <PublishItem publishSize="2530920" publishTime="1426668501" publishDebug="true"/>
-          <PublishItem publishSize="2530921" publishTime="1426668464" publishDebug="true"/>
-          <PublishItem publishSize="2475503" publishTime="1426668389" publishDebug="true"/>
-          <PublishItem publishSize="2530921" publishTime="1426668335" publishDebug="true"/>
-          <PublishItem publishSize="2475502" publishTime="1426668308" publishDebug="true"/>
-          <PublishItem publishSize="2530936" publishTime="1426668222" publishDebug="true"/>
-          <PublishItem publishSize="2530942" publishTime="1426668177" publishDebug="true"/>
-          <PublishItem publishSize="2530938" publishTime="1426668077" publishDebug="true"/>
-          <PublishItem publishSize="2530913" publishTime="1426668034" publishDebug="true"/>
-          <PublishItem publishSize="2530943" publishTime="1426667997" publishDebug="true"/>
-          <PublishItem publishSize="2530881" publishTime="1426666441" publishDebug="true"/>
+          <PublishItem publishSize="2532405" publishTime="1426674693" publishDebug="true"/>
+          <PublishItem publishSize="2532178" publishTime="1426674193" publishDebug="true"/>
+          <PublishItem publishSize="2531716" publishTime="1426673995" publishDebug="true"/>
+          <PublishItem publishSize="2531729" publishTime="1426673937" publishDebug="true"/>
+          <PublishItem publishSize="2531740" publishTime="1426673876" publishDebug="true"/>
+          <PublishItem publishSize="2531719" publishTime="1426673835" publishDebug="true"/>
+          <PublishItem publishSize="2531703" publishTime="1426673803" publishDebug="true"/>
+          <PublishItem publishSize="2531720" publishTime="1426673592" publishDebug="true"/>
+          <PublishItem publishSize="2531380" publishTime="1426673252" publishDebug="true"/>
+          <PublishItem publishSize="2531229" publishTime="1426673032" publishDebug="true"/>
+          <PublishItem publishSize="2531227" publishTime="1426672975" publishDebug="true"/>
+          <PublishItem publishSize="2531226" publishTime="1426672782" publishDebug="true"/>
+          <PublishItem publishSize="2531226" publishTime="1426672749" publishDebug="true"/>
+          <PublishItem publishSize="2531152" publishTime="1426672344" publishDebug="true"/>
+          <PublishItem publishSize="2531152" publishTime="1426672337" publishDebug="true"/>
+          <PublishItem publishSize="2531118" publishTime="1426672288" publishDebug="true"/>
+          <PublishItem publishSize="2475554" publishTime="1426672278" publishDebug="true"/>
+          <PublishItem publishSize="2475554" publishTime="1426672249" publishDebug="true"/>
+          <PublishItem publishSize="2531128" publishTime="1426672185" publishDebug="true"/>
+          <PublishItem publishSize="2531130" publishTime="1426672156" publishDebug="true"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="lBSX9Y5jU7802yucctAf9/" href="180438234627084.swc">

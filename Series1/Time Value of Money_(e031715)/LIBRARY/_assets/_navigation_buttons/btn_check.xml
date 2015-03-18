@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_navigation_buttons/btn_check" itemID="482933de-00000501" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_navigation_buttons/btn_check" sourceLastModified="1425368209" symbolType="button" lastModified="1426568094" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_navigation_buttons/btn_check" itemID="482933de-00000501" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_navigation_buttons/btn_check" sourceLastModified="1425368209" symbolType="button" lastModified="1425368209" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="btn_check" currentFrame="2">
+    <DOMTimeline name="btn_check">
       <layers>
         <DOMLayer name="Layer 9" color="#FFFF00" locked="true">
           <frames>
@@ -36,7 +36,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 3" color="#FFFF00">
+        <DOMLayer name="Layer 3" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <elements>
@@ -79,7 +79,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="bg" color="#FFFF00" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="bg" color="#FFFF00" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

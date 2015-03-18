@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk2" itemID="48357dc5-0000019c" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk2" sourceLastModified="1322022742" lastModified="1425368631" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk2" itemID="48357dc5-0000019c" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk2" sourceLastModified="1426486181" lastModified="1426673978" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="cyk2">
       <layers>
@@ -23,39 +23,66 @@ import flash.events.MouseEvent;
 btnSolution.addEventListener(MouseEvent.CLICK, displaySolution);
 
 var nocm = 1;
+var disabled: Boolean = false;
 
 function reset(){
 
-trace("hide");
+	disabled = false;
+	
+	this.gotoAndStop(1);
 
-for (var i = 1; i <= nocm; i++){
-cyk["cm"+i].visible = false;
-}
+	for (var j = 1; j <= nocm; j++){
+		cyk["cm"+j].visible = false;
+	}
+
+	var n:int = this["cyk"].numChildren;
+	
+    for (var i:int=0;i<n;i++){
+		
+        if (this["cyk"].getChildAt(i) is RadioButton){
+				var btn: RadioButton = this["cyk"].getChildAt(i) as RadioButton;
+				btn.enabled = true;
+		}
+    }
 
 }
 
 
 function displaySolution (e: MouseEvent){
 
-trace("show");
-for (var i = 1; i <= nocm; i++){
-cyk["cm"+i].visible = true;
-}
+	trace("show");
+	
+	for (var i = 1; i <= nocm; i++){
+		cyk["cm"+i].visible = true;
+	}
+	
+	disableButton();
 
 }
+
+function disableButton(){
+	this.gotoAndStop(2);
+	
+	disabled = true;
+	
+	var n:int = this["cyk"].numChildren;
+	
+    for (var i:int=0;i<n;i++)
+    {
+        if (this["cyk"].getChildAt(i) is RadioButton){
+				var btn: RadioButton = this["cyk"].getChildAt(i) as RadioButton;
+				btn.enabled = false;
+		}
+    }
+}
+
+//
+function checkIfDisabled(): Boolean{
+	return disabled;
+}
+
 
 reset();
-
-
-import flash.events.MouseEvent;
-
-this.addEventListener(MouseEvent.MOUSE_UP , releaser);
-function releaser(event:MouseEvent):void
-{
-   // _root.play();
-    nextFrame ();
-}
-
 stop();]]></script>
               </Actionscript>
               <elements/>
@@ -70,12 +97,14 @@ for (i=1; i<=nocm; i++) {
 cyk.sol = 1;
 */
 function onClip(){
-var mc1:MovieClip =  getChildByName("Stopper") as MovieClip;
-   mc1.gotoAndStop(1);
-var mc:MovieClip =  getChildByName("ImgSol") as MovieClip;
+//var mc1:MovieClip =  getChildByName("Stopper") as MovieClip;
+//   mc1.gotoAndStop(1);
+	var mc:MovieClip =  this["disabledBtn2"].getChildByName("ImgSol") as MovieClip;
    mc.gotoAndStop(1);
 
 }
+
+onClip();
 ]]></script>
               </Actionscript>
               <elements/>
@@ -121,7 +150,7 @@ var mc:MovieClip =  getChildByName("ImgSol") as MovieClip;
             </DOMFrame>
             <DOMFrame index="1" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386" centerPoint3DX="321.65" centerPoint3DY="368.75">
+                <DOMSymbolInstance libraryItemName="_assets/_check you knowledge/_asset/sprite 386" name="disabledBtn2" centerPoint3DX="321.65" centerPoint3DY="368.75">
                   <matrix>
                     <Matrix a="0.9998779296875" d="0.999862670898438" tx="322.5" ty="370.6"/>
                   </matrix>

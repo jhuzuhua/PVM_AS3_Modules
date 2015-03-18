@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="btn_bg">
       <layers>
-        <DOMLayer name="Layer 5" color="#4FFFFF" current="true" isSelected="true">
+        <DOMLayer name="Layer 5" color="#4FFFFF">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <Actionscript>
@@ -23,8 +23,8 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!42 -23[-20 -23 -20 39!-20 39|-20 388!-20 388[-20 450 42 450!42 450|391 450!391 450[453 450 453 388!453 388|453 39!453 39[453 -23 391 -23!391 -23|42 -23!391 -30[460 -30 460 39!460 39|460 388!460 388[460 457 391 457!391 457|42 457!42 457
-[-27 457 -27 388!-27 388|-27 39!-27 39[-27 -30 42 -30!42 -30|391 -30"/>
+                    <Edge fillStyle1="1" edges="!391 -30[460 -30 460 39!460 39|460 388!460 388[460 457 391 457!391 457|42 457!42 457[-27 457 -27 388!-27 388|-27 39!-27 39[-27 -30 42 -30!42 -30|391 -30!42 -23[-20 -23 -20 39!-20 39|-20 388!-20 388[-20 450 42 450!42 450|391 450!391 450
+[453 450 453 388!453 388|453 39!453 39[453 -23 391 -23!391 -23|42 -23"/>
                     <Edge cubics="!391 -23(;391,-23 42,-23 42,-23q391 -23 42 -23);"/>
                     <Edge cubics="!42 -30(;42,-30 391,-30 391,-30q42 -30 391 -30);"/>
                     <Edge cubics="!-20 39(;-20,39 -20,388 -20,388q-20 39 -20 388);"/>
@@ -47,7 +47,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 3" color="#FF800A">
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

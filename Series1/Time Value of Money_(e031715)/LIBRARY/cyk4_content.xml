@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="cyk4_content" itemID="518a031b-0000066b" lastModified="1368000446" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="cyk4_content" itemID="518a031b-0000066b" lastModified="1426674396" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="cyk4_content" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;57&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -32,7 +32,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText fontRenderingMode="standard" left="0.2" width="425.95" height="33.2" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" left="0.2" width="425.95" height="35.2" isSelectable="false">
                   <matrix>
                     <Matrix tx="56.8" ty="240.95"/>
                   </matrix>
@@ -40,7 +40,7 @@
                     <DOMTextRun>
                       <characters>A higher yield increases the total present value.&#xD;A lower yield increases the total present value.</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" lineSpacing="4" size="14" bitmapSize="280" face="ArialMT" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

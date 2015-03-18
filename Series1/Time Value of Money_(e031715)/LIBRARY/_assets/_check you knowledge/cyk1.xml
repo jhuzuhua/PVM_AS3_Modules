@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1" itemID="48293417-00000503" linkageExportForAS="true" linkageClassName="com.Joshua.Cyk1" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk1" sourceLastModified="1426229465" lastModified="1426570379" lastUniqueIdentifier="5" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/cyk1" itemID="48293417-00000503" linkageExportForAS="true" linkageClassName="com.Joshua.Cyk1" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/cyk1" sourceLastModified="1426229465" lastModified="1426673873" lastUniqueIdentifier="5" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="cyk1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;262&lt;/guideline&gt;&lt;guideline direction="h"&gt;273&lt;/guideline&gt;&lt;guideline direction="h"&gt;280&lt;/guideline&gt;&lt;guideline direction="h"&gt;291&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="cyk1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;262&lt;/guideline&gt;&lt;guideline direction="h"&gt;273&lt;/guideline&gt;&lt;guideline direction="h"&gt;281&lt;/guideline&gt;&lt;guideline direction="h"&gt;292&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
@@ -19,19 +19,33 @@ import fl.controls.RadioButtonGroup;
 import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.display.MovieClip;
+import fl.controls.RadioButton;
 
 
 btnSolution1.addEventListener(MouseEvent.MOUSE_DOWN, displaySolution);
 
 var nocm = 2;
+var disabled: Boolean = false;
 
 function reset(){
 
-trace("hide");
+	disabled = false;
+	
+	this.gotoAndStop(1);
 
-for (var i = 1; i <= nocm; i++){
-cyk["cm"+i].visible = false;
-}
+	for (var j = 1; j <= nocm; j++){
+		cyk["cm"+j].visible = false;
+	}
+
+	var n:int = this["cyk"].numChildren;
+	
+    for (var i:int=0;i<n;i++){
+		
+        if (this["cyk"].getChildAt(i) is RadioButton){
+				var btn: RadioButton = this["cyk"].getChildAt(i) as RadioButton;
+				btn.enabled = true;
+		}
+    }
 
 }
 
@@ -49,33 +63,24 @@ function displaySolution (e:MouseEvent){
 function disableButton(){
 	this.gotoAndStop(2);
 	
-	/*var mc: MovieClip = MovieClip["disabledBtn"].getChildByName("ImgSol") as MovieClip;
-	var n:int = mc.numChildren;
+	disabled = true;
 	
-	trace("disable button (" + mc.name + ") with child count at " + n);
+	var n:int = this["cyk"].numChildren;
 	
     for (var i:int=0;i<n;i++)
     {
-        var clip:MovieClip = mc.getChildAt(i) as MovieClip;
-        if (clip)
-            clip.gotoAndStop(1);
-    }*/
+        if (this["cyk"].getChildAt(i) is RadioButton){
+				var btn: RadioButton = this["cyk"].getChildAt(i) as RadioButton;
+				btn.enabled = false;
+		}
+    }
+}
+
+function checkIfDisabled(): Boolean{
+	return disabled;
 }
 
 reset();
-
-/*import flash.events.MouseEvent;
-
-this.addEventListener(MouseEvent.MOUSE_UP,releaser);
-function releaser(event:MouseEvent):void
-{
-   // _root.play();
-	
-    nextFrame ();
-}
-
-*/
-
 stop();]]></script>
               </Actionscript>
               <elements/>
