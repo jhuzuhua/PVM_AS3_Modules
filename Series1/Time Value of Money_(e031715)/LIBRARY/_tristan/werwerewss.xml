@@ -758,10 +758,10 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="2" edges="
-!1171 0|1171 2144"/>
                     <Edge strokeStyle="1" edges="
 !2275 0|1171 0"/>
+                    <Edge strokeStyle="2" edges="
+!1171 0|1171 2144"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -1509,10 +1509,10 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="2" edges="
-!1171 0|1171 2144"/>
                     <Edge strokeStyle="1" edges="
 !2264 0|1171 0"/>
+                    <Edge strokeStyle="2" edges="
+!1171 0|1171 2144"/>
                   </edges>
                 </DOMShape>
               </elements>
