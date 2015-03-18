@@ -1887,7 +1887,7 @@ val_mc.gotoAndStop(1);
                   </strokes>
                   <edges>
                     <Edge strokeStyle="1" edges="
-!4513 2203|5089 2203!4482 2829|5058 2829!4522 3149|5098 3149!4400 3449|5101 3449"/>
+!4400 3449|5101 3449!4522 3149|5098 3149!4482 2829|5058 2829!4513 2203|5089 2203"/>
                   </edges>
                 </DOMShape>
                 <DOMStaticText fontRenderingMode="standard" left="6.4" width="36.75" height="13.4" autoExpand="true" isSelectable="false">
