@@ -1,145 +1,27 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="m31mc_table 2" itemID="4725bf7e-00000408" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="m31mc_table 2" sourceLastModified="1426666201" lastModified="1426666439" lastUniqueIdentifier="10" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="yearsFV_mc" itemID="5509397c-00000b34" lastModified="1426669392">
   <timeline>
-    <DOMTimeline name="m31mc_table 2">
+    <DOMTimeline name="yearsFV_mc">
       <layers>
-        <DOMLayer name="Layer 10" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <Actionscript>
-                <script><![CDATA[import flash.display.MovieClip;
-
-////////////////////////////////////////
-///         CUSTOM METHOD            ///
-////////////////////////////////////////
-
-
-var zeroToAdd;
-var theYield;
-var tempval: Number;
-var tempval2: String;
-var deciLength: Array;
-var yield;
-
-function roundME(number: Number, dplaces: int) {
-	trace("here");
-	var places = Math.pow(10, dplaces);
-	tempval = Math.round(number*places)/places;
-	tempval2 = String(tempval);
-	deciLength = tempval2.split(".");
-	zeroToAdd = Number(deciLength[1].length)-dplaces;
-	zeroToAdd = Math.abs(zeroToAdd);
-	for (var addZero = 0; addZero<zeroToAdd; addZero++) {
-		deciLength[1] += "0";
-		trace(deciLength[1]);
-	}
-
-	trace("rounded to " + deciLength[0]+"."+deciLength[1]);
-	return deciLength[0]+"."+deciLength[1];
-}
-
-
-//joshua
-function round2(num:Number, decimals:int):Number
-{
-    var m:int = Math.pow(10, decimals);
-    return Math.round(num * m) / m;
-}
-
-
-
-////////////////////////////////////////
-///      RESTRICT INPUT FIELDS       ///
-////////////////////////////////////////
-//this.yield.restrict = "0-9.";
-////////////////////////////////////////
-/// TABBING USING ENTER AND TAB KEYS ///
-////////////////////////////////////////
-//this.focus = ["yield"];
-////////////////////////////////////////
-///      CALCULATION FUNCTIONS       ///
-////////////////////////////////////////
-
-////////////////////////////////////////
-
-var ctr = 1;
-var myYear;
-function for_in() {
-	
-	myYear = 100*(Math.pow((1+(Number(theYield)/100)), ctr));
-	
-	trace("myYear value = " + myYear);
-	//this["year"+ctr] = roundME(myYear,2);
-	this["year"+ctr] = round2(myYear, 2);
-	
-	trace("year " + ctr + " = "+ this["year"+ctr]);
-	
-	//assign value to year input fields
-	//var input: MovieClip = MovieClip(parent).getChildByName("year"+ctr) as MovieClip;
-	//input.tf.text = myYear;
-	
-	var mc: MovieClip = this["graph"].getChildByName("graphlines");
-	mc.redraw();
-	
-	if (ctr<=10) {
-		ctr++;
-		for_in();
-	}
-	
-}
-
-function doCompute() {
-	//theYield = yield.text;
-	
-	if (Number(theYield)<0) {
-		theYield = 0;
-	} else if (Number(theYield)>15) {
-		//theYield = 15;
-	} else if (theYield == "" || theYield == null) {
-		theYield = 0;
-	}
-	
-	trace("yield value is = " + theYield);
-	
-	ctr = 1;
-	for_in();
-	
-}
-
-doCompute();
-for_in();
-//Selection.setFocus("yield");
-
-]]></script>
-              </Actionscript>
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 8" color="#808080" autoNamed="false">
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_tristan/MCs/m31mc_data1" name="graph" centerPoint3DX="27.75" centerPoint3DY="79.35">
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="50" centerPoint3DY="88.05">
                   <matrix>
-                    <Matrix a="1.05003356933594" d="1.0501708984375" tx="-84.4"/>
+                    <Matrix a="0.7862548828125" d="1.75999450683594" ty="0.05"/>
                   </matrix>
                   <transformationPoint>
-                    <Point/>
+                    <Point x="50" y="50"/>
                   </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#DDDDDD"/>
+                  </color>
                 </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 14" color="#FF4FFF">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <members>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year4" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="64.5"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="64.4"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -150,9 +32,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText name="tf" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year1" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="15.8"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="15.7"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -163,9 +45,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year2" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="32.05"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="31.95"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -176,9 +58,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year3" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="48.3"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="48.2"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -189,9 +71,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year5" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="80.8"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="80.7"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -202,9 +84,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year9" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="145.7"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="145.6"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -215,9 +97,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year6" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="97"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="96.9"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -228,9 +110,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year7" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="113.25"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="113.15"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -241,9 +123,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year8" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="129.45"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="129.35"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -254,9 +136,9 @@ for_in();
                         </DOMTextRun>
                       </textRuns>
                     </DOMDynamicText>
-                    <DOMDynamicText fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                    <DOMDynamicText name="year10" selected="true" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.4" ty="161.95"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="161.85"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -269,7 +151,7 @@ for_in();
                     </DOMDynamicText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="15.8"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="15.7"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -282,7 +164,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="32.05"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="31.95"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -295,7 +177,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="48.3"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="48.2"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -308,7 +190,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="64.5"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="64.4"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -321,7 +203,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="80.8"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="80.7"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -334,7 +216,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="97"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="96.9"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -347,7 +229,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="113.25"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="113.15"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -360,7 +242,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="129.45"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="129.35"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -373,7 +255,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="145.7"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="145.6"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -386,7 +268,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="19.7" width="15.7" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="86.5" ty="161.95"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="161.85"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -399,7 +281,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" left="10.5" width="34.1" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.612472534179688" d="0.688018798828125" tx="87.3" ty="1.5"/>
+                        <Matrix a="0.612472534179688" d="0.688018798828125" tx="-1.8" ty="1.4"/>
                       </matrix>
                       <transformationPoint>
                         <Point x="27.5" y="7.8"/>
@@ -415,7 +297,7 @@ for_in();
                     </DOMStaticText>
                     <DOMStaticText fontRenderingMode="standard" width="57.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
                       <matrix>
-                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="124.7" ty="1.55"/>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.6" ty="1.45"/>
                       </matrix>
                       <textRuns>
                         <DOMTextRun>
@@ -427,8 +309,14 @@ for_in();
                       </textRuns>
                     </DOMStaticText>
                     <DOMGroup>
+                      <matrix>
+                        <Matrix tx="-89.1" ty="-0.1"/>
+                      </matrix>
                       <members>
                         <DOMShape>
+                          <matrix>
+                            <Matrix tx="-89.1" ty="-0.1"/>
+                          </matrix>
                           <strokes>
                             <StrokeStyle index="1">
                               <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
@@ -449,32 +337,6 @@ for_in();
                   </members>
                 </DOMGroup>
               </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 9" color="#4F80FF" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="139.1" centerPoint3DY="88.15">
-                  <matrix>
-                    <Matrix a="0.7862548828125" d="1.75999450683594" tx="89.1" ty="0.15"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="50"/>
-                  </transformationPoint>
-                  <color>
-                    <Color tintMultiplier="1" tintColor="#DDDDDD"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4F80FF" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
