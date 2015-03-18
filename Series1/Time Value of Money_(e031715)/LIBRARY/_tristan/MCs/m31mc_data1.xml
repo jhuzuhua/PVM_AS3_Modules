@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/MCs/m31mc_data1" itemID="4725c051-00000409" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_tristan/MCs/m31mc_data1" sourceLastModified="1403491304" lastModified="1424934202" lastUniqueIdentifier="8" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/MCs/m31mc_data1" itemID="4725c051-00000409" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="_tristan/MCs/m31mc_data1" sourceLastModified="1426659833" lastModified="1426659833" lastUniqueIdentifier="8" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="m31mc_data1" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;0&lt;/guideline&gt;&lt;guideline direction="h"&gt;0&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="function" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="function" color="#FF4F4F" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Actionscript>
@@ -35,7 +35,7 @@ base.useHandCursor = false;
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 4" color="#9933CC" visible="false" layerType="mask">
+        <DOMLayer name="Layer 4" color="#9933CC" locked="true" layerType="mask">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -67,7 +67,7 @@ base.useHandCursor = false;
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 5" color="#FFFF4F">
+        <DOMLayer name="Layer 5" color="#FFFF4F" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -309,7 +309,7 @@ base.useHandCursor = false;
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="base" color="#4F80FF" autoNamed="false">
+        <DOMLayer name="base" color="#4F80FF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -376,7 +376,7 @@ base.useHandCursor = false;
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 6" color="#FF4FFF">
+        <DOMLayer name="Layer 6" color="#FF4FFF" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
