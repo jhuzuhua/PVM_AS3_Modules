@@ -468,11 +468,11 @@
           <Include href="_assets/_main nav/_assets/shape 67 (Hit).xml" itemIcon="1" loadImmediate="false" itemID="48285354-00000043" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/shape 73.xml" itemIcon="1" loadImmediate="false" itemID="48285354-00000049" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/shape 77.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000004d" lastModified="1210602324"/>
-          <Include href="_assets/_main nav/_assets/sprite 76.xml" loadImmediate="false" itemID="48285354-0000004c" lastModified="1426655537"/>
+          <Include href="_assets/_main nav/_assets/sprite 76.xml" loadImmediate="false" itemID="48285354-0000004c" lastModified="1426746544"/>
           <Include href="_assets/_main nav/_assets/sprite 78.xml" loadImmediate="false" itemID="48285354-0000004e" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/text 58.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000003a" lastModified="1210602324"/>
-          <Include href="_assets/_main nav/menu control prograssbar.xml" loadImmediate="false" itemID="482a3c7b-0000077b" lastModified="1426558733"/>
-          <Include href="_assets/_main nav/mymenu.xml" loadImmediate="false" itemID="54ed54f2-00000264" lastModified="1426656756"/>
+          <Include href="_assets/_main nav/menu control prograssbar.xml" loadImmediate="false" itemID="482a3c7b-0000077b" lastModified="1426735142"/>
+          <Include href="_assets/_main nav/mymenu.xml" loadImmediate="false" itemID="54ed54f2-00000264" lastModified="1426751885"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 11 (Up).xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000b" lastModified="1210602324"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 12 (Over).xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000c" lastModified="1210602324"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 13.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000d" lastModified="1210602324"/>
@@ -613,7 +613,7 @@
           <Include href="Component Assets/RadioButtonSkins/RadioButton_selectedUpIcon.xml" itemID="44b1a624-00000138" lastModified="1426214727"/>
           <Include href="Component Assets/RadioButtonSkins/RadioButton_upIcon.xml" itemID="44b1a5bf-00000134" lastModified="1426216949"/>
           <Include href="Component Assets/Shared/focusRectSkin.xml" itemID="44d8b6f8-00000055" lastModified="1426215154"/>
-          <Include href="continuenotice_mc.xml" loadImmediate="false" itemID="4eb39a73-000009db" lastModified="1423815822"/>
+          <Include href="continuenotice_mc.xml" loadImmediate="false" itemID="4eb39a73-000009db" lastModified="1426751362"/>
           <Include href="course outline globe/course_outline_anime.xml" loadImmediate="false" itemID="4757c338-000006a4" lastModified="1425367935"/>
           <Include href="course outline globe/course_outline_arrow.xml" loadImmediate="false" itemID="4758d257-0000023a" lastModified="1197004343"/>
           <Include href="course outline globe/course_outline_icon.xml" loadImmediate="false" itemID="498c357e-000004a0" lastModified="1423015405"/>
@@ -626,7 +626,7 @@
           <Include href="cyk4.xml" loadImmediate="false" itemID="518a0317-0000066a" lastModified="1426674682"/>
           <Include href="cyk4_clip.xml" loadImmediate="false" itemID="518a031e-0000066c" lastModified="1426674828"/>
           <Include href="cyk4_content.xml" loadImmediate="false" itemID="518a031b-0000066b" lastModified="1426674396"/>
-          <Include href="CykButton.xml" itemID="55024523-00000613" lastModified="1426216937"/>
+          <Include href="CykButton.xml" itemID="55024523-00000613" lastModified="1426731043"/>
           <Include href="excel btn blink.xml" loadImmediate="false" itemID="51da66ce-00001da4" lastModified="1373267675"/>
           <Include href="excel green blinking.xml" loadImmediate="false" itemID="51db7569-00000231" lastModified="1423013677"/>
           <Include href="footerMC.xml" loadImmediate="false" itemID="4c9b0da9-00000a20" lastModified="1425544539"/>
@@ -2600,14 +2600,14 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menus" color="#FF4F4F" parentLayerIndex="4" autoNamed="false" heightLiteral="15">
+                    <DOMLayer name="menus" color="#FF4F4F" parentLayerIndex="4" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="5" duration="4" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
+                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" selected="true" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
                                              <transformationPoint>
                                                   <Point x="70" y="240"/>
                                              </transformationPoint>
@@ -2947,7 +2947,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mcs" color="#FFFF4F" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+                    <DOMLayer name="mcs" color="#FFFF4F" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -3841,7 +3841,7 @@ function buttonBack51(event:MouseEvent):void{
  5778!5575 5702|5575 5626!5378 5626|5378 5702!5378 5931|5575 5931!5575 5855|5378 5855!5575 5626|5378 5626!5378 5549|5575 5549!5183 5855|5378 5855!5378 5778|5183 5778!5378 5931|5183 5931!5183 5702|5378 5702!5378 5549|5183 5549!5183 5626
 |5378 5626!5983 5626|5983 5549!5983 5549|5983 5475!5781 5549|5781 5626!5781 5475|5781 5549!5781 5778|5781 5855!5781 5855|5781 5931!5781 5702|5781 5778!5983 5931|5983 5855!5983 5778|5983 5855!5983 5702|5983 5778!5983 5702|5781 5702!5781
  5778|5983 5778!5781 5855|5983 5855!5781 5931|5983 5931!5781 5626|5781 5702!5983 5626|5983 5702!5781 5626|5983 5626!5781 5549|5983 5549!6178 5549|6178 5475!6178 5549|6178 5626!6178 5702|6178 5778!6178 5855|6178 5931!6178 5778|6178 5855
-!6382 5549|6178 5549!6178 5778|6382 5778!6178 5855|6382 5855!6382 5702|6178 5702!6178 5702|6178 5626!6178 5626|6382 5626!6382 5931|6178 5931!6178 5931|5983 5931!5983 5855|6178 5855!5983 5778|6178 5778!5983 5702|6178 5702!6178 5626|5983
+!6382 5931|6178 5931!6178 5778|6382 5778!6178 5855|6382 5855!6382 5549|6178 5549!6178 5702|6178 5626!6178 5626|6382 5626!6382 5702|6178 5702!6178 5931|5983 5931!5983 5855|6178 5855!5983 5778|6178 5778!5983 5702|6178 5702!6178 5626|5983
  5626!5983 5549|6178 5549!5575 5855|5781 5855!5575 5778|5781 5778!5781 5702|5575 5702!5575 5626|5781 5626!5781 5549|5575 5549!5781 5931|5575 5931!6178 6161|6178 6084!6178 6084|6178 6008!6178 6313|6178 6237!6178 6237|6178 6161!6178 6313
 |6382 6313!6178 6237|6382 6237!6382 6161|6178 6161!6178 6084|6382 6084!6178 6008|6382 6008!5983 6084|5983 6161!5983 6084|5983 6008!5781 6084|5781 6161!5781 6008|5781 6084!5781 6237|5781 6313!5983 6313|5983 6237!5781 6161|5983 6161!5781
  6084|5983 6084!5781 6237|5781 6161!5983 6237|5781 6237!5781 6313|5983 6313!5983 6161|5983 6237!5983 6008|5781 6008!6178 6084|5983 6084!5983 6237|6178 6237!5983 6313|6178 6313!5983 6161|6178 6161!5983 6008|6178 6008!5575 6084|5575 6008
@@ -6831,7 +6831,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="base" color="#4FFF4F" locked="true" autoNamed="false" heightLiteral="15">
+                    <DOMLayer name="base" color="#4FFF4F" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements/>
@@ -6963,26 +6963,26 @@ function buttonBack51(event:MouseEvent):void{
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="2532405" publishTime="1426674693" publishDebug="true"/>
-          <PublishItem publishSize="2532178" publishTime="1426674193" publishDebug="true"/>
-          <PublishItem publishSize="2531716" publishTime="1426673995" publishDebug="true"/>
-          <PublishItem publishSize="2531729" publishTime="1426673937" publishDebug="true"/>
-          <PublishItem publishSize="2531740" publishTime="1426673876" publishDebug="true"/>
-          <PublishItem publishSize="2531719" publishTime="1426673835" publishDebug="true"/>
-          <PublishItem publishSize="2531703" publishTime="1426673803" publishDebug="true"/>
-          <PublishItem publishSize="2531720" publishTime="1426673592" publishDebug="true"/>
-          <PublishItem publishSize="2531380" publishTime="1426673252" publishDebug="true"/>
-          <PublishItem publishSize="2531229" publishTime="1426673032" publishDebug="true"/>
-          <PublishItem publishSize="2531227" publishTime="1426672975" publishDebug="true"/>
-          <PublishItem publishSize="2531226" publishTime="1426672782" publishDebug="true"/>
-          <PublishItem publishSize="2531226" publishTime="1426672749" publishDebug="true"/>
-          <PublishItem publishSize="2531152" publishTime="1426672344" publishDebug="true"/>
-          <PublishItem publishSize="2531152" publishTime="1426672337" publishDebug="true"/>
-          <PublishItem publishSize="2531118" publishTime="1426672288" publishDebug="true"/>
-          <PublishItem publishSize="2475554" publishTime="1426672278" publishDebug="true"/>
-          <PublishItem publishSize="2475554" publishTime="1426672249" publishDebug="true"/>
-          <PublishItem publishSize="2531128" publishTime="1426672185" publishDebug="true"/>
-          <PublishItem publishSize="2531130" publishTime="1426672156" publishDebug="true"/>
+          <PublishItem publishSize="2532619" publishTime="1426751842" publishDebug="true"/>
+          <PublishItem publishSize="2532591" publishTime="1426751795" publishDebug="true"/>
+          <PublishItem publishSize="2532591" publishTime="1426751783" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426751753" publishDebug="true"/>
+          <PublishItem publishSize="2532605" publishTime="1426751725" publishDebug="true"/>
+          <PublishItem publishSize="2532600" publishTime="1426751441" publishDebug="true"/>
+          <PublishItem publishSize="2532443" publishTime="1426751330" publishDebug="true"/>
+          <PublishItem publishSize="2532599" publishTime="1426751293" publishDebug="true"/>
+          <PublishItem publishSize="2532597" publishTime="1426751238" publishDebug="true"/>
+          <PublishItem publishSize="2532620" publishTime="1426751055" publishDebug="true"/>
+          <PublishItem publishSize="2532624" publishTime="1426750210" publishDebug="true"/>
+          <PublishItem publishSize="2475741" publishTime="1426750200" publishDebug="true"/>
+          <PublishItem publishSize="2475741" publishTime="1426749921" publishDebug="true"/>
+          <PublishItem publishSize="2475741" publishTime="1426749909" publishDebug="true"/>
+          <PublishItem publishSize="2475741" publishTime="1426749899" publishDebug="true"/>
+          <PublishItem publishSize="2475741" publishTime="1426749803" publishDebug="true"/>
+          <PublishItem publishSize="2532627" publishTime="1426749731" publishDebug="true"/>
+          <PublishItem publishSize="2532622" publishTime="1426749670" publishDebug="true"/>
+          <PublishItem publishSize="2532621" publishTime="1426749613" publishDebug="true"/>
+          <PublishItem publishSize="2532612" publishTime="1426749227" publishDebug="true"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="lBSX9Y5jU7802yucctAf9/" href="180438234627084.swc">
