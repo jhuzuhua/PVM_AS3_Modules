@@ -468,11 +468,11 @@
           <Include href="_assets/_main nav/_assets/shape 67 (Hit).xml" itemIcon="1" loadImmediate="false" itemID="48285354-00000043" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/shape 73.xml" itemIcon="1" loadImmediate="false" itemID="48285354-00000049" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/shape 77.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000004d" lastModified="1210602324"/>
-          <Include href="_assets/_main nav/_assets/sprite 76.xml" loadImmediate="false" itemID="48285354-0000004c" lastModified="1426746544"/>
+          <Include href="_assets/_main nav/_assets/sprite 76.xml" loadImmediate="false" itemID="48285354-0000004c" lastModified="1426758330"/>
           <Include href="_assets/_main nav/_assets/sprite 78.xml" loadImmediate="false" itemID="48285354-0000004e" lastModified="1210602324"/>
           <Include href="_assets/_main nav/_assets/text 58.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000003a" lastModified="1210602324"/>
           <Include href="_assets/_main nav/menu control prograssbar.xml" loadImmediate="false" itemID="482a3c7b-0000077b" lastModified="1426735142"/>
-          <Include href="_assets/_main nav/mymenu.xml" loadImmediate="false" itemID="54ed54f2-00000264" lastModified="1426751885"/>
+          <Include href="_assets/_main nav/mymenu.xml" loadImmediate="false" itemID="54ed54f2-00000264" lastModified="1426757067"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 11 (Up).xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000b" lastModified="1210602324"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 12 (Over).xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000c" lastModified="1210602324"/>
           <Include href="_assets/_navigation_buttons/_assets/shape 13.xml" itemIcon="1" loadImmediate="false" itemID="48285354-0000000d" lastModified="1210602324"/>
@@ -704,7 +704,7 @@
           <Include href="yearsFV_mc.xml" loadImmediate="false" itemID="5509397c-00000b34" lastModified="1426669392"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="8">
+          <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="saving comments" color="#FF4FFF" autoNamed="false" heightLiteral="15">
                          <frames>
@@ -2607,7 +2607,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="5" duration="4" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
+                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" selected="true" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
                                              <transformationPoint>
                                                   <Point x="70" y="240"/>
                                              </transformationPoint>
@@ -6963,26 +6963,26 @@ function buttonBack51(event:MouseEvent):void{
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="2532601" publishTime="1426752357" publishDebug="true"/>
-          <PublishItem publishSize="2532619" publishTime="1426751842" publishDebug="true"/>
-          <PublishItem publishSize="2532591" publishTime="1426751795" publishDebug="true"/>
-          <PublishItem publishSize="2532591" publishTime="1426751783" publishDebug="true"/>
-          <PublishItem publishSize="2475735" publishTime="1426751753" publishDebug="true"/>
-          <PublishItem publishSize="2532605" publishTime="1426751725" publishDebug="true"/>
-          <PublishItem publishSize="2532600" publishTime="1426751441" publishDebug="true"/>
-          <PublishItem publishSize="2532443" publishTime="1426751330" publishDebug="true"/>
-          <PublishItem publishSize="2532599" publishTime="1426751293" publishDebug="true"/>
-          <PublishItem publishSize="2532597" publishTime="1426751238" publishDebug="true"/>
-          <PublishItem publishSize="2532620" publishTime="1426751055" publishDebug="true"/>
-          <PublishItem publishSize="2532624" publishTime="1426750210" publishDebug="true"/>
-          <PublishItem publishSize="2475741" publishTime="1426750200" publishDebug="true"/>
-          <PublishItem publishSize="2475741" publishTime="1426749921" publishDebug="true"/>
-          <PublishItem publishSize="2475741" publishTime="1426749909" publishDebug="true"/>
-          <PublishItem publishSize="2475741" publishTime="1426749899" publishDebug="true"/>
-          <PublishItem publishSize="2475741" publishTime="1426749803" publishDebug="true"/>
-          <PublishItem publishSize="2532627" publishTime="1426749731" publishDebug="true"/>
-          <PublishItem publishSize="2532622" publishTime="1426749670" publishDebug="true"/>
-          <PublishItem publishSize="2532621" publishTime="1426749613" publishDebug="true"/>
+          <PublishItem publishSize="2532683" publishTime="1426758332" publishDebug="true"/>
+          <PublishItem publishSize="2475736" publishTime="1426758309" publishDebug="true"/>
+          <PublishItem publishSize="2532658" publishTime="1426758201" publishDebug="true"/>
+          <PublishItem publishSize="2532653" publishTime="1426758153" publishDebug="true"/>
+          <PublishItem publishSize="2532653" publishTime="1426758116" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426758079" publishDebug="true"/>
+          <PublishItem publishSize="2475736" publishTime="1426757778" publishDebug="true"/>
+          <PublishItem publishSize="2475736" publishTime="1426757766" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426757722" publishDebug="true"/>
+          <PublishItem publishSize="2475736" publishTime="1426757709" publishDebug="true"/>
+          <PublishItem publishSize="2475736" publishTime="1426757699" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426757671" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426757664" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426757650" publishDebug="true"/>
+          <PublishItem publishSize="2475736" publishTime="1426757643" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426757637" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426757612" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426757598" publishDebug="true"/>
+          <PublishItem publishSize="2475735" publishTime="1426757582" publishDebug="true"/>
+          <PublishItem publishSize="2475736" publishTime="1426757378" publishDebug="true"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="lBSX9Y5jU7802yucctAf9/" href="180438234627084.swc">

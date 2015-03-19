@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426655537" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426758330" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="sprite 76">
       <layers>
@@ -9,33 +9,44 @@
                 <script><![CDATA[import flash.events.MouseEvent;
 import flash.display.MovieClip;
 
+
+
+
+
+this.addEventListener(MouseEvent.MOUSE_DOWN, onReleaser);
+
 var lockMenu;
 
-this.addEventListener(MouseEvent.MOUSE_DOWN, onRelease);
-
-function onRelease(event:MouseEvent):void
+function onReleaser(event:MouseEvent):void
 {
     if(lockMenu)
     {
 	
-	
+
 	lockMenu = false;
-		trace(lockMenu);
+		trace("LockMenu"+"-"+lockMenu);
 
 		//trace("lock false"+MovieClip(parent).lockCheck.visible);
     }
-    else 
+   else
     {
-
-
+		
 		lockMenu = true;
-		trace(lockMenu);
+	MovieClip(parent).lockCheck.visible = true;
+	MovieClip(parent).mymenu.stage.removeEventListener(MouseEvent.MOUSE_MOVE,function MouseMove(event:MouseEvent){});
+		x = 0;
+		trace("true:CheckStat"+" "+x);
+	
+	
+			
+		trace("LockMenu"+"-"+lockMenu);
 		//trace("lock true"+MovieClip(parent).lockCheck.visible);
     } // end else if
 
 MovieClip(root).mymenu.CheckStat();
-};
 
+
+};
 
 
 ]]></script>
