@@ -704,7 +704,7 @@
           <Include href="yearsFV_mc.xml" loadImmediate="false" itemID="5509397c-00000b34" lastModified="1426669392"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1">
+          <DOMTimeline name="Scene 1" currentFrame="8">
                <layers>
                     <DOMLayer name="saving comments" color="#FF4FFF" autoNamed="false" heightLiteral="15">
                          <frames>
@@ -2607,7 +2607,7 @@ function buttonBack51(event:MouseEvent):void{
                               </DOMFrame>
                               <DOMFrame index="5" duration="4" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" selected="true" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
+                                        <DOMComponentInstance libraryItemName="_assets/_main nav/mymenu" name="mymenu" centerPoint3DX="70" centerPoint3DY="240" uniqueID="8">
                                              <transformationPoint>
                                                   <Point x="70" y="240"/>
                                              </transformationPoint>
@@ -6963,6 +6963,7 @@ function buttonBack51(event:MouseEvent):void{
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="2532601" publishTime="1426752357" publishDebug="true"/>
           <PublishItem publishSize="2532619" publishTime="1426751842" publishDebug="true"/>
           <PublishItem publishSize="2532591" publishTime="1426751795" publishDebug="true"/>
           <PublishItem publishSize="2532591" publishTime="1426751783" publishDebug="true"/>
@@ -6982,7 +6983,6 @@ function buttonBack51(event:MouseEvent):void{
           <PublishItem publishSize="2532627" publishTime="1426749731" publishDebug="true"/>
           <PublishItem publishSize="2532622" publishTime="1426749670" publishDebug="true"/>
           <PublishItem publishSize="2532621" publishTime="1426749613" publishDebug="true"/>
-          <PublishItem publishSize="2532612" publishTime="1426749227" publishDebug="true"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="lBSX9Y5jU7802yucctAf9/" href="180438234627084.swc">
