@@ -1,34 +1,14 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/menu control prograssbar" itemID="482a3c7b-0000077b" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_main nav/menu control prograssbar" sourceLastModified="1322022674" lastModified="1426558733" lastUniqueIdentifier="8" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/menu control prograssbar" itemID="482a3c7b-0000077b" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_main nav/menu control prograssbar" sourceLastModified="1322022674" lastModified="1426843000" lastUniqueIdentifier="8" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="menu control prograssbar">
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00" locked="true" current="true" isSelected="true">
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript>
-                <script><![CDATA[import flash.events.MouseEvent;
+                <script><![CDATA[
 import flash.events.Event;
 import flash.display.MovieClip;
-
-
-
-this.addEventListener(MouseEvent.MOUSE_OVER,over4);
-
-var menustatus;
-function over4(event:MouseEvent){
-	MovieClip(root).mymenu.visible = true;
-MovieClip(root).mymenu.slideMenu(0,true);
-	menustatus = true;
-	this.visible = false;
-trace(MovieClip(root).mymenu.visible+"this1");
-trace(menustatus+"this");
-
-	//trace(MovieClip(root).mymenu.initz());
-	
-};
-
-
-
 
 this.addEventListener(Event.ENTER_FRAME,onEnterFrame3);
 progressBar.height = MovieClip(root).pBarwid;
@@ -39,6 +19,7 @@ function onEnterFrame3(e:Event):void{
 	progressBar.height = progressBar.height+(MovieClip(root).pBarwid+-progressBar.height)/6;
 	
 };
+trace(this.x);
 
 ]]></script>
               </Actionscript>
@@ -116,38 +97,6 @@ function onEnterFrame3(e:Event):void{
                   <color>
                     <Color alphaMultiplier="0"/>
                   </color>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 3" color="#FFFF00">
-          <frames>
-            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
-              <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/text 58" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix a="0" b="-1" c="0.58013916015625" d="0" tx="13.45" ty="256.8"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 4" color="#FFFF00">
-          <frames>
-            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
-              <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/shape 59" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix a="0.713180541992188" tx="13.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="m31mc_table 2" itemID="4725bf7e-00000408" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="m31mc_table 2" sourceLastModified="1426666201" lastModified="1426674910" lastUniqueIdentifier="11" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="m31mc_table 2" itemID="4725bf7e-00000408" sourceFlashFilepath="../../../Desktop/AS3/Series1/Time Value of Money_(e031715)/Time Value of Money_(e031715).xfl" sourceLibraryItemHRef="m31mc_table 2" sourceLastModified="1426666201" lastModified="1426816285" lastUniqueIdentifier="11" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="m31mc_table 2">
       <layers>
@@ -22,7 +22,7 @@ var deciLength: Array;
 var yield;
 
 function roundME(number: Number, dplaces: int) {
-	trace("here");
+	//trace("here");
 	var places = Math.pow(10, dplaces);
 	tempval = Math.round(number*places)/places;
 	tempval2 = String(tempval);
@@ -31,10 +31,10 @@ function roundME(number: Number, dplaces: int) {
 	zeroToAdd = Math.abs(zeroToAdd);
 	for (var addZero = 0; addZero<zeroToAdd; addZero++) {
 		deciLength[1] += "0";
-		trace(deciLength[1]);
+		//trace(deciLength[1]);
 	}
 
-	trace("rounded to " + deciLength[0]+"."+deciLength[1]);
+	//trace("rounded to " + deciLength[0]+"."+deciLength[1]);
 	return deciLength[0]+"."+deciLength[1];
 }
 
@@ -68,11 +68,11 @@ function for_in() {
 	
 	myYear = 100*(Math.pow((1+(Number(theYield)/100)), ctr));
 	
-	trace("myYear value = " + (myYear));
+	//trace("myYear value = " + (myYear));
 	//this["year"+ctr] = roundME(myYear,2);
 	this["year"+ctr] = round2(myYear, 2);
 	
-	trace("year " + ctr + " = "+ this["year"+ctr]);
+	//trace("year " + ctr + " = "+ this["year"+ctr]);
 	
 	//assign value to year input fields
 	//var input: TextField = this["yearsFV_mc"].getChildByName("year1") as TextField;
@@ -101,7 +101,7 @@ function doCompute() {
 		theYield = 0;
 	}
 	
-	trace("yield value is = " + theYield);
+	//trace("yield value is = " + theYield);
 	
 	ctr = 1;
 	for_in();

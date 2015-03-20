@@ -1,11 +1,11 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426758818" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426846083" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="mymenu">
       <layers>
         <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
-              <Actionscript breakpoints="158,175">
+              <Actionscript breakpoints="133">
                 <script><![CDATA[import flash.display.MovieClip;
 import flash.events.MouseEvent;
 import flash.events.Event;
@@ -62,8 +62,44 @@ this.myrolloutcolor = 0xFFFFFF;
 this.myhovercolor = 0xFFCC00;
 this.mypresscolor = this.myrolloutcolor;
 
+this.x = -122;
 
-initz();
+
+function c1(){
+mineme.addEventListener(MouseEvent.MOUSE_DOWN,clickmepls);
+function clickmepls(event:MouseEvent){
+
+		this.visible = true;
+slideMenu(0,true);
+	mineme.visible = false;
+	mineme2.visible = true;
+
+}
+
+}
+c1();
+
+function c2(){
+	mineme2.addEventListener(MouseEvent.MOUSE_DOWN,clickme);
+function clickme(event:MouseEvent){
+this.visible = true;
+slideMenu(/*-122*/ -220,false);
+	mineme2.visible= false;
+	mineme.visible= true;
+reset();
+}
+}
+c2();
+
+function reset(){
+	mineme.visible= this.Visibility = true;
+	
+	mineme.visible = this.Visibility;
+}
+
+
+
+
 
 
 var i:int = 1;
@@ -100,135 +136,29 @@ while (j<=this.disabledcontainer.length) {
 }// end while
 
 
+
 //lock
 
 
-	
 
-//display
 
-var menustatus ;
-var menuVisible ; 
 
-function initz(){
-	//true
-	if (menustatus && menuVisible) {
-		lockCheck.visible = false;
-		this.visible = false;
-		x = -140;
-		trace("false:Initz"+" "+x);
-		
-}else
-	{//false
-		lockCheck.visible = true;
-		this.visible = true;
-		x = 0;
-		trace("true:Initz"+"  "+x);
-	}// end else if
-
-}
-	/*			
-function checkPos() {
-if (menustatus) {
-		//true
-		if (MovieClip(root).mouseX<141) {
-			slideMenu(0,true);
-			 menuVisible = true;
-			trace("in");
-		
-		}
-		//false
-		else{
-			slideMenu(-140,false);
-			this.visible = false;
-			menustatus = false;
-			MovieClip(root).menucontrol.visible = true;
-			menuVisible = false;
-			trace("out");
-			
-			}
-
-	trace("working");
-														
-}// end if
-		
-	// end else if  
-}// End of the function
-
-*/
 
 function slideMenu(val:int,bol:Boolean){
-this.addEventListener(Event.ENTER_FRAME,Enter);
-function Enter(e:Event):void{
-	//NaN
-	x = x+(val-x)/6;	
-	trace("diri");
-		if (x>=val+1 && x<=val-1) {
-			trace("slideMenu"+"Working"+x);
-			x = val;
-			this.visible = bol;	
-	this.removeEventListener(Event.ENTER_FRAME, Enter);
-	}
-		// end if 
-	};
+addEventListener(Event.ENTER_FRAME,Enter);
+function Enter(e:Event){
+x = x+(val-x)/6;
+trace("diri");
+if (x>=val+1 && x<=val-1) {
+stage.removeEventListener(Event.ENTER_FRAME, Enter);
+trace("slideMenu"+"Working"+x);
+x = val;
+this.visible = bol;
+
+}
+// end if 
+};
 }// End of the function
-
-
-
-//mouse slide
-
-
-function CheckStat(){
-	//true
-	var lockMenu;
-	/*
-	if (lockMenu) {
-		lockCheck.visible = true;
-		stage.removeEventListener(MouseEvent.MOUSE_MOVE, MouseMove);
-		x = 0;
-	trace("true:CheckStat"+" "+x);
-		trace(lockCheck.visible);
-		}
-else {*/
-//false
-lockCheck.visible = false;
-stage.addEventListener(MouseEvent.MOUSE_MOVE, MouseMove);
-function MouseMove(event:MouseEvent){		
-	trace("MouseX"+mouseX);
-	//checkPos();
-	
-		if (MovieClip(root).mouseX<141) {
-			slideMenu(0,true);
-			 menuVisible = true;
-			trace("in");
-		
-		}
-		//false
-		else{
-			slideMenu(-140,false);
-			this.visible = false;
-			menustatus = false;
-			MovieClip(root).menucontrol.visible = true;
-			menuVisible = false;
-			trace("out");
-			}
-		event.updateAfterEvent();
-		trace("false:CheckStat"+" "+x);
-		trace(lockCheck.visible);
-	}
-
-	//}// end else if
-	
-}// End of the function
-CheckStat();
-
-
-
-
-
-
-
-
 
 
 
@@ -255,7 +185,32 @@ CheckStat();
 
 ]]></script>
               </Actionscript>
-              <elements/>
+              <elements>
+                <DOMSymbolInstance libraryItemName="minemenu" name="mineme" selected="true">
+                  <matrix>
+                    <Matrix tx="133.45" ty="203.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.6" y="-73.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="minemenu" name="mineme2">
+                  <matrix>
+                    <Matrix tx="133.45" ty="203.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.6" y="-73.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -427,6 +382,9 @@ CheckStat();
         <DOMLayer name="base" color="#666666" autoNamed="false">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[trace(this.x);]]></script>
+              </Actionscript>
               <elements>
                 <DOMSymbolInstance libraryItemName="general/new side background">
                   <transformationPoint>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426759104" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426835043" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="sprite 76">
       <layers>
@@ -11,38 +11,32 @@ import flash.display.MovieClip;
 
 
 
+this.visible = false;
+MovieClip(root).mymenu.lockCheck.visible = false;
 
+addEventListener(MouseEvent.MOUSE_DOWN, onReleaser);
 
-this.addEventListener(MouseEvent.MOUSE_DOWN, onReleaser);
+var lockMenu = true;
 
-var lockMenu;
 
 function onReleaser(event:MouseEvent):void
 {
-    if(lockMenu)
+
+	trace("lockMenu value"+lockMenu);
+    if(lockMenu == false)
     {
 	
-
+	//MovieClip(root).mymenu.lockCheck.visible = false;
 	lockMenu = false;
+		mouseEnabled = true;
 		trace("LockMenu"+"-"+lockMenu);
-
-		//trace("lock false"+MovieClip(parent).lockCheck.visible);
-    }
+ }
    else
     {
-		
+		//MovieClip(root).mymenu.lockCheck.visible = true;
 		lockMenu = true;
-	/*MovieClip(parent).lockCheck.visible = true;
-	MovieClip(parent).mymenu.stage.removeEventListener(MouseEvent.MOUSE_MOVE,MovieClip(parent).mymenu.MouseMove);
-	MovieClip(parent).mymenu.MouseMove(event);		
-		x = 0;*/
-		trace("true:CheckStat"+" "+x);
-	
-	
-			
 		trace("LockMenu"+"-"+lockMenu);
-		//trace("lock true"+MovieClip(parent).lockCheck.visible);
-    } // end else if
+	 } // end else if
 
 MovieClip(root).mymenu.CheckStat();
 
