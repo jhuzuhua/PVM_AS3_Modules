@@ -1,0 +1,346 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="yearsFV_mc" itemID="5509397c-00000b34" lastModified="1426669392">
+  <timeline>
+    <DOMTimeline name="yearsFV_mc">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="50" centerPoint3DY="88.05">
+                  <matrix>
+                    <Matrix a="0.7862548828125" d="1.75999450683594" ty="0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#DDDDDD"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMDynamicText name="year4" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="64.4"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year1" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="15.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year2" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="31.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year3" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="48.2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year5" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="80.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year9" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="145.6"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year6" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="96.9"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year7" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="113.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year8" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="129.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMDynamicText name="year10" fontRenderingMode="standard" width="56.6" height="15.6" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.3" ty="161.85"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters></characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMDynamicText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="15.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>1</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="31.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>2</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="48.2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>3</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="64.4"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>4</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="80.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>5</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="96.9"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>6</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="113.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>7</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="129.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>8</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="23.6" width="7.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="145.6"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>9</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="19.7" width="15.7" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="-2.6" ty="161.85"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>10</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="10.5" width="34.1" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.612472534179688" d="0.688018798828125" tx="-1.8" ty="1.4"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="27.5" y="7.8"/>
+                      </transformationPoint>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Years</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" useScreenSpacing="true" letterSpacing="-0.5" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="57.9" height="15.6" autoExpand="true" includeOutlines="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.688217163085938" d="0.688018798828125" tx="35.6" ty="1.45"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>PV = 100</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" size="14" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMGroup>
+                      <matrix>
+                        <Matrix tx="-89.1" ty="-0.1"/>
+                      </matrix>
+                      <members>
+                        <DOMShape>
+                          <matrix>
+                            <Matrix tx="-89.1" ty="-0.1"/>
+                          </matrix>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor alpha="0.101960784313725"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!2434 275|2434 3!2434 275|2434 587!2434 911|2434 587!2434 1885|2434 1561!2434 1236|2434 1561!1782 275|2434 275!2434 587|1782 587!1782 1885|2434 1885!2434 1561|1782 1561!1782 1236|2434 1236!1782 911|2434 911!2434 1236|2434 911!2434 2535
+|2434 2860!2434 2535|2434 2210!2434 3184|2434 3523!2434 3523|1782 3523!1782 3184|2434 3184!2434 2860|1782 2860!2434 3184|2434 2860!1782 2535|2434 2535!2434 2210|1782 2210!2434 1885|2434 2210!2434 911|3357 911!3357 275|2434 275!2434 587
+|3357 587!2434 3523|3357 3523!3357 3184|2434 3184!2434 2860|3357 2860!3357 2535|2434 2535!2434 2210|3357 2210!3357 1885|2434 1885!2434 1561|3357 1561!3357 1236|2434 1236"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

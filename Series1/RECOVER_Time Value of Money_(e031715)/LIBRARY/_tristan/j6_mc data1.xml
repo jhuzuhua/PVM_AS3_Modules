@@ -1,0 +1,767 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j6_mc data1" itemID="4bc69fa6-00000cb1" lastModified="1423469897" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="j6_mc data1" currentFrame="9">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[/*_root.gotoAndStop("je2");*/
+MovieClip(root).gotoAndStop("je2");
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="40.9" y="6.7"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="40.9" y="6.7"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!790 104|848 104!848 104|848 164!848 164|790 164!790 164|790 104"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="101.9" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="36.1" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="59.3" y="32.15"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="59.3" y="32.15"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!1158 613|1216 613!1216 613|1216 673!1216 673|1158 673!1158 673|1158 613"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="120.15" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="54.35" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="77.8" y="52.45"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="77.8" y="52.45"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!1528 1019|1586 1019!1586 1019|1586 1079!1586 1079|1528 1079!1528 1079|1528 1019"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="138.65" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="72.85" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="96.15" y="68.65"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="96.15" y="68.65"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!1895 1343|1953 1343!1953 1343|1953 1403!1953 1403|1895 1403!1895 1403|1895 1343"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="157" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="91.2" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="114.4" y="82.3"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="114.4" y="82.3"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2260 1616|2318 1616!2318 1616|2318 1676!2318 1676|2260 1676!2260 1676|2260 1616"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="175.25" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="109.45" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="132.9" y="93.25"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="132.9" y="93.25"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2630 1835|2688 1835!2688 1835|2688 1895!2688 1895|2630 1895!2630 1895|2630 1835"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="193.75" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="127.95" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="151.3" y="102.45"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="151.3" y="102.45"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2998 2019|3056 2019!3056 2019|3056 2079!3056 2079|2998 2079!2998 2079|2998 2019"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="212.15" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="146.35" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="169.55" y="110.45"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="169.55" y="110.45"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!3363 2179|3421 2179!3421 2179|3421 2239!3421 2239|3363 2239!3363 2239|3363 2179"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="230.4" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="164.6" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="188.2" y="116.3"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="188.2" y="116.3"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!3736 2296|3794 2296!3794 2296|3794 2356!3794 2356|3736 2356!3736 2356|3736 2296"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="249.05" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="183.25" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <transformationPoint>
+                    <Point x="206.55" y="121.2"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape>
+                      <transformationPoint>
+                        <Point x="206.55" y="121.2"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#00FF00"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!4103 2394|4161 2394!4161 2394|4161 2454!4161 2454|4103 2454!4103 2454|4103 2394"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="267.4" centerPoint3DY="204.3">
+                  <matrix>
+                    <Matrix a="0.0999603271484375" d="0.100006103515625" tx="201.6" ty="155.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" greenOffset="255"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="10" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <DashedStroke dash1="3" dash2="2" scaleMode="normal" weight="0.1">
+                                <fill>
+                                  <SolidColor color="#666666"/>
+                                </fill>
+                              </DashedStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!818 2683|4500 2683!818 2398|4500 2398!818 2115|4500 2115!818 1831|4500 1831!818 1548|4500 1548!818 1264|4500 1264!818 981|4500 981!818 697|4500 697!818 414|4500 414!818 129|4500 129"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="27.25" ty="143.75"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>0</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="129.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>10</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="115.4"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>20</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="101.3"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>30</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="87.05"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>40</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="72.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>50</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="58.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>60</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="44.6"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>70</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="30.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>80</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-0.8" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="25.25" ty="16.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>90</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="-1.2" width="13.4" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="21.25" ty="2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>100</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="right" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="37.85" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>0</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="56.2" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>2</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="74.55" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>4</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="92.9" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>6</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="111.25" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>8</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="128.15" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>10</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="146.5" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>12</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="164.85" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>14</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="183.2" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>16</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="201.55" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>18</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" left="0.25" width="79.5" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="92.95" ty="173.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Interest rates in % p.a.</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText fontRenderingMode="standard" width="67.05" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0" b="-1" c="1" d="0" tx="2" ty="111.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Present Value in %</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#FFFFFF"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!4130 2965|4500 2965!4500 2965|4500 3015!3394 2965|3762 2965!3762 3015|3762 2965!4130 3015|4130 2965!3394 3015|3394 2965!3762 2965|4130 2965!818 697|818 981!818 414|818 697!768 129|818 129!818 129|818 414!818 1548|818 1831!818 1264|818
+ 1548!768 697|818 697!818 981|768 981!768 414|818 414!768 1548|818 1548!818 1831|768 1831!768 1264|818 1264!818 981|818 1264!1186 2965|1554 2965!818 2965|1186 2965!818 2683|818 2965!818 2398|818 2683!818 2115|818 2398!768 2683|818 2683
+!768 2398|818 2398!768 2115|818 2115!818 2965|768 2965!818 3015|818 2965!1554 3015|1554 2965!1186 3015|1186 2965!2658 2965|3026 2965!1922 2965|2290 2965!1922 2965|1922 3015!3026 3015|3026 2965!2658 3015|2658 2965!2290 3015|2290 2965!2290
+ 2965|2658 2965!1554 2965|1922 2965!818 1831|818 2115!3026 2965|3394 2965"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true">
+                              <strokes>
+                                <StrokeStyle index="1">
+                                  <SolidStroke scaleMode="normal" weight="0.1">
+                                    <fill>
+                                      <SolidColor color="#00FF00"/>
+                                    </fill>
+                                  </SolidStroke>
+                                </StrokeStyle>
+                              </strokes>
+                              <edges>
+                                <Edge strokeStyle="1" edges="
+!4500 2513S4[4223 2448 3948 2375!3948 2375[3670 2297 3394 2207!3394 2207[3302 2176 3214 2134!3214 2134[2935 2011 2664 1868!2664 1868[2472 1767 2289 1646!2289 1646[2195 1587 2106 1521!2106 1521[2015 1451 1927 1376!1927 1376[1738 1214 1555
+ 1044!1555 1044[1462 955 1374 859!1374 859[1281 755 1193 646!1193 646[1094 525 1003 398!1003 398[908 267 818 130"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                    <DOMStaticText fontRenderingMode="standard" left="0.05" width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="220.35" ty="155.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>20</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" size="8" face="ArialMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426758330" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/_assets/sprite 76" itemID="48285354-0000004c" lastModified="1426759104" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="sprite 76">
       <layers>
@@ -32,9 +32,10 @@ function onReleaser(event:MouseEvent):void
     {
 		
 		lockMenu = true;
-	MovieClip(parent).lockCheck.visible = true;
-	MovieClip(parent).mymenu.stage.removeEventListener(MouseEvent.MOUSE_MOVE,function MouseMove(event:MouseEvent){});
-		x = 0;
+	/*MovieClip(parent).lockCheck.visible = true;
+	MovieClip(parent).mymenu.stage.removeEventListener(MouseEvent.MOUSE_MOVE,MovieClip(parent).mymenu.MouseMove);
+	MovieClip(parent).mymenu.MouseMove(event);		
+		x = 0;*/
 		trace("true:CheckStat"+" "+x);
 	
 	

@@ -1,0 +1,340 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_tristan/j10 drag and drop" itemID="4bc6bb48-00001634" lastModified="1426563059" lastUniqueIdentifier="39">
+  <timeline>
+    <DOMTimeline name="j10 drag and drop" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;155&lt;/guideline&gt;&lt;guideline direction="v"&gt;165&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Layer 6" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[/*
+import flash.events.Event;
+
+function roundME(number, dplaces) {
+	var places = Math.pow(10, dplaces);
+	var tempval = Math.round(number*places)/places;
+	var tempval2 = String(tempval);
+	var deciLength = tempval2.split(".");
+	var zeroToAdd = Number(deciLength[1].length)-dplaces;
+	zeroToAdd = Math.abs(zeroToAdd);
+	for (var addZero = 0; addZero<zeroToAdd; addZero++) {
+		deciLength[1] += "0";
+	}
+	return deciLength[0]+"."+deciLength[1];
+}
+
+var input1:int= 0;
+var input2:int = 0;
+var anstot:String ="";
+
+function doCompute(varNo, clipVal){
+	this["input"+varNo] = Number(clipVal);
+	var ans = Number(input1 * input2);
+	if (isNaN(ans) || isFinite(ans) == false) {
+		ans = null;
+	}
+	trace(ans)
+	if (ans == "15.1792") {
+		anstot = "15.18"
+		if(input1 == 3.7948 && input2 == 4.00){
+			this.kagid.alpha = 100;
+		}
+	} else {
+		anstot = ""
+	//this.kagid.alpha = 0;
+	}
+}
+doCompute(0,0);
+
+*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[/*
+import flash.events.Event;
+
+var bnames:Array = ["", "3.7948", "4.00", "4.00", "4.00", "4.00"];
+var bvalues:Array = ["", "3.7948", "4.00", "4.00", "4.00", "4.00"];
+var summit:int = 1000;
+
+
+function resetsol(){
+	for (var q = 0; q<=30; q++) {
+		//this["c"+q].ress();
+		this["c"+q].wrongHit();
+		this["c"+q].clearMarks();
+		this["c"+q].base.alpha = 100;
+		this["c"+q].tf.textColor = 0xFFFFFF;
+		this["c"+q].enabled = true;
+		this["s"+q].visible = true;
+		//this["c"+q].onPress = function() {
+			//this["c"+q].mypress();
+			//this["c"+q].startDrag();
+		//};
+		//this["c"+q].onRelease = function() {
+			//this["c"+q].snap();
+		//};
+	}
+		MovieClip(root).anstot = "";
+}
+
+*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_tristan/j10_mc draggy" name="c1" centerPoint3DX="-51.3" centerPoint3DY="156.6">
+                  <matrix>
+                    <Matrix a="1.00057983398438" d="0.9986572265625" tx="-86.8" ty="148.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_tristan/j10_mc draggy 2" name="c5" centerPoint3DX="-141.3" centerPoint3DY="122.2">
+                  <matrix>
+                    <Matrix a="1.00057983398438" d="0.9986572265625" tx="-176.8" ty="113.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_tristan/j10_mc draggy 2" name="c4" centerPoint3DX="-141.3" centerPoint3DY="104">
+                  <matrix>
+                    <Matrix a="1.00057983398438" d="0.9986572265625" tx="-176.8" ty="95.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_tristan/j10_mc draggy 2" name="c3" centerPoint3DX="-141.3" centerPoint3DY="86">
+                  <matrix>
+                    <Matrix a="1.00057983398438" d="0.9986572265625" tx="-176.8" ty="77.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_tristan/j10_mc draggy 2" name="c2" centerPoint3DX="-141.3" centerPoint3DY="67.8">
+                  <matrix>
+                    <Matrix a="1.00057983398438" d="0.9986572265625" tx="-176.8" ty="59.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <transformationPoint>
+                        <Point x="113.15" y="150.7"/>
+                      </transformationPoint>
+                      <members>
+                        <DOMShape>
+                          <transformationPoint>
+                            <Point x="113.15" y="150.7"/>
+                          </transformationPoint>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF" alpha="0.101960784313725"/>
+                            </FillStyle>
+                          </fills>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor alpha="0.301960784313725"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                            <StrokeStyle index="2">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#FFFFFF" alpha="0.301960784313725"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge fillStyle0="1" strokeStyle="2" edges="!1794 3212|2734 3212!2734 3212|2734 2819"/>
+                            <Edge fillStyle0="1" strokeStyle="1" edges="!2734 2819|1794 2819!1794 2819|1794 3212"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="t1" centerPoint3DX="113.2" centerPoint3DY="150.8">
+                  <matrix>
+                    <Matrix a="0.470184326171875" d="0.19573974609375" tx="89.7" ty="141"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_tristan/j10 dnd data3" name="s1" centerPoint3DX="103.05" centerPoint3DY="148">
+                  <matrix>
+                    <Matrix tx="89.7" ty="141"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.35" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup>
+                  <members>
+                    <DOMGroup>
+                      <transformationPoint>
+                        <Point x="169.45" y="150.7"/>
+                      </transformationPoint>
+                      <members>
+                        <DOMShape>
+                          <transformationPoint>
+                            <Point x="169.45" y="150.7"/>
+                          </transformationPoint>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF" alpha="0.101960784313725"/>
+                            </FillStyle>
+                          </fills>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#FFFFFF" alpha="0.301960784313725"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                            <StrokeStyle index="2">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor alpha="0.301960784313725"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge fillStyle0="1" strokeStyle="1" edges="!3075 3212|3704 3212!3704 3212|3704 2819"/>
+                            <Edge fillStyle0="1" strokeStyle="2" edges="!3704 2819|3075 2819!3075 2819|3075 3212"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" name="t2" centerPoint3DX="169.45" centerPoint3DY="150.8">
+                  <matrix>
+                    <Matrix a="0.314620971679688" d="0.19573974609375" tx="153.75" ty="141"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_tristan/j10 dnd data4" name="s2" centerPoint3DX="167.05" centerPoint3DY="148">
+                  <matrix>
+                    <Matrix tx="153.7" ty="141"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.35" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" width="7.2" height="15.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="141.75" ty="143"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>x</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" size="14" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="8.35" height="15.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="190.15" ty="143.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>=</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" autoKern="false" size="14" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#FFFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="anstot" fontRenderingMode="standard" width="51.4" height="15.85" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="203.8" ty="142.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" useScreenSpacing="true" size="14" bitmapSize="280" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="OLD ITEMS/default/j10 answer" centerPoint3DX="236.7" centerPoint3DY="152.9" isVisible="false">
+                  <matrix>
+                    <Matrix a="1.000732421875" tx="212.25" ty="153.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

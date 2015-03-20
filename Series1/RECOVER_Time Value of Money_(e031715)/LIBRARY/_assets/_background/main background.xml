@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_background/main background" itemID="4829323f-0000045b" symbolType="graphic" lastModified="1271295482">
+  <timeline>
+    <DOMTimeline name="main background">
+      <layers>
+        <DOMLayer name="Layer 1" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMBitmapInstance libraryItemName="general/bg_PIB.jpg">
+                  <matrix>
+                    <Matrix a="0.625030517578125" d="0.6666259765625" tx="-250.45" ty="-199.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="400" y="300"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

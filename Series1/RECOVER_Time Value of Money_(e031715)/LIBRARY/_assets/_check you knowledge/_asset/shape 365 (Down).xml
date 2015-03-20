@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_check you knowledge/_asset/shape 365 (Down)" itemID="48285354-0000016d" sourceFlashFilepath="../../../Desktop/AS3/Time Value of Money_Feb 20 2015 (03-12-15).fla" sourceLibraryItemHRef="_assets/_check you knowledge/_asset/shape 365 (Down)" sourceLastModified="1210602324" symbolType="graphic" lastModified="1210602324" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="shape 365 (Down)">
+      <layers>
+        <DOMLayer name="Layer 1" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0.501960784313725"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!-41 -7|-14 -7!-14 -7|-14 -16!-14 -16|-41 -16!-41 -16|-41 -7"/>
+                    <Edge fillStyle1="1" edges="!26 -55|-41 -55!-41 -55|-41 -64!-41 -64|26 -64!26 -64|26 -55!-41 32|-34 32!-34 32|-24 17!-24 17|-41 17!-41 17|-41 8!-41 8|-18 8!-18 8|19 -31!19 -31|-41 -31!-41 -31|-41 -40!-41 -40|29 -40!29 -40|31 -41!31 -41|31 -40!31 -40|54 -40!54 -40
+|54 -31!54 -31|30 -31!30 -31|2 -1!2 -1|-4 8!-4 8|54 8!54 8|54 17!54 17|-11 17!-11 17|-20 32!-20 32|54 32!54 32|54 41!54 41|-24 41!-24 41|-31 56!-31 56|54 56!54 56|54 65!54 65|-41 65!-41 65|-41 64!-41 64|-43 66!-43 66|-47 55!-47 55|-50
+ 50!-50 50|-61 26!-61 26[-66 19 -71 19!-71 19[-64 12 -58 12!-58 12[-50 12 -41 32!70 -61|70 94!70 94|-77 94!-77 94|-77 -95!-77 -95|37 -95!37 -95|70 -61!37 -92|-72 -92!-72 -92|-72 90!-72 90|66 90!66 90|66 -61!66 -61|37 -61!37 -61|37 -92"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

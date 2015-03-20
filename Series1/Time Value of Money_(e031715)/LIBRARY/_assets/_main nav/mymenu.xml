@@ -1,8 +1,8 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426757067" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_main nav/mymenu" itemID="54ed54f2-00000264" lastModified="1426758818" lastUniqueIdentifier="59" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="mymenu">
       <layers>
-        <DOMLayer name="Action Layer" color="#FFFF00">
+        <DOMLayer name="Action Layer" color="#FFFF00" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <Actionscript breakpoints="158,175">
@@ -211,7 +211,6 @@ function MouseMove(event:MouseEvent){
 			MovieClip(root).menucontrol.visible = true;
 			menuVisible = false;
 			trace("out");
-			
 			}
 		event.updateAfterEvent();
 		trace("false:CheckStat"+" "+x);
@@ -260,11 +259,11 @@ CheckStat();
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="lock" color="#00FF33" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="lock" color="#00FF33" autoNamed="false">
           <frames>
             <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
               <elements>
-                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/sprite 76" name="lockBar" selected="true">
+                <DOMSymbolInstance libraryItemName="_assets/_main nav/_assets/sprite 76" name="lockBar">
                   <matrix>
                     <Matrix tx="5" ty="465.25"/>
                   </matrix>

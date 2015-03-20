@@ -1,0 +1,1938 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="sequence/bb4" itemID="52736413-0000033d" sourceFlashFilepath="../../../../julietacastanos/Desktop/Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="sequence/bb4" sourceLastModified="1386642991" lastModified="1386642991" lastUniqueIdentifier="96" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="bb4" currentFrame="73">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="74" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Folder 1" color="#FF4FFF" locked="true" current="true" isSelected="true" open="false" layerType="folder"/>
+        <DOMLayer name="bbb48" color="#FFFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb48">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="429.6" ty="358.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.95" y="7.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="42" duration="32" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb48">
+                  <matrix>
+                    <Matrix tx="241.65" ty="262.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.95" y="7.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb47" color="#FF4FFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="26" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb47">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="429.6" ty="332.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.95" y="6.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="34" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb47">
+                  <matrix>
+                    <Matrix tx="241.65" ty="242.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.95" y="6.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb46" color="#4FFFFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="18" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb46">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="430.85" ty="305.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.55" y="6.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" duration="36" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb46">
+                  <matrix>
+                    <Matrix tx="242.6" ty="223.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.5" y="6.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb45" color="#808080" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb45">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="430.85" ty="278.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.55" y="6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" duration="38" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb45">
+                  <matrix>
+                    <Matrix tx="242.6" ty="203.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.5" y="6.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb44" color="#4F80FF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb44">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="430.85" ty="251.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.45" y="5.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" duration="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb44">
+                  <matrix>
+                    <Matrix tx="242.6" ty="184.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.45" y="5.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb43" color="#FF4F4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="18" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb43">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="430.85" ty="225.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.55" y="5.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" duration="42" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb43">
+                  <matrix>
+                    <Matrix tx="242.6" ty="164.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.5" y="5.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb42" color="#4FFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb42">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="430.85" ty="197.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.45" y="5.55"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="44" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb42">
+                  <matrix>
+                    <Matrix tx="242.6" ty="144.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.45" y="5.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb41" color="#9933CC" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb41">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="429.8" ty="170.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.85" y="5.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="46" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb41">
+                  <matrix>
+                    <Matrix tx="241.8" ty="124.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.85" y="5.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb40" color="#FFFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb40">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="429.8" ty="142.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.9" y="6.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="48" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb40">
+                  <matrix>
+                    <Matrix tx="241.8" ty="104.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.9" y="6.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb39" color="#FF4FFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb39">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="429.8" ty="114.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.85" y="6.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="50" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb39">
+                  <matrix>
+                    <Matrix tx="241.8" ty="84.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.85" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb38" color="#4FFFFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb38">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="429.8" ty="87.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.9" y="6.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb38">
+                  <matrix>
+                    <Matrix tx="241.8" ty="64.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.9" y="6.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb37" color="#808080" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb37">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="444.65" ty="61.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.3" y="6.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="54" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb37">
+                  <matrix>
+                    <Matrix tx="252.65" ty="45.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8.3" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb36" color="#4F80FF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="26" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb36">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="349.9" ty="369.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.15" y="7.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="34" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb36">
+                  <matrix>
+                    <Matrix tx="183.55" ty="269.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.15" y="7.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb35" color="#FF4F4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb35">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="349.9" ty="340.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.1" y="7.55"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" duration="36" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb35">
+                  <matrix>
+                    <Matrix tx="183.55" ty="248.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.1" y="7.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb34" color="#4FFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="18" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb34">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="351.4" ty="311.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.55" y="6.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" duration="38" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb34">
+                  <matrix>
+                    <Matrix tx="184.65" ty="227.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.55" y="6.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb33" color="#9933CC" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb33">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="351.4" ty="283.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.55" y="6.6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" duration="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb33">
+                  <matrix>
+                    <Matrix tx="184.65" ty="206.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.55" y="6.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb31" color="#FFFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="18" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb32">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="351.4" ty="254.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.7" y="6.25"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" duration="42" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb32">
+                  <matrix>
+                    <Matrix tx="184.65" ty="185.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.65" y="6.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb31" color="#FF4FFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb31">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="351.4" ty="225.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.7" y="5.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="44" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb31">
+                  <matrix>
+                    <Matrix tx="184.65" ty="164.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.65" y="5.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb30" color="#4FFFFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb30">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="351.4" ty="196.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.65" y="6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="46" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb30">
+                  <matrix>
+                    <Matrix tx="184.65" ty="143.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.6" y="6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb29" color="#808080" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb29">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="350.15" ty="166.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.05" y="6.25"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="48" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb29">
+                  <matrix>
+                    <Matrix tx="183.75" ty="121.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.05" y="6.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb28" color="#4F80FF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb28">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="350.15" ty="136.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.15" y="6.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="50" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb28">
+                  <matrix>
+                    <Matrix tx="183.75" ty="100.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.1" y="6.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb27" color="#FF4F4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb27">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="350.15" ty="106.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.05" y="7.05"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb27">
+                  <matrix>
+                    <Matrix tx="183.75" ty="78.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.05" y="7.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb26" color="#4FFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb26">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="350.15" ty="77"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.2" y="7.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="54" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb26">
+                  <matrix>
+                    <Matrix tx="183.75" ty="56.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.2" y="7.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb25" color="#9933CC" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb25">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="364.95" ty="49.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.95" y="7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="56" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb25">
+                  <matrix>
+                    <Matrix tx="194.5" ty="36.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.95" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb24" color="#FFFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb24">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="254.55" ty="381.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19" y="8.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" duration="36" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb24">
+                  <matrix>
+                    <Matrix tx="114" ty="278.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19" y="8.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb23" color="#FF4FFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb23">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="254.55" ty="350.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19.05" y="8.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" duration="38" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb23">
+                  <matrix>
+                    <Matrix tx="114" ty="256.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19.05" y="8.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb22" color="#4FFFFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="18" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb22">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="256.35" ty="319.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.45" y="7.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" duration="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb22">
+                  <matrix>
+                    <Matrix tx="115.35" ty="233.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.4" y="7.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb21" color="#808080" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="18" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb21">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="256.35" ty="288.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.45" y="7.25"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" duration="42" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb21">
+                  <matrix>
+                    <Matrix tx="115.35" ty="210.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.4" y="7.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb20" color="#4F80FF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb20">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="256.35" ty="257.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.3" y="6.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="44" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb20">
+                  <matrix>
+                    <Matrix tx="115.35" ty="188.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.3" y="6.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb19" color="#FF4F4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb19">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="256.35" ty="226.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.35" y="6.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="46" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb19">
+                  <matrix>
+                    <Matrix tx="115.35" ty="165.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.35" y="6.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb18" color="#4FFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb18">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="256.35" ty="194.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.35" y="6.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="48" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb18">
+                  <matrix>
+                    <Matrix tx="115.35" ty="142"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.35" y="6.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb17" color="#9933CC" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb17">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="254.8" ty="161.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.9" y="6.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="50" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb17">
+                  <matrix>
+                    <Matrix tx="114.2" ty="118.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.9" y="6.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb16" color="#FFFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb16">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="254.8" ty="129.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19" y="7.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb16">
+                  <matrix>
+                    <Matrix tx="114.2" ty="94.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19" y="7.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb15" color="#FF4FFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb15">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="254.8" ty="97.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.9" y="7.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="54" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb15">
+                  <matrix>
+                    <Matrix tx="114.2" ty="71.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.9" y="7.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb14" color="#4FFFFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb14">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="254.8" ty="64.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.95" y="8.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="56" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb14">
+                  <matrix>
+                    <Matrix tx="114.2" ty="47.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18.95" y="8.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb13" color="#808080" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb13">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="278.75" ty="35.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="7.6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="58" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb13">
+                  <matrix>
+                    <Matrix tx="131.65" ty="26.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="7.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb12" color="#4F80FF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb12">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="104.25" ty="400.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26" y="10.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" duration="38" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb12">
+                  <matrix>
+                    <Matrix tx="4.4" ty="292.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26" y="10.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb11" color="#FF4F4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb11">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="102.3" ty="367.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="9.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" duration="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb11">
+                  <matrix>
+                    <Matrix tx="3" ty="268.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="9.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb10" color="#4FFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="18" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="18" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb10">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="102.25" ty="332.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.4" y="8.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" duration="42" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb10">
+                  <matrix>
+                    <Matrix tx="2.95" ty="243"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="8.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb9" color="#9933CC" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb9">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="102.5" ty="297.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.35" y="8.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="44" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb9">
+                  <matrix>
+                    <Matrix tx="3.15" ty="217.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.35" y="8.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb8" color="#FFFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb8">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="102.2" ty="262.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="7.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="46" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb8">
+                  <matrix>
+                    <Matrix tx="2.9" ty="191.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.5" y="7.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb7" color="#FF4FFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb7">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="102.3" ty="227.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="7.25"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="48" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb7">
+                  <matrix>
+                    <Matrix tx="3" ty="166.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="7.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb6" color="#4FFFFF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb6">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="101.45" ty="191"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.75" y="7.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="50" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb6">
+                  <matrix>
+                    <Matrix tx="2.4" ty="139.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.75" y="7.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb5" color="#808080" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb5">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="102.3" ty="154.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="7.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb5">
+                  <matrix>
+                    <Matrix tx="3" ty="113.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.45" y="7.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb4" color="#4F80FF" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb4">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="101.95" ty="118"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.55" y="8.3"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="54" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb4">
+                  <matrix>
+                    <Matrix tx="2.75" ty="86.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.55" y="8.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb3" color="#FF4F4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb3">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="104.25" ty="81.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.9" y="9.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="56" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb3">
+                  <matrix>
+                    <Matrix tx="4.4" ty="60.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.9" y="9.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb2" color="#4FFF4F" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb2">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="104.25" ty="45.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.7" y="9.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="58" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb2">
+                  <matrix>
+                    <Matrix tx="4.4" ty="33.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="20.75" y="9.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bbb1" color="#9933CC" parentLayerIndex="1" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb1">
+                  <matrix>
+                    <Matrix a="1.37144470214844" d="1.37144470214844" tx="101.7" ty="7.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.7" y="10.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="60" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="sequence/bbb1">
+                  <matrix>
+                    <Matrix tx="2.55" ty="6.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.7" y="10.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 54" color="#4F80FF" locked="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="59" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="59" duration="11" tweenType="shape" keyMode="17922">
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment startPointA="-1.90625, -1.4453125" startPointB="-1.90625, -1.4453125" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                    <MorphCurves controlPointA="-1.0078125, -1.4453125" anchorPointA="-0.109375, -1.4453125" controlPointB="#9.A4, -1.4453125" anchorPointB="#15.2F, -1.4453125" isLine="true"/>
+                    <MorphCurves controlPointA="-0.109375, #C.2D" anchorPointA="-0.109375, #19.CB" controlPointB="#15.2F, #C.2D" anchorPointB="#15.2F, #19.CB" isLine="true"/>
+                    <MorphCurves controlPointA="-1.0078125, #19.CB" anchorPointA="-1.90625, #19.CB" controlPointB="#9.A4, #19.CB" anchorPointB="-1.90625, #19.CB" isLine="true"/>
+                    <MorphCurves controlPointA="-1.90625, #C.2D" anchorPointA="-1.90625, -1.4453125" controlPointB="-1.90625, #C.2D" anchorPointB="-1.90625, -1.4453125" isLine="true"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#990000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-28 -370S2|-28 6603!-28 6603|-488 6603!-488 6603|-488 -370!-488 -370|-28 -370"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="70" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="12.8499908447266" tx="289.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-12.9" y="155.8"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#990000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-28 -370S2|-28 6603!-28 6603|-488 6603!-488 6603|-488 -370!-488 -370|-28 -370"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 53" color="#808080" parentLayerIndex="50" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="59" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="59" duration="15" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.01446533203125" c="-0.01092529296875" d="0" tx="135.6" ty="13.15"/>
+                        </matrix>
+                        <GradientEntry color="#484848" ratio="0"/>
+                        <GradientEntry color="#2B2B2B" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#201F1B"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!5423 1263S2|0 527!0 527|0 0!0 0|5423 880!5423 880|5423 1263"/>
+                    <Edge fillStyle1="2" edges="!5423 2815S2|0 2667!0 2667|0 2140!0 2140|5423 2432!5423 2432|5423 2815!5423 3591|0 3737!0 3737|0 3210!0 3210|5423 3209!5423 3209|5423 3591!5423 2039|0 1597!0 1597|0 1070!0 1070|5423 1657!5423 1657|5423 2039!0 4280|5423 3985!5423 3985
+|5423 4368!5423 4368|0 4807!0 4807|0 4280!0 5350|5423 4762!5423 4762|5423 5144!5423 5144|0 5877!0 5877|0 5350"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 52" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" duration="49" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="49" duration="15" tweenType="shape" keyMode="17922" acceleration="-100">
+              <MorphShape>
+                <morphSegments>
+                  <MorphSegment strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="1">
+                    <MorphCurves controlPointA="#A.98, #1.B8" anchorPointA="#15.2F, #3.7" controlPointB="#A.98, #1.B8" anchorPointB="#15.2F, #3.7" isLine="true"/>
+                    <MorphCurves controlPointA="#15.2F, #C.86" anchorPointA="#15.2F, #15.9C" controlPointB="#15.2F, #C.86" anchorPointB="#15.2F, #15.9C" isLine="true"/>
+                    <MorphCurves controlPointA="#A.98, #17.54" anchorPointA="0, #19.0C" controlPointB="#A.98, #17.54" anchorPointB="0, #19.0C" isLine="true"/>
+                    <MorphCurves controlPointA="0, #C.86" controlPointB="0, #C.86" isLine="true"/>
+                  </MorphSegment>
+                </morphSegments>
+                <morphHintsList/>
+              </MorphShape>
+              <elements>
+                <DOMShape isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.2506103515625" b="-0.040985107421875" c="0.040985107421875" d="0.2506103515625" tx="168" ty="502.95"/>
+                        </matrix>
+                        <GradientEntry ratio="0"/>
+                        <GradientEntry alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!5423 5532S2|0 6412!0 6412|0 0!0 0|5423 880!5423 880|5423 5532"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="64" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="1.0948486328125" b="-0.179046630859375" c="0.179046630859375" d="1.0948486328125" tx="163" ty="292.95"/>
+                        </matrix>
+                        <GradientEntry ratio="0"/>
+                        <GradientEntry alpha="0.952941176470588" ratio="0.713725490196078"/>
+                        <GradientEntry alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!0 6412S2|0 0!0 0|5423 880!5423 880|5423 5532!5423 5532|0 6412"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" duration="9" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!0 0|5423 880!5423 880|5423 5532!5423 5532|0 6412!0 6412|0 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" duration="74" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!5423 1657|0 1070!0 1070|0 527!0 527|5423 1263!5423 1263|5423 1657!5423 2432|0 2140!0 2140|0 1597!0 1597|5423 2039!5423 2039|5423 2432!5423 3209|0 3210!0 3210|0 2667!0 2667|5423 2815!5423 2815|5423 3209!0 4807|5423 4368!5423 4368|5423
+ 4762!5423 4762|0 5350!0 5350|0 4807!0 5877|5423 5144!5423 5144|5423 5532!5423 5532|0 6412!0 6412|0 5877"/>
+                    <Edge fillStyle0="1" edges="
+!0 3737|0 4280!0 4280|5423 3985!5423 3985|5423 3591!5423 3591|0 3737"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!5423 1263S2|0 527!0 527|0 0!0 0|5423 880!5423 880|5423 1263!5423 2815|0 2667!0 2667|0 2140!0 2140|5423 2432!5423 2432|5423 2815!5423 3591|0 3737!0 3737|0 3210!0 3210|5423 3209!5423 3209|5423 3591!5423 2039|0 1597!0 1597|0 1070!0 1070
+|5423 1657!5423 1657|5423 2039!0 4280|5423 3985!5423 3985|5423 4368!5423 4368|0 4807!0 4807|0 4280!0 5350|5423 4762!5423 4762|5423 5144!5423 5144|0 5877!0 5877|0 5350"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

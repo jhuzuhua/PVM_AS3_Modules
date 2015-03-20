@@ -1,0 +1,65 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bb4" itemID="52736aee-000003a0" sourceFlashFilepath="../../../../julietacastanos/Desktop/Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="bb4" sourceLastModified="1386053734" lastModified="1386053734" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="bb4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="343.35" height="86.4" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.00013732910156" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>WELCOME TO</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="18" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="18" face="ArialMT" fillColor="#FE9600"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>PRINCIPLES OF INVESTMENT BANKING</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="18" face="ArialMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>&#xD;&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="18" face="Arial-BoldMT" fillColor="#FE9600"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>MODULE:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="18" face="Arial-BoldMT" fillColor="#FFCC00"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="18" face="Arial-BoldMT" fillColor="#FE9600"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>TIME VALUE OF MONEY</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" useScreenSpacing="true" size="18" face="Arial-BoldMT" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

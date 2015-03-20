@@ -1,0 +1,1998 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ss1" itemID="51deefef-00000445" symbolType="button" lastModified="1423118913">
+  <timeline>
+    <DOMTimeline name="ss1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="222.95" centerPoint3DY="124">
+                      <matrix>
+                        <Matrix a="4.43331909179688" d="2.47930908203125" tx="1.3"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="50.05" y="50.1"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                    <DOMStaticText width="252.3" height="17.75" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="59.4" ty="16.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Present Value of Single Cash Flows</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" bold="true" size="15.9" face="ArialMT" fillColor="#808080"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="21.7" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="75.3" ty="38"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Time</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="128.25" ty="38"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>10</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="59.5" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="66.75" ty="54.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Interest  Rate</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="61.5" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="108.3" ty="54.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>Present Value</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="62.3"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>0</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="30.45" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="121.85" ty="62.3"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>100.00</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="70.4"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>1</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="70.4"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>90.53</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="78.45"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>2</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="78.45"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>82.03</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="86.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>3</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="86.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>74.41</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="94.6"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>4</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="94.6"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>67.56</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="102.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>5</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="102.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>61.39</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="110.8"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>6</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="110.8"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>55.84</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="118.9"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>7</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="118.9"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>50.83</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="126.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>8</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="126.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>46.31</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="135.05"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>9</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="135.05"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>42.24</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="143.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>10</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="143.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>38.55</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="10.45" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="151.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>11</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="151.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>35.22</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="159.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>12</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="159.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>31.20</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="167.4"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>13</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="167.4"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>29.46</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="175.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>14</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="175.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>26.97</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="183.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>15</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="183.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>24.72</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="191.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>16</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="191.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>22.67</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="199.75"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>17</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="199.75"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>20.80</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="207.85"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>18</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="207.85"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>19.11</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="215.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>19</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="215.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>17.56</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="11.2" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="78.95" ty="224.05"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>20</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="24.95" height="11.05" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="123.7" ty="224.05"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>16.15</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMGroup>
+                      <transformationPoint>
+                        <Point x="-0.5" y="0.2"/>
+                      </transformationPoint>
+                      <members>
+                        <DOMShape>
+                          <transformationPoint>
+                            <Point x="-0.5" y="0.2"/>
+                          </transformationPoint>
+                          <fills>
+                            <FillStyle index="1">
+                              <LinearGradient>
+                                <matrix>
+                                  <Matrix a="0" b="-0.004913330078125" c="0.271270751953125" d="0" tx="222.4" ty="4.3"/>
+                                </matrix>
+                                <GradientEntry color="#DFE8F6" ratio="0"/>
+                                <GradientEntry color="#DFE8F6" ratio="0.176470588235294"/>
+                                <GradientEntry color="#F8FAFF" ratio="1"/>
+                              </LinearGradient>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!8886 166|4 166!4 166|4 5!4 5|8885 5!8885 5|8886 166"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <transformationPoint>
+                        <Point x="0.1" y="3.15"/>
+                      </transformationPoint>
+                      <members>
+                        <DOMShape>
+                          <transformationPoint>
+                            <Point x="0.1" y="3.15"/>
+                          </transformationPoint>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#EDF6FF"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!0 5|0 4953!0 4953|321 4953!321 4953|321 5!321 5|0 5"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <transformationPoint>
+                        <Point x="7.65" y="4.75"/>
+                      </transformationPoint>
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <SolidColor color="#C6D7E8"/>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle1="1" edges="!314 176S2|5 176!5 176|5 4!5 4|314 4!314 4|314 176"/>
+                                <Edge cubics="!5 176(;5,176 5,4 5,4q5 176 5 4);"/>
+                                <Edge cubics="!314 4(;314,4 314,176 314,176q314 4 314 176);"/>
+                                <Edge cubics="!314 176(;314,176 5,176 5,176q314 176 5 176);"/>
+                                <Edge cubics="!5 4(;5,4 314,4 314,4q5 4 314 4);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <SolidColor color="#A9C4E9"/>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle1="1" edges="!23 18S2|314 18!314 18|314 176!314 176|23 176!23 176|23 18"/>
+                                <Edge cubics="!23 176(;23,176 23,18 23,18q23 176 23 18);"/>
+                                <Edge cubics="!314 18(;314,18 314,176 314,176q314 18 314 176);"/>
+                                <Edge cubics="!23 18(;23,18 314,18 314,18q23 18 314 18);"/>
+                                <Edge cubics="!314 176(;314,176 23,176 23,176q314 176 23 176);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <SolidColor color="#EDF1F6"/>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle1="1" edges="!266 46S2|266 146!266 146|126 146!126 146|266 46"/>
+                                <Edge cubics="!266 46(;266,46 266,146 266,146q266 46 266 146);"/>
+                                <Edge cubics="!266 146(;266,146 126,146 126,146q266 146 126 146);"/>
+                                <Edge cubics="!126 146(;126,146 266,46 266,46q126 146 266 46);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMShape>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#CCCCCC"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="!8901 167|8889 167!8889 167|8889 17!8889 328|8901 328!8889 167|8889 328!8889 908|8901 908!8889 746|8889 908!8889 746|8901 746!8889 584|8889 746!8901 584|8889 584!8889 328|8889 584!8889 1070|8901 1070!8889 1070|8889 1231!8889 1231|8889
+ 1393!8901 1231|8889 1231!8901 1393|8889 1393!8889 1717|8889 1879!8901 1879|8889 1879!8889 1717|8901 1717!8889 1555|8889 1717!8901 1555|8889 1555!8889 1393|8889 1555!8889 908|8889 1070!8064 584|8064 328!8064 908|8064 746!8064 746|8064
+ 584!8064 328|8064 167!8064 17|8064 167!7239 328|7239 584!7239 746|7239 908!7239 584|7239 746!7239 17|7239 167!7239 167|7239 328!7239 1070|7239 1231!7239 1879|7239 1717!7239 1231|7239 1393!7239 1717|7239 1555!7239 1393|7239 1555!8064
+ 1231|8064 1070!8064 1879|8064 1717!8064 1717|8064 1555!8064 1393|8064 1231!8064 1555|8064 1393!8064 1070|7239 1070!7239 1879|8064 1879!7239 1717|8064 1717!8064 1231|7239 1231!8064 1393|7239 1393!7239 1555|8064 1555!7239 908|8064 908
+!7239 746|8064 746!8064 584|7239 584!7239 328|8064 328!8064 167|7239 167!7239 1070|7239 908!8064 908|8064 1070!8064 2525|8064 2363!8064 2687|8064 2525!8064 2687|8064 2849!8064 2363|8064 2202!8064 2202|8064 2040!7239 2363|7239 2525!7239
+ 2849|7239 2687!7239 2525|7239 2687!7239 2040|7239 2202!7239 2363|7239 2202!7239 3819|7239 3658!7239 3011|7239 3172!7239 3334|7239 3496!7239 3334|7239 3172!7239 3658|7239 3496!8064 3819|8064 3658!8064 3172|8064 3011!8064 3496|8064 3658
+!8064 3334|8064 3496!8064 3172|8064 3334!7239 2849|8064 2849!8064 3658|7239 3658!8064 3819|7239 3819!7239 3496|8064 3496!8064 3334|7239 3334!7239 3172|8064 3172!8064 3011|7239 3011!7239 2687|8064 2687!8064 2525|7239 2525!7239 3011|7239
+ 2849!8064 2849|8064 3011!7239 2363|8064 2363!8064 2040|7239 2040!7239 2202|8064 2202!8901 2202|8889 2202!8889 2202|8889 2363!8889 2040|8889 2202!8901 2040|8889 2040!8889 2363|8901 2363!8901 2525|8889 2525!8889 2687|8889 2849!8901 2687
+|8889 2687!8901 2849|8889 2849!8889 2525|8889 2687!8889 2363|8889 2525!8889 3011|8901 3011!8889 3011|8889 3172!8889 3172|8889 3334!8901 3172|8889 3172!8901 3334|8889 3334!8889 3658|8889 3819!8901 3819|8889 3819!8889 3658|8901 3658!8889
+ 3496|8889 3658!8901 3496|8889 3496!8889 3334|8889 3496!8889 2849|8889 3011!8064 328|8889 328!8889 746|8064 746!8064 1717|8889 1717!8064 2363|8889 2363!8889 584|8064 584!8889 2525|8064 2525!8889 3819|8064 3819!8064 2202|8889 2202!8064
+ 1393|8889 1393!8064 1555|8889 1555!8889 1231|8064 1231!8064 3658|8889 3658!8064 3496|8889 3496!8064 3334|8889 3334!8889 3172|8064 3172!8064 3011|8889 3011!8064 2849|8889 2849!8889 2687|8064 2687!8064 2040|8889 2040!8889 1879|8064 1879
+!8064 1070|8889 1070!8889 908|8064 908!8064 167|8889 167!8064 1879|8064 2040!7239 2040|7239 1879!8889 1879|8889 2040!8901 4143|8889 4143!8889 4143|8889 4305!8889 3981|8889 4143!8901 3981|8889 3981!8889 4305|8901 4305!8901 4467|8889 4467
+!8889 4628|8889 4790!8901 4628|8889 4628!8901 4790|8889 4790!8889 4467|8889 4628!8889 4305|8889 4467!8889 4952|8889 4964!8901 4952|8889 4952!8889 4790|8889 4952!8064 4467|8064 4305!8064 4790|8064 4628!8064 4628|8064 4467!8064 3981|8064
+ 4143!8064 4305|8064 4143!7239 4467|7239 4305!7239 4628|7239 4467!7239 4790|7239 4628!7239 4143|7239 4305!7239 4143|7239 3981!7239 4964|7239 4952!8064 4964|8064 4952!8064 4467|7239 4467!7239 4628|8064 4628!8064 4790|7239 4790!7239 4952
+|8064 4952!7239 3981|8064 3981!8064 4143|7239 4143!7239 4305|8064 4305!8064 4952|8064 4790!7239 4952|7239 4790!8064 4305|8889 4305!8064 4628|8889 4628!8064 4790|8889 4790!8064 4952|8889 4952!8889 4467|8064 4467!8064 4143|8889 4143!8889
+ 3981|8064 3981!8064 3981|8064 3819!7239 3819|7239 3981!8889 3819|8889 3981!6414 328|6414 584!6414 584|6414 746!6414 746|6414 908!6414 328|6414 167!6414 167|6414 17!5589 584|5589 328!5589 746|5589 908!5589 584|5589 746!5589 167|5589 328
+!5589 17|5589 167!5589 1070|5589 1231!5589 1717|5589 1879!5589 1555|5589 1717!5589 1231|5589 1393!5589 1393|5589 1555!6414 1231|6414 1070!6414 1879|6414 1717!6414 1555|6414 1393!6414 1231|6414 1393!6414 1555|6414 1717!5589 908|6414 908
+!5589 746|6414 746!6414 584|5589 584!5589 1231|6414 1231!6414 1070|5589 1070!5589 1879|6414 1879!6414 1717|5589 1717!5589 1555|6414 1555!6414 1393|5589 1393!5589 328|6414 328!5589 167|6414 167!5589 1070|5589 908!6414 908|6414 1070!4764
+ 328|4764 584!4764 746|4764 908!4764 746|4764 584!4764 167|4764 17!4764 328|4764 167!3939 746|3939 908!3939 597|3939 746!3939 17|3939 167!3939 328|3939 341!3939 167|3939 328!3939 1231|3939 1070!3939 1879|3939 1717!3939 1555|3939 1393
+!3939 1231|3939 1393!3939 1555|3939 1717!4764 1070|4764 1231!4764 1717|4764 1879!4764 1393|4764 1555!4764 1393|4764 1231!4764 1717|4764 1555!4764 1879|3939 1879!3939 1070|4764 1070!3939 908|4764 908!3939 1393|4764 1393!4764 1231|3939
+ 1231!3939 1717|4764 1717!4764 1555|3939 1555!3939 746|4764 746!3939 328|4764 328!4764 167|3939 167!3939 908|3939 1070!4764 908|4764 1070!4764 2363|4764 2525!4764 2687|4764 2525!4764 2849|4764 2687!4764 2202|4764 2363!4764 2040|4764 2202
+!3939 2525|3939 2363!3939 2525|3939 2687!3939 2687|3939 2849!3939 2363|3939 2202!3939 2202|3939 2040!3939 3819|3939 3658!3939 3011|3939 3172!3939 3334|3939 3496!3939 3334|3939 3172!3939 3658|3939 3496!4764 3658|4764 3819!4764 3172|4764
+ 3011!4764 3172|4764 3334!4764 3334|4764 3496!4764 3496|4764 3658!3939 2202|4764 2202!4764 2363|3939 2363!3939 2040|4764 2040!4764 3658|3939 3658!4764 3819|3939 3819!3939 3496|4764 3496!4764 3334|3939 3334!3939 3172|4764 3172!4764 3011
+|3939 3011!4764 2525|3939 2525!3939 2849|4764 2849!4764 2687|3939 2687!3939 3011|3939 2849!4764 2849|4764 3011!6414 2525|6414 2363!6414 2687|6414 2525!6414 2849|6414 2687!6414 2202|6414 2040!6414 2202|6414 2363!5589 2525|5589 2363!5589
+ 2525|5589 2687!5589 2687|5589 2849!5589 2363|5589 2202!5589 2040|5589 2202!5589 3658|5589 3819!5589 3011|5589 3172!5589 3172|5589 3334!5589 3334|5589 3496!5589 3496|5589 3658!6414 3819|6414 3658!6414 3172|6414 3011!6414 3334|6414 3172
+!6414 3496|6414 3334!6414 3658|6414 3496!6414 2363|5589 2363!5589 3819|6414 3819!6414 3011|5589 3011!6414 3172|5589 3172!6414 3334|5589 3334!6414 3496|5589 3496!5589 3658|6414 3658!6414 2525|5589 2525!6414 2687|5589 2687!5589 2849|6414
+ 2849!5589 2202|6414 2202!6414 2040|5589 2040!6414 2849|6414 3011!5589 3011|5589 2849!3939 2040|3939 1879!4764 2525|5589 2525!4764 2687|5589 2687!5589 3819|4764 3819!5589 3172|4764 3172!5589 3334|4764 3334!4764 3658|5589 3658!5589 3496
+|4764 3496!4764 3011|5589 3011!5589 2849|4764 2849!5589 167|4764 167!4764 1231|5589 1231!5589 1717|4764 1717!4764 2363|5589 2363!5589 1879|4764 1879!4764 2202|5589 2202!5589 2040|4764 2040!4764 1555|5589 1555!5589 1393|4764 1393!5589
+ 746|4764 746!4764 584|5589 584!5589 328|4764 328!4764 1070|5589 1070!5589 908|4764 908!5589 2040|5589 1879!4764 1879|4764 2040!6414 1879|6414 2040!3114 746|3114 597!3114 746|3114 908!3114 167|3114 328!3114 328|3114 341!3114 17|3114 167
+!2136 908|2136 746!2136 746|2136 597!2136 328|2136 167!2136 341|2136 328!2136 167|2136 17!2136 1070|2136 1231!2136 1879|2136 1717!2136 1393|2136 1555!2136 1231|2136 1393!2136 1555|2136 1717!3114 1070|3114 1231!3114 1717|3114 1879!3114
+ 1555|3114 1393!3114 1393|3114 1231!3114 1717|3114 1555!3114 1879|2136 1879!2136 1393|3114 1393!3114 1231|2136 1231!2136 1717|3114 1717!3114 1555|2136 1555!2136 328|3114 328!3114 167|2136 167!3114 908|2136 908!2136 1070|3114 1070!2136
+ 746|3114 746!3114 1070|3114 908!2136 1070|2136 908!1146 328|1146 584!1146 746|1146 908!1146 584|1146 746!1146 328|1146 167!1146 17|1146 167!321 167|321 328!321 167|13 167!321 17|321 167!321 328|13 328!321 584|321 746!321 746|13 746!321
+ 908|321 746!13 908|321 908!13 584|321 584!321 584|321 328!321 1070|13 1070!13 1231|321 1231!321 1231|321 1070!321 1393|321 1231!321 1393|13 1393!321 1879|13 1879!321 1717|321 1555!13 1717|321 1717!13 1555|321 1555!321 1879|321 1717!321
+ 1555|321 1393!1146 1231|1146 1070!1146 1717|1146 1879!1146 1393|1146 1231!1146 1717|1146 1555!1146 1555|1146 1393!1146 1879|321 1879!1146 1231|321 1231!321 1717|1146 1717!1146 1393|321 1393!321 1555|1146 1555!321 746|1146 746!1146 584
+|321 584!321 1070|1146 1070!1146 908|321 908!321 328|1146 328!1146 167|321 167!321 908|321 1070!1146 908|1146 1070!1146 2525|1146 2363!1146 2525|1146 2687!1146 2687|1146 2849!1146 2202|1146 2363!1146 2040|1146 2202!13 2363|321 2363!321
+ 2363|321 2202!321 2040|321 2202!13 2040|321 2040!321 2202|13 2202!13 2849|321 2849!321 2525|13 2525!321 2687|321 2525!13 2687|321 2687!321 2849|321 2687!321 2363|321 2525!13 3011|321 3011!321 3011|321 3172!321 3172|13 3172!321 3334|321
+ 3172!13 3334|321 3334!321 3819|13 3819!13 3658|321 3658!321 3496|13 3496!321 3496|321 3658!321 3658|321 3819!321 3334|321 3496!1146 3819|1146 3658!1146 3011|1146 3172!1146 3658|1146 3496!1146 3496|1146 3334!1146 3172|1146 3334!1146 2849
+|321 2849!321 2687|1146 2687!1146 3819|321 3819!321 3172|1146 3172!1146 3011|321 3011!321 3658|1146 3658!321 3496|1146 3496!1146 3334|321 3334!321 2525|1146 2525!321 3011|321 2849!1146 2849|1146 3011!1146 2363|321 2363!321 2202|1146 2202
+!1146 2040|321 2040!3114 2363|3114 2525!3114 2687|3114 2525!3114 2687|3114 2849!3114 2040|3114 2202!3114 2363|3114 2202!2136 2525|2136 2363!2136 2687|2136 2525!2136 2849|2136 2687!2136 2202|2136 2363!2136 2202|2136 2040!2136 3658|2136
+ 3819!2136 3172|2136 3011!2136 3334|2136 3496!2136 3658|2136 3496!2136 3334|2136 3172!3114 3819|3114 3658!3114 3011|3114 3172!3114 3496|3114 3334!3114 3172|3114 3334!3114 3496|3114 3658!2136 3819|3114 3819!3114 2849|2136 2849!3114 3658
+|2136 3658!2136 3011|3114 3011!3114 3172|2136 3172!3114 3334|2136 3334!2136 3496|3114 3496!3114 2525|2136 2525!2136 2687|3114 2687!2136 3011|2136 2849!3114 2849|3114 3011!3114 2040|2136 2040!3114 2202|2136 2202!2136 2363|3114 2363!2136
+ 1393|1146 1393!1146 1231|2136 1231!1146 1555|2136 1555!2136 3819|1146 3819!2136 3496|1146 3496!1146 3658|2136 3658!2136 3172|1146 3172!1146 3334|2136 3334!2136 2525|1146 2525!2136 2687|1146 2687!2136 2849|1146 2849!1146 3011|2136 3011
+!1146 2363|2136 2363!2136 1717|1146 1717!2136 1879|1146 1879!1146 2202|2136 2202!2136 2040|1146 2040!1146 1070|2136 1070!1146 908|2136 908!2136 328|1146 328!1146 167|2136 167!1146 746|2136 746!1146 1879|1146 2040!321 2040|321 1879!3114
+ 1879|3114 2040!2136 2040|2136 1879!3114 4467|3114 4305!3114 4467|3114 4628!3114 4790|3114 4628!3114 4305|3114 4143!3114 4143|3114 3981!2136 4467|2136 4305!2136 4628|2136 4790!2136 4628|2136 4467!2136 4143|2136 3981!2136 4305|2136 4143
+!2136 4952|2136 4964!3114 4964|3114 4952!2136 4467|3114 4467!3114 4628|2136 4628!3114 4790|2136 4790!3114 4952|2136 4952!2136 4305|3114 4305!3114 3981|2136 3981!2136 4143|3114 4143!3114 4952|3114 4790!2136 4790|2136 4952!1146 4305|1146
+ 4467!1146 4790|1146 4628!1146 4628|1146 4467!1146 3981|1146 4143!1146 4143|1146 4305!13 3981|321 3981!13 4305|321 4305!321 4143|321 3981!321 4143|13 4143!321 4305|321 4143!321 4628|321 4467!321 4628|13 4628!321 4790|321 4628!13 4790
+|321 4790!321 4467|13 4467!321 4467|321 4305!13 4952|321 4952!321 4952|321 4964!1146 4964|1146 4952!1146 4305|321 4305!321 4143|1146 4143!1146 4467|321 4467!321 4628|1146 4628!1146 4790|321 4790!321 3981|1146 3981!1146 4952|321 4952!1146
+ 4952|1146 4790!321 4952|321 4790!2136 4790|1146 4790!2136 4952|1146 4952!1146 4628|2136 4628!1146 4467|2136 4467!2136 3981|1146 3981!2136 4143|1146 4143!1146 4305|2136 4305!6414 4467|6414 4305!6414 4467|6414 4628!6414 4628|6414 4790
+!6414 4305|6414 4143!6414 3981|6414 4143!5589 4305|5589 4467!5589 4628|5589 4467!5589 4790|5589 4628!5589 4143|5589 3981!5589 4305|5589 4143!5589 4964|5589 4952!6414 4952|6414 4964!5589 4628|6414 4628!5589 4790|6414 4790!5589 4952|6414
+ 4952!5589 3981|6414 3981!6414 4143|5589 4143!6414 4305|5589 4305!5589 4467|6414 4467!6414 4790|6414 4952!5589 4952|5589 4790!4764 4305|4764 4467!4764 4467|4764 4628!4764 4628|4764 4790!4764 3981|4764 4143!4764 4143|4764 4305!3939 4467
+|3939 4305!3939 4628|3939 4790!3939 4628|3939 4467!3939 3981|3939 4143!3939 4305|3939 4143!3939 4952|3939 4964!4764 4952|4764 4964!4764 4467|3939 4467!3939 4305|4764 4305!4764 4628|3939 4628!4764 4790|3939 4790!4764 4952|3939 4952!3939
+ 4143|4764 4143!4764 3981|3939 3981!3939 4790|3939 4952!4764 4790|4764 4952!5589 4467|4764 4467!5589 4628|4764 4628!5589 4790|4764 4790!5589 4952|4764 4952!5589 3981|4764 3981!5589 4143|4764 4143!4764 4305|5589 4305!4764 584|1146 584
+!1 5|1 4964!3114 2525|3939 2525!3939 3981|3114 3981!3114 3819|3939 3819!3114 4790|3939 4790!3114 4952|3939 4952!3939 4143|3114 4143!3114 4305|3939 4305!3939 4467|3114 4467!3114 4628|3939 4628!3939 2687|3114 2687!3114 3334|3939 3334!3939
+ 3172|3114 3172!3114 3658|3939 3658!3939 3496|3114 3496!3114 3011|3939 3011!3939 2849|3114 2849!3939 3819|3939 3981!2136 3981|2136 3819!3114 3981|3114 3819!1146 3981|1146 3819!321 3981|321 3819!3114 1231|3939 1231!3939 1070|3114 1070
+!3114 2363|3939 2363!3939 1393|3114 1393!3114 1555|3939 1555!3939 1717|3114 1717!3939 1879|3114 1879!3939 2040|3114 2040!3114 2202|3939 2202!3114 908|3939 908!3939 746|3114 746!3939 328|3114 328!3114 167|3939 167!6414 3981|6414 3819!5589
+ 3981|5589 3819!4764 3819|4764 3981!13 5|8901 5!6414 3819|7239 3819!7239 4305|6414 4305!7239 4467|6414 4467!7239 4628|6414 4628!7239 4790|6414 4790!7239 4952|6414 4952!6414 4143|7239 4143!7239 3981|6414 3981!7239 2525|6414 2525!7239 3172
+|6414 3172!6414 3334|7239 3334!7239 3496|6414 3496!6414 3658|7239 3658!6414 3011|7239 3011!7239 2687|6414 2687!6414 2849|7239 2849!7239 1879|6414 1879!6414 2040|7239 2040!7239 2202|6414 2202!6414 2363|7239 2363!6414 1393|7239 1393!7239
+ 1231|6414 1231!6414 1717|7239 1717!7239 1555|6414 1555!7239 167|6414 167!6414 328|7239 328!7239 584|6414 584!6414 1070|7239 1070!6414 908|7239 908!7239 746|6414 746"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup>
+                      <members>
+                        <DOMSymbolInstance libraryItemName="_gui/Box 100x100 white no border kit" centerPoint3DX="307.75" centerPoint3DY="147.45">
+                          <matrix>
+                            <Matrix a="2.14463806152344" d="1.78900146484375" tx="200.55" ty="58"/>
+                          </matrix>
+                          <transformationPoint>
+                            <Point x="50" y="50"/>
+                          </transformationPoint>
+                        </DOMSymbolInstance>
+                        <DOMGroup>
+                          <members>
+                            <DOMStaticText width="81.85" height="11.05" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="296.4" ty="69.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>Single Cash Flows</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="192.4"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>10.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="179.9"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>20.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="167.4"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>30.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="154.85"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>40.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="142.3"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>50.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="129.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>60.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="117.15"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>70.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="104.65"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>80.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="92.05"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>90.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="24.4" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="218.4" ty="79.55"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>100.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="238.7" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>0</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="247.05" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>1</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="255.45" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>2</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="263.8" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>3</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="272.25" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>4</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="280.6" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>5</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="289" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>6</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="297.35" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>7</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="305.8" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>8</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="314.15" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>9</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="320.75" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>10</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="8.45" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="329.05" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>11</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="337.45" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>12</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="345.85" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>13</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="354.25" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>14</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="362.6" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>15</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="371" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>16</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="379.45" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>17</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="387.8" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>18</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="396.2" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>19</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="404.6" ty="213.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>20</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="61.7" height="11.05" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="303.05" ty="225.4"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>Interest Rates</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="61.5" height="11.05" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0" b="-0.656051635742188" c="0.656051635742188" d="0" tx="205.1" ty="166.6"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>Present Value</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="9.9" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="15.6" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222.95" ty="204.65"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>0.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="192.4"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>10.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="179.9"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>20.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="167.4"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>30.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="154.85"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>40.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="142.3"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>50.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="129.7"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>60.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="117.15"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>70.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="104.65"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>80.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="20" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="222" ty="92.05"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>90.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMStaticText width="24.4" height="8.95" autoExpand="true" isSelectable="false">
+                              <matrix>
+                                <Matrix a="0.656051635742188" d="0.656051635742188" tx="218.4" ty="79.55"/>
+                              </matrix>
+                              <textRuns>
+                                <DOMTextRun>
+                                  <characters>100.00</characters>
+                                  <textAttrs>
+                                    <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                                  </textAttrs>
+                                </DOMTextRun>
+                              </textRuns>
+                            </DOMStaticText>
+                            <DOMGroup>
+                              <members>
+                                <DOMShape>
+                                  <strokes>
+                                    <StrokeStyle index="1">
+                                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                        <fill>
+                                          <SolidColor/>
+                                        </fill>
+                                      </SolidStroke>
+                                    </StrokeStyle>
+                                  </strokes>
+                                  <edges>
+                                    <Edge strokeStyle="1" edges="
+!7997 4169|8164 4169!8164 4169|8164 4208!7829 4169|7997 4169!7829 4169|7829 4208!7997 4208|7997 4169!7325 4169|7493 4169!7661 4208|7661 4169!7493 4169|7493 4208!7493 4169|7661 4169!7325 4208|7325 4169!7661 4169|7829 4169!7158 4169|7158
+ 4208!6990 4208|6990 4169!6990 4169|7158 4169!6822 4169|6822 4208!6654 4208|6654 4169!6488 4169|6488 4208!6654 4169|6822 4169!6488 4169|6654 4169!6822 4169|6990 4169!7158 4169|7325 4169!4770 1911|4810 1911!4770 1659|4810 1659!4810 1659
+|4810 1911!4810 2411|4810 2663!4810 2914|4770 2914!4770 2663|4810 2663!4810 2663|4810 2914!4810 2411|4770 2411!4770 2162|4810 2162!4810 2162|4810 2411!4810 3666|4810 3918!4770 3918|4810 3918!4770 3165|4810 3165!4810 3666|4770 3666!4770
+ 3416|4810 3416!4810 3416|4810 3666!4810 3165|4810 3416!4810 2914|4810 3165!4810 1911|4810 2162!5817 4169|5984 4169!5817 4208|5817 4169!6320 4208|6320 4169!6152 4169|6152 4208!5984 4208|5984 4169!6152 4169|6320 4169!5984 4169|6152 4169
+!5313 4169|5481 4169!5649 4169|5649 4208!5481 4208|5481 4169!5481 4169|5649 4169!5313 4169|5313 4208!5146 4208|5146 4169!4978 4169|4978 4208!4978 4169|5146 4169!5146 4169|5313 4169!5649 4169|5817 4169!4810 4169|4770 4169!4810 4208|4810
+ 4169!4810 4169|4978 4169!4810 3918|4810 4169!6320 4169|6488 4169"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                            <DOMGroup>
+                              <members>
+                                <DOMShape>
+                                  <strokes>
+                                    <StrokeStyle index="1">
+                                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                        <fill>
+                                          <SolidColor color="#000080"/>
+                                        </fill>
+                                      </SolidStroke>
+                                    </StrokeStyle>
+                                  </strokes>
+                                  <edges>
+                                    <Edge strokeStyle="1" edges="
+!4810 1659|4978 1896!4978 1896|5146 2110!5146 2110|5313 2302!5313 2302|5481 2473!5481 2473|5649 2628!5649 2628|5817 2768!5817 2768|6152 3007!6152 3007|6488 3202!6488 3202|6727 3317!6727 3317|6990 3429!6990 3429|7326 3546!7326 3546|7661
+ 3647!7661 3647|8164 3763"/>
+                                  </edges>
+                                </DOMShape>
+                              </members>
+                            </DOMGroup>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="31.85" ty="1.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>A</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="80.8" ty="1.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>B</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="130" ty="1.5"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>C</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="175.3" ty="1.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>D</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="216.3" ty="1.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>E</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="256.95" ty="1.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>F</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.4" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="297.8" ty="1.5"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>G</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="340.3" ty="1.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>H</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="380.6" ty="1.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>I</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="422.95" ty="1.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>J</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.25" ty="10.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>1</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.15" ty="20.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>2</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.15" ty="30.6"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>3</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.15" ty="38.75"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>4</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.15" ty="46.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>5</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.15" ty="54.9"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>6</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.15" ty="63.05"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>7</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.15" ty="70.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>8</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="6.2" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="6.15" ty="79.15"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>9</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.5" ty="87.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>10</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="8.45" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.85" ty="95.2"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>11</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="103.4"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>12</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="111.6"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>13</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="119.5"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>14</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="127.7"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>15</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="135.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>16</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="143.75"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>17</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="151.95"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>18</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="159.8"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>19</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="168"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>20</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="176.25"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>21</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="184.1"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>22</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="192.3"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>23</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="200.5"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>24</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="208.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>25</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="216.55"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>26</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="224.8"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>27</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="232.65"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>28</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMStaticText width="9" height="8.95" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix a="0.656051635742188" d="0.656051635742188" tx="4.2" ty="240.85"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>29</characters>
+                          <textAttrs>
+                            <DOMTextAttrs aliasText="false" size="8" face="ArialMT"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                    <DOMGroup>
+                      <transformationPoint>
+                        <Point x="307.65" y="147.3"/>
+                      </transformationPoint>
+                      <members>
+                        <DOMShape>
+                          <transformationPoint>
+                            <Point x="307.65" y="147.3"/>
+                          </transformationPoint>
+                          <strokes>
+                            <StrokeStyle index="1">
+                              <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                                <fill>
+                                  <SolidColor color="#333333"/>
+                                </fill>
+                              </SolidStroke>
+                            </StrokeStyle>
+                          </strokes>
+                          <edges>
+                            <Edge strokeStyle="1" edges="
+!8284 1122|8284 4771!8284 4771|4024 4771!4024 4771|4024 1122!4024 1122|8284 1122"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

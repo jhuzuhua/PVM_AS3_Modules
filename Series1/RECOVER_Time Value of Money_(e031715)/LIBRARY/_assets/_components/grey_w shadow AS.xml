@@ -1,0 +1,109 @@
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_assets/_components/grey_w shadow AS" itemID="40ba93f5-0000027c" sourceFlashFilepath="../../Module 01 Time Value Of Money 20June2014_2.fla" sourceLibraryItemHRef="_assets/_components/grey_w shadow AS" sourceLastModified="1193282022" lastModified="1423015523" lastUniqueIdentifier="8" sourceItemID="00000000-ffffffff" displayAsComponent="false" customIconID="0" persistLivePreview11="true" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+  <timeline>
+    <DOMTimeline name="grey_w shadow AS">
+      <layers>
+        <DOMLayer name="Layer 3" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[//Movieclip color changer prototype...
+/*MovieClip.prototype.changeColor = function(MCTarget, newColor) {
+	test = new Color(MCTarget);
+	test.setRGB(newColor);
+};
+changeColor(upface, this.myColor);
+this.onEnterFrame = function() {
+	setShadows();
+};
+function setShadows() {
+	xskel = this._xscale;
+	myscaleX = xskel/100;
+	yskel = this._yscale;
+	myscaleY = yskel/100;
+	shade1._xscale = (xskel+1)/myscaleX;
+	shade2._xscale = (xskel+2)/myscaleX;
+	shade3._xscale = (xskel+3)/myscaleX;
+	shade4._xscale = (xskel+4)/myscaleX;
+	shade1._yscale = (yskel+1)/myscaleY;
+	shade2._yscale = (yskel+2)/myscaleY;
+	shade3._yscale = (yskel+3)/myscaleY;
+	shade4._yscale = (yskel+4)/myscaleY;
+}
+setShadows();*/]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/Graphics/box 100x100" name="upface">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color redMultiplier="0.8984375" blueMultiplier="0.8984375" greenMultiplier="0.8984375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shade1" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/Graphics/box 100x100" name="shade1">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875" redMultiplier="0" blueMultiplier="0" greenMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shade2" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/Graphics/box 100x100" name="shade2">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1484375" redMultiplier="0" blueMultiplier="0" greenMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shade3" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_assets/_general unsorted/Graphics/box 100x100" name="shade3">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1015625" redMultiplier="0" blueMultiplier="0" greenMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+  <parametersAsXML><![CDATA[   <property id="myColor">
+      <Inspectable name="Face Color" variable="myColor" category="" verbose="0" defaultValue="#CCCCCC" type="Color"/>
+   </property>
+]]></parametersAsXML>
+</DOMComponentItem>
